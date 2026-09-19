@@ -47,10 +47,12 @@
       "type": "vless",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe",
       "server": "94.183.170.135",
-      "server_port": 443,
+      "server_port": 8443,
       "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
-      "transport": {
-        "type": "ws"
+      "tls": {
+        "enabled": true,
+        "server_name": "estproxy4.lockdwn.com",
+        "insecure": false
       }
     },
     {
@@ -75,15 +77,13 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe",
-      "server": "109.206.241.10",
-      "server_port": 449,
-      "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1",
-      "tls": {
-        "enabled": true,
-        "server_name": "109.206.241.10",
-        "insecure": true
+      "server": "94.183.170.135",
+      "server_port": 443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "transport": {
+        "type": "ws"
       }
     },
     {
@@ -95,11 +95,7 @@
       "tls": {
         "enabled": true,
         "server_name": "hub-ee-01.hanvpn.cc",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        }
+        "insecure": false
       },
       "transport": {
         "type": "grpc",
@@ -109,13 +105,46 @@
     {
       "type": "vless",
       "tag": "🇪🇪 爱沙尼亚 (Estonia) 07 - xiaohe",
-      "server": "94.183.170.135",
-      "server_port": 8443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "server": "91.215.40.6",
+      "server_port": 443,
+      "uuid": "e3c3b722-1264-4cdc-a97c-b0a1bb73cd67",
       "tls": {
         "enabled": true,
-        "server_name": "estproxy4.lockdwn.com",
-        "insecure": false
+        "server_name": "id.dframe.app",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "5c766813929a1fdd"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "grpc"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇪 爱沙尼亚 (Estonia) 08 - xiaohe",
+      "server": "95.85.224.17",
+      "server_port": 443,
+      "uuid": "d0f0a880-0df1-48c9-bdf1-5669fb9483ce",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "est1313.ggisopi.su",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I",
+          "short_id": ""
+        }
       }
     },
     {
@@ -129,7 +158,8 @@
         "🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe",
         "🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe",
         "🇪🇪 爱沙尼亚 (Estonia) 06 - xiaohe",
-        "🇪🇪 爱沙尼亚 (Estonia) 07 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 07 - xiaohe",
+        "🇪🇪 爱沙尼亚 (Estonia) 08 - xiaohe"
       ]
     },
     {
@@ -142,7 +172,8 @@
         "🇪🇪 爱沙尼亚 (Estonia) 04 - xiaohe",
         "🇪🇪 爱沙尼亚 (Estonia) 05 - xiaohe",
         "🇪🇪 爱沙尼亚 (Estonia) 06 - xiaohe",
-        "🇪🇪 爱沙尼亚 (Estonia) 07 - xiaohe"
+        "🇪🇪 爱沙尼亚 (Estonia) 07 - xiaohe",
+        "🇪🇪 爱沙尼亚 (Estonia) 08 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

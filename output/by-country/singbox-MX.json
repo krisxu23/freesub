@@ -4,24 +4,25 @@
   },
   "outbounds": [
     {
-      "type": "socks",
+      "type": "shadowsocks",
       "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
+      "server": "64.177.90.30",
+      "server_port": 8388,
+      "method": "aes-256-gcm",
+      "password": "BWyPPTusFKhGgzKh"
+    },
+    {
+      "type": "socks",
+      "tag": "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
       "server": "103.88.234.239",
       "server_port": 40011,
       "version": "5"
     },
     {
       "type": "socks",
-      "tag": "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
-      "server": "103.88.234.239",
-      "server_port": 40010,
-      "version": "5"
-    },
-    {
-      "type": "socks",
       "tag": "🇲🇽 墨西哥 (Mexico) 03 - xiaohe",
       "server": "103.88.234.239",
-      "server_port": 40006,
+      "server_port": 40002,
       "version": "5"
     },
     {
