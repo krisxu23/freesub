@@ -2,7 +2,11 @@
 # -*- coding: utf-8 -*-
 """
 免费节点自动测活订阅池 v2 — 全协议 · 高精度 · 低误杀
-===================================================0 reality + 全部传输层)
+====================================================
+
+架构（三阶段流水线）:
+  1. 抓取订阅源 → 解析全部协议 URI 为统一节点对象
+     (vless/vmess/trojan/ss/hysteria2/tuic/anytls/socks5 + reality + 全部传输层)
   2. 真实测活（sing-box v1.14 内核，逐节点 SOCKS 入站 + 节点出站）:
      - 阶段A 端口预检: TCP/QUIC 直连握手, 快速丢弃死端口 (削减 90% 无效工作)
      - 阶段B 真实探测: 多 URL 探测 (gstatic 204 / cloudflare trace) 
@@ -91,11 +95,15 @@ ENABLE_SOCKS5 = True
 SOCKS5_PREFILTER_STRICT = False
 
 # ★ SOCKS5 候选上限: 进入 sing-box 全流程测活的 SOCKS5 节点数上限 (0 = 不限)
-#   这一条与「检测方案」无关, 纯粹是 CI 保护: update.yml 有 50 分钟硬超时,
-#   而公共 SOCKS5 列表规模是 vmess/vless 订阅的十倍以上。
-#   注意预检通过者会被排在前面 → 截断时优先保留它们, 所以这里放宽/收紧都不会
-#   改变检测方式, 只改变「测多少个」。
-SOCKS5_MAX_CANDIDATES = 9999
+#   这一条与「检测方案」无关, 纯粹是 CI 保护。实测数据 (2026-09-19, run #25):
+#     - SOCKS5 唯一候选总数: 13787
+#     - 上限 400 时作业耗时 42m46s; 无 SOCKS5 时仅 7m23s; 作业超时 50m
+#     - 上限 9999 等于全部放行 → 推算 10 小时以上, 必然超时失败
+#   预检通过者会被排在前面 → 截断时优先保留它们 (即最可能存活的), 所以这里放宽/
+#   收紧都不改变检测方式, 只改变「测多少个」; 且收益递减很快 —— 测的节点数线性
+#   增长, 存活数却远远跟不上。
+#   想测更多: 同步调大 update.yml 的 timeout-minutes (经验值每 400 个约 17 分钟)。
+SOCKS5_MAX_CANDIDATES = 400
 
 OUTPUT_DIR = "output"
 COUNTRY_DIR = os.path.join(OUTPUT_DIR, "by-country")

@@ -60,7 +60,29 @@ jobs:
             echo "没有节点变动与内容更新。"
           else
             git commit -m "Auto Update: $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
-            git push
+            # 回推加固: 运行期间远程可能被改动 (网页端编辑 / 其他推送) → push 会被拒。
+            # 重试策略: 不做 rebase/merge, 而是「以远程为基准重新提交生成结果」——
+            #   reset 到远程后只重新暂存 output/ 与 README.md, 因此:
+            #     - 生成文件永远以本次新结果为准, 不可能产生冲突
+            #     - 用户对 scripts/ 等文件的改动原样保留 (来自远程的那个提交)
+            pushed=0
+            for i in 1 2 3; do
+              if git push; then
+                echo "[+] push 成功 (第 $i 次尝试)"
+                pushed=1
+                break
+              fi
+              echo "[!] push 被拒 (远程已变动), 第 $i/3 次重试: 以远程为基准重新提交生成结果"
+              git fetch origin main
+              git reset -q FETCH_HEAD
+              git add -A output/ README.md
+              git commit -q -m "Auto Update: $(date -u '+%Y-%m-%d %H:%M:%S') UTC" || true
+              sleep 5
+            done
+            if [ "$pushed" != "1" ]; then
+              echo "[!] 重试 3 次后仍无法推送结果"
+              exit 1
+            fi
           fi
 
       - name: Purge jsDelivr CDN (post-push)
