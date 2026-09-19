@@ -69,9 +69,42 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/twj0/subseek/refs/heads/master/data/sub_github.txt",
 ]
 
+# ★ SOCKS5 专属源 (与上面 SOURCE_URLS 分开, 因为格式不同)
+#   公共 SOCKS5 列表绝大多数是纯 "ip:port" 文本, 不是 vmess/vless 那种 URI,
+#   混进 SOURCE_URLS 会被 extract_nodes_from_text 的正则完全忽略 → 必须单独走一套解析
+#   支持两种格式:
+#     1) socks5://user:pass@host:port  (URI 格式, 如 proxifly)
+#     2) host:port  /  host:port:CC  /  host:port:CC:ISP  (纯文本列表, 占绝大多数)
+SOCKS_SOURCE_URLS = [
+    "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt",
+    "https://raw.githubusercontent.com/monosans/proxy-list/main/proxies/socks5.txt",
+    "https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt",
+    "https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/socks5/data.txt",
+]
+
+# SOCKS5 源是否参与测活 (关闭则整个 SOCKS5 流程跳过)
+ENABLE_SOCKS5 = True
+
+# ★ SOCKS5 严格预检 (默认 False = 与原项目原则一致)
+#   False (默认): 预检失败只降级排序, 不淘汰 —— 和 vmess/vless 的处理完全一样,
+#                 生死一律交给阶段B sing-box 全流程裁决。
+#                 理由同原项目注释: "预检失败 ≠ 节点死亡"。SOCKS5 预检做的是 2.5s 内
+#                 完成方法协商, 高延迟的家宽/移动出口可能超时, 淘汰会造成误杀。
+#   True: 预检失败直接淘汰, 能大幅缩短 CI (公共 SOCKS5 列表存活率 <5%),
+#         但会误杀慢节点 —— 只在明确知道自己在做什么时打开。
+SOCKS5_PREFILTER_STRICT = False
+
+# ★ SOCKS5 候选上限: 进入 sing-box 全流程测活的 SOCKS5 节点数上限 (0 = 不限)
+#   这一条与「检测方案」无关, 纯粹是 CI 保护: update.yml 有 50 分钟硬超时,
+#   而公共 SOCKS5 列表规模是 vmess/vless 订阅的十倍以上。
+#   注意预检通过者会被排在前面 → 截断时优先保留它们, 所以这里放宽/收紧都不会
+#   改变检测方式, 只改变「测多少个」。
+SOCKS5_MAX_CANDIDATES = 400
+
 OUTPUT_DIR = "output"
 COUNTRY_DIR = os.path.join(OUTPUT_DIR, "by-country")
 RESIDENTIAL_COUNTRY_DIR = os.path.join(OUTPUT_DIR, "residential-by-country")
+SOCKS5_DIR = os.path.join(OUTPUT_DIR, "socks5-by-country")
 
 SINGBOX_VERSION = "v1.14.0"
 WORKDIR = os.path.dirname(os.path.abspath(__file__))          # scripts/
@@ -309,7 +342,7 @@ RESIDENTIAL_NAME_PATTERNS = [
 PROTOCOL_LABELS = {
     "vless": "VLESS", "vmess": "VMESS", "trojan": "Trojan",
     "ss": "Shadowsocks", "hysteria2": "Hysteria2", "tuic": "TUIC",
-    "anytls": "AnyTLS",
+    "anytls": "AnyTLS", "socks": "SOCKS5",
 }
 
 COUNTRY_NAMES = {
@@ -913,6 +946,36 @@ def parse_ssh(uri: str):
     return outbound
 
 
+def parse_socks5(uri: str):
+    """socks5://[user:pass@]host:port#name
+    兼容 socks5h:// (socks5h 语义, 由代理解析 DNS) 与 socks:// (v2rayN 常见写法)。
+    无认证节点占绝大多数, 此时不写 username/password。
+    注: 字段名用 sing-box 的 username/password (不是 ssh 那种 user)。"""
+    m = re.match(
+        r"^(?:socks5h?|socks)://(?:([^@#/?]+)@)?(\[[^\]]+\]|[^:@/?]+):(\d+)",
+        uri.split("#", 1)[0],
+    )
+    if not m:
+        return None
+    userinfo, host, port = m.groups()
+    port = int(port)
+    if not (0 < port <= 65535):
+        return None
+    outbound = {
+        "type": "socks",
+        "tag": "node",
+        "server": host,
+        "server_port": port,
+        "version": "5",
+    }
+    if userinfo:
+        user, _, pw = userinfo.partition(":")
+        outbound["username"] = urllib.parse.unquote(user)
+        if pw:
+            outbound["password"] = urllib.parse.unquote(pw)
+    return outbound
+
+
 PARSERS = {
     "vless://": parse_vless,
     "vmess://": parse_vmess,
@@ -923,6 +986,10 @@ PARSERS = {
     "tuic://": parse_tuic,
     "anytls://": parse_anytls,
     "ssh://": parse_ssh,
+    # ★ SOCKS5 (socks5h 与 socks 必须单独登记: startswith 不做前缀归一化)
+    "socks5://": parse_socks5,
+    "socks5h://": parse_socks5,
+    "socks://": parse_socks5,
 }
 
 # 排除明显加密残缺/占位节点
@@ -959,7 +1026,8 @@ def extract_nodes_from_text(text: str) -> set:
     # 最多三层 base64 解包 (订阅常见整体 base64)
     for _ in range(3):
         if any(p in probe for p in ("vmess://", "vless://", "ss://", "trojan://",
-                                     "hy2://", "hysteria2://", "tuic://", "anytls://")):
+                                     "hy2://", "hysteria2://", "tuic://", "anytls://",
+                                     "socks5://", "socks5h://", "socks://")):
             break
         decoded = b64_decode(probe)
         if not decoded or decoded == probe:
@@ -967,13 +1035,54 @@ def extract_nodes_from_text(text: str) -> set:
         probe = decoded
     # 直接文本也可能混杂 base64 行
     lines_blob = probe
-    pattern = (r'((?:vmess|vless|trojan|ss|hy2|hysteria2|tuic|anytls|ssh)://'
+    pattern = (r'((?:vmess|vless|trojan|ss|hy2|hysteria2|tuic|anytls|ssh|socks5h?|socks)://'
                r'[^\s"\'<>\\]+)')
     for m in re.findall(pattern, lines_blob):
         clean = m.strip().rstrip(".,;'\"")
         if len(clean) > 12:
             results.add(clean)
     return results
+
+
+# 裸 ip:port 行 (兼容 "ip:port:CC" / "ip:port:CC:ISP" / "ip:port#name" 等公共列表格式)
+# 尾缀故意放宽成 "[:#]任意内容": 各列表的国家/ISP 后缀格式五花八门, 与其枚举不如放行,
+# 反正后面还有 knock_socks5 真实握手预检 + sing-box 全流程测活兜底, 宁多收不错过。
+_SOCKS_PLAIN_LINE = re.compile(
+    r'^\s*((?:\d{1,3}\.){3}\d{1,3})\s*:\s*(\d{1,5})(?:\s*[:#].*)?$'
+)
+
+
+def extract_plain_socks(text: str) -> set:
+    """纯文本 SOCKS5 列表 → socks5:// URI 集合 (本函数可独立使用, URI 行也吃)
+
+    公共 SOCKS5 列表 (TheSpeedX / monosans / hookzof 等) 都是裸 'ip:port' 文本,
+    不是 vmess/vless 那种 URI, 所以必须单独解析 —— 否则正则一条都抓不到。
+    ★ 只接受合法 IPv4 字面量并整行锚定, 避免把任意文本里的 'a:b' 误判成代理。"""
+    out = set()
+    if not text:
+        return out
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if "://" in line:
+            # URI 行 (如 proxifly 的 socks5://ip:port): 归一化成 socks5:// 便于下游统一处理
+            # 归一化不丢认证信息 (user:pass@ 原样保留), 只是把 socks5h:// / socks:// 收敛成 socks5://
+            if parse_socks5(line):
+                out.add("socks5://" + line.split("://", 1)[1])
+            continue
+        m = _SOCKS_PLAIN_LINE.match(line)
+        if not m:
+            continue
+        host, port = m.group(1), int(m.group(2))
+        if not (0 < port <= 65535):
+            continue
+        try:
+            ipaddress.IPv4Address(host)     # 排除 999.1.1.1 这类伪 IP
+        except Exception:
+            continue
+        out.add(f"socks5://{host}:{port}")
+    return out
 
 
 def fetch_raw_nodes() -> list:
@@ -1006,6 +1115,42 @@ def fetch_raw_nodes() -> list:
                 print(f"[+] {url} → {len(got)} 节点")
             nodes.update(got)
     print(f"[*] 初始抓取总量: {len(nodes)}")
+    return list(nodes)
+
+
+def fetch_socks_raw_nodes() -> list:
+    """抓取 SOCKS5 专属源 (两种格式都吃: socks5:// URI 列表 + 裸 ip:port 列表)"""
+    if not ENABLE_SOCKS5:
+        print("[*] SOCKS5 源已禁用 (ENABLE_SOCKS5=False), 跳过")
+        return []
+    nodes = set()
+    print("[*] 抓取 SOCKS5 订阅源 ...")
+
+    def _fetch(url):
+        last_err = None
+        for attempt in range(3):
+            try:
+                r = http_get(url, timeout=30)
+                if r.status_code == 200:
+                    got = extract_nodes_from_text(r.text) | extract_plain_socks(r.text)
+                    return url, got, None
+                last_err = f"HTTP {r.status_code}"
+            except Exception as e:
+                last_err = str(e)[:70]
+            if attempt < 2:
+                time.sleep(3)
+        return url, set(), last_err
+
+    with ThreadPoolExecutor(MAX_WORKERS_FETCH) as ex:
+        futs = [ex.submit(_fetch, u) for u in SOCKS_SOURCE_URLS]
+        for f in as_completed(futs):
+            url, got, err = f.result()
+            if err:
+                print(f"[!] SOCKS5 拉取失败 {url} → {err}")
+            else:
+                print(f"[+] SOCKS5 {url} → {len(got)} 节点")
+            nodes.update(got)
+    print(f"[*] SOCKS5 抓取总量: {len(nodes)}")
     return list(nodes)
 
 
@@ -1042,6 +1187,31 @@ def resolve_host(host: str) -> str:
         return ""
 
 
+def knock_socks5(server: str, port: int) -> bool:
+    """阶段A 端口预检 (SOCKS5 版): TCP 连通 + 对端返回 0x05 且不拒绝我们提供的认证方式。
+
+    ★ 语义与原项目 knock_port 完全一致 —— **失败不淘汰, 只降级排序**。
+      生死一律由阶段B sing-box 全流程测活裁决, 与 vmess/vless 走的是同一套。
+      这里多做一个方法协商, 只为让排序更准: 公共 SOCKS5 列表里充斥着
+      「端口开着但根本不是 SOCKS5」的垃圾 (HTTP 代理 / 蜜罐 / 已改协议的旧节点),
+      单纯 TCP connect 会把它们全排到前面, 白白拖慢阶段B。
+      注意: 协商超时 (PORT_KNOCK_TIMEOUT=2.5s) ≠ 节点死亡 —— 高延迟的家宽/移动出口
+      可能来不及响应, 所以失败者只是被排到后面, 仍会进入阶段B 接受完整测活。
+    """
+    try:
+        ip = resolve_host(server)
+        if not ip:
+            return False
+        with socket.create_connection((ip, port), timeout=PORT_KNOCK_TIMEOUT) as s:
+            s.settimeout(PORT_KNOCK_TIMEOUT)
+            # 同时提供 0x00(无认证) 与 0x02(用户名密码), 兼容需认证的付费代理
+            s.sendall(b"\x05\x02\x00\x02")
+            resp = s.recv(2)
+            return len(resp) == 2 and resp[0] == 0x05 and resp[1] != 0xFF
+    except Exception:
+        return False
+
+
 def knock_port(server: str, port: int, protocol_type: str) -> bool:
     """TCP 直连预检 (DoH 解析防本地 DNS 污染); QUIC 类直接放行阶段B
     注: 预检失败不淘汰 (本地大陆视角的假死 ≠ 节点死亡), 只影响排序;
@@ -1049,6 +1219,8 @@ def knock_port(server: str, port: int, protocol_type: str) -> bool:
     if protocol_type in ("hysteria2", "tuic"):
         # QUIC 无法轻量预检 UDP 端口连通性, 且本地 UDP 常被 QoS → 放行交阶段B
         return True
+    if protocol_type == "socks":
+        return knock_socks5(server, port)
     try:
         ip = resolve_host(server)
         if not ip:
@@ -1059,11 +1231,17 @@ def knock_port(server: str, port: int, protocol_type: str) -> bool:
         return False
 
 
-def prefilter_candidates(candidates: list) -> list:
+def prefilter_candidates(candidates: list, drop_failed_protos: tuple = ()) -> list:
     """端口预检: 通过者优先, 未通过者降级保留 (防止本地网络/GFW 视角误杀;
-    真正生死由阶段B sing-box 全流程测活裁决 — Actions 海外视角)"""
+    真正生死由阶段B sing-box 全流程测活裁决 — Actions 海外视角)
+
+    drop_failed_protos: 这些协议的预检失败者直接淘汰 (不做"降级保留")。
+      只用于 SOCKS5 —— knock_socks5 做的是真实 SOCKS5 方法协商, 失败即"该端口不是
+      SOCKS5 服务或已死", 是确定性判定; 不像 vmess 那样会被 GFW/本地网络视角干扰
+      (公共 SOCKS5 列表全是 IP 字面量, 无 DNS 污染问题)。
+    """
     print(f"[*] 端口预检 (TCP {PORT_KNOCK_TIMEOUT}s): {len(candidates)} 候选 ...")
-    passed, deferred = [], []
+    passed, deferred, dropped = [], [], []
 
     def _knock(item):
         raw, outbound, server, port, proto = item
@@ -1072,10 +1250,38 @@ def prefilter_candidates(candidates: list) -> list:
     with ThreadPoolExecutor(max_workers=64) as ex:
         # ex.map 保序返回; 通过者优先, 未通过降级保留 (不淘汰, 防本地视角误杀)
         for item, ok in zip(candidates, ex.map(_knock, candidates)):
-            (passed if ok else deferred).append(item)
-    print(f"[+] 预检通过: {len(passed)} | 预检未过(保留低优先级待全测): {len(deferred)}")
+            if ok:
+                passed.append(item)
+            elif item[4] in drop_failed_protos:
+                dropped.append(item)
+            else:
+                deferred.append(item)
+    msg = f"[+] 预检通过: {len(passed)} | 预检未过(保留低优先级待全测): {len(deferred)}"
+    if dropped:
+        msg += f" | 预检淘汰: {len(dropped)} ({'/'.join(drop_failed_protos)})"
+    print(msg)
     # 预检未过的仍进入全流程 (只是排在后面) — 交给 sing-box 真实裁决
     return passed + deferred
+
+
+def cap_socks5_candidates(candidates: list) -> list:
+    """★ 限制进入 sing-box 全流程测活的 SOCKS5 候选数 (非 SOCKS5 节点不受影响)
+
+    这一条与「检测方案」无关, 纯粹是 CI 保护: update.yml 有 50 分钟硬超时,
+    MAX_WORKERS_TEST=48, 而公共 SOCKS5 列表规模是 vmess/vless 订阅的十倍以上。
+    依赖 prefilter_candidates 已把「预检通过者」排在前面 → 直接截断即为优先保留,
+    所以放宽或收紧这个值都不改变检测方式, 只改变「测多少个」。
+    """
+    if SOCKS5_MAX_CANDIDATES <= 0:
+        return candidates
+    socks = [c for c in candidates if c[4] == "socks"]
+    if len(socks) <= SOCKS5_MAX_CANDIDATES:
+        return candidates
+    others = [c for c in candidates if c[4] != "socks"]
+    kept = socks[:SOCKS5_MAX_CANDIDATES]
+    print(f"[*] SOCKS5 候选上限: {len(socks)} → {len(kept)} "
+          f"(SOCKS5_MAX_CANDIDATES={SOCKS5_MAX_CANDIDATES}, 预检通过者优先保留)")
+    return others + kept
 
 
 # ═══════════════════════════════════════════N═══════════════════════
@@ -1709,6 +1915,12 @@ def outbound_to_clash(node: dict, name: str) -> dict:
         proxy["type"] = "ss"
         proxy["cipher"] = node["method"]
         proxy["password"] = node["password"]
+    elif t == "socks":
+        # Clash / mihomo 的 socks5 出站 (udp 已在基础字段里置 True)
+        proxy["type"] = "socks5"
+        if node.get("username"):
+            proxy["username"] = node["username"]
+            proxy["password"] = node.get("password", "")
     elif t == "hysteria2":
         proxy["type"] = "hysteria2"
         proxy["password"] = node["password"]
@@ -1871,6 +2083,13 @@ def outbound_to_v2ray_link(node: dict, name: str) -> str:
         userinfo = base64.urlsafe_b64encode(
             f"{node['method']}:{node['password']}".encode()).decode()
         return f"ss://{userinfo}@{server}:{port}#{urllib.parse.quote(name)}"
+    if t == "socks":
+        # v2rayN / sing-box / mihomo 均认 socks5:// 链接; 无认证节点不写 userinfo
+        auth = ""
+        if node.get("username"):
+            auth = (f"{urllib.parse.quote(node['username'], safe='')}:"
+                    f"{urllib.parse.quote(node.get('password', ''), safe='')}@")
+        return f"socks5://{auth}{server}:{port}#{urllib.parse.quote(name)}"
     if t == "hysteria2":
         q = {}
         if tls.get("server_name"):
@@ -2180,6 +2399,64 @@ def make_node_name(item, idx, force_residential=False):
     return f"{flag} {cname} {idx:02d}{tag}{risk_tag} - xiaohe"
 
 
+def export_socks5_subscription(unique_nodes, residential):
+    """★ SOCKS5 专属订阅导出 (供 Cloudflare Worker / 自定义调度器直接消费)
+
+    格式刻意用「明文 socks5:// 行」而不是 base64:
+      Worker 侧 parseList() 按 [\\s,;]+ 切分即可直接用,
+      省掉 atob → Uint8Array → TextDecoder 三步解码, 也就不会踩中文乱码。
+    输出:
+      output/socks5.txt                  全量
+      output/residential-socks5.txt      家宽专区 (若空则删除)
+      output/socks5-by-country/{CC}.txt  按国家
+    """
+    def _socks_only(nodes_list):
+        return [n for n in nodes_list
+                if (n.get("outbound") or {}).get("type") == "socks"]
+
+    def _write(nodes_list, filepath):
+        lines = []
+        for idx, item in enumerate(nodes_list, start=1):
+            link = outbound_to_v2ray_link(item["outbound"], make_node_name(item, idx))
+            if link:
+                lines.append(link)
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines) + "\n")
+        return len(lines)
+
+    socks_all = _socks_only(unique_nodes)
+    if not socks_all:
+        # 与 residential 分支同样的处理: 没有就清掉旧文件, 避免订阅里残留已死节点
+        print("[*] 无 SOCKS5 节点存活, 清理旧 socks5 订阅")
+        for p in (os.path.join(OUTPUT_DIR, "socks5.txt"),
+                  os.path.join(OUTPUT_DIR, "residential-socks5.txt")):
+            if os.path.exists(p):
+                os.remove(p)
+        shutil.rmtree(SOCKS5_DIR, ignore_errors=True)
+        return 0
+
+    total = _write(socks_all, os.path.join(OUTPUT_DIR, "socks5.txt"))
+
+    socks_res = _socks_only(residential)
+    res_path = os.path.join(OUTPUT_DIR, "residential-socks5.txt")
+    if socks_res:
+        _write(socks_res, res_path)
+    elif os.path.exists(res_path):
+        os.remove(res_path)
+
+    shutil.rmtree(SOCKS5_DIR, ignore_errors=True)
+    os.makedirs(SOCKS5_DIR, exist_ok=True)
+    by_cc = {}
+    for n in socks_all:
+        by_cc.setdefault(n["country"], []).append(n)
+    for cc, lst in by_cc.items():
+        _write(lst, os.path.join(SOCKS5_DIR, f"{cc}.txt"))
+
+    print(f"[*] SOCKS5 订阅导出: {total} 条 → output/socks5.txt "
+          f"(家宽 {len(socks_res)} | 国家 {len(by_cc)} 个)")
+    return total
+
+
 def export_all(unique_nodes, residential, non_residential):
     ensure_directories()
 
@@ -2243,8 +2520,11 @@ def export_all(unique_nodes, residential, non_residential):
         export_clash_yaml(p, os.path.join(RESIDENTIAL_COUNTRY_DIR, f"clash-{cc}.yaml"))
         export_singbox_json(s, os.path.join(RESIDENTIAL_COUNTRY_DIR, f"singbox-{cc}.json"))
 
-    print(f"[*] 导出完毕: 全量 {len(all_links)} | 家宽 {len(res_links)}")
-    return len(all_links), len(res_links)
+    # 5) ★ SOCKS5 专属订阅 (明文 socks5:// 列表, 供 Worker 调度器直接消费)
+    socks5_count = export_socks5_subscription(unique_nodes, residential)
+
+    print(f"[*] 导出完毕: 全量 {len(all_links)} | 家宽 {len(res_links)} | SOCKS5 {socks5_count}")
+    return len(all_links), len(res_links), socks5_count
 
 
 def export_clash_yaml(clash_proxies, filepath):
@@ -2286,7 +2566,7 @@ def export_singbox_json(sb_nodes, filepath):
 # README 生成
 # ═══════════════════════════════════════════N═══════════════════════
 
-def update_readme(total_count, res_count):
+def update_readme(total_count, res_count, socks5_count=0):
     repo_name = os.environ.get("GITHUB_REPOSITORY", "hezhanleiok/freesub").strip()
     cache_bust = ""
     # 私有化部署 Worker 脚本里的仓库参数 (默认值兜底)
@@ -2332,11 +2612,23 @@ def update_readme(total_count, res_count):
     res_table = table_rows(res_counts, "residential-by-country")
     normal_table = table_rows(normal_counts, "by-country")
 
+    # ★ SOCKS5 专属订阅行 (无存活 SOCKS5 节点时不出现, 避免 README 里放出 404 链接)
+    socks5_row = ""
+    if socks5_count > 0:
+        socks5_row = (
+            f"| 🔌 **SOCKS5 (明文 socks5:// 列表)** | `{socks5_count}` | "
+            f"[免翻 CDN 直链](https://cdn.jsdelivr.net/gh/{repo_name}@main/output/socks5.txt) | "
+            f"[官方 Raw 直链](https://raw.githubusercontent.com/{repo_name}/main/output/socks5.txt) |\n"
+        )
+    proto_line = "VLESS (Reality/Vision) · VMESS · Trojan · Shadowsocks · Hysteria2 · TUIC · AnyTLS"
+    if socks5_count > 0:
+        proto_line += " · SOCKS5"
+
     readme = f"""# 🚀 免费节点自动测活订阅池 (含真实家宽/住宅IP甄选)
 
 > 👤 **定制规范命名**: 所有订阅节点均重命名为 `国旗 地区 序号 (家宽) - xiaohe`
 > ⚡ **真实可用保障**: 所有节点由 `sing-box v{SINGBOX_VERSION}` 内核建立实际代理隧道, 完成真实 HTTPS 双向传输握手 + 出口 IP 穿透验证 + Cloudflare 限速下载断流检测 + TLS 证书校验 (MITM 劫持识别), 拒绝虚假通畅、断流节点与高危劫持节点。
-> 🛡️ **全协议支持**: VLESS (Reality/Vision) · VMESS · Trojan · Shadowsocks · Hysteria2 · TUIC · AnyTLS
+> 🛡️ **全协议支持**: {proto_line}
 
 ---
 
@@ -2347,7 +2639,7 @@ def update_readme(total_count, res_count):
 | 🚀 **Clash (YAML 格式)** | `{total_count}` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/{repo_name}@main/output/clash.yaml) | [官方 Raw 直链](https://raw.githubusercontent.com/{repo_name}/main/output/clash.yaml) |
 | ⚡ **V2RayN (Base64 格式)** | `{total_count}` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/{repo_name}@main/output/v2ray.txt) | [官方 Raw 直链](https://raw.githubusercontent.com/{repo_name}/main/output/v2ray.txt) |
 | 📦 **sing-box (JSON 格式)** | `{total_count}` | [免翻 CDN 直链](https://cdn.jsdelivr.net/gh/{repo_name}@main/output/singbox.json) | [官方 Raw 直链](https://raw.githubusercontent.com/{repo_name}/main/output/singbox.json) |
-
+{socks5_row}
 ---
 
 ## 🏠 按照家宽分类节点订阅 (住宅 IP 专区)
@@ -2450,8 +2742,9 @@ def main():
     ensure_directories()
     setup_environment()
 
-    # 1. 抓取
+    # 1. 抓取 (常规 URI 源 + SOCKS5 专属源; SOCKS5 是裸 ip:port 文本, 必须单独走一套解析)
     raw_nodes = fetch_raw_nodes()
+    raw_nodes += fetch_socks_raw_nodes()
 
     # 2. 解析
     candidates = []
@@ -2488,6 +2781,9 @@ def main():
                 return f"{outbound.get('uuid','')}|{outbound.get('password','')}"
             if proto == "anytls":
                 return f"{outbound.get('password','')}"
+            if proto == "socks":
+                # 无认证节点指纹为空 → 按 (server, port) 去重, 正好合并多源重复收录
+                return f"{outbound.get('username','')}|{outbound.get('password','')}"
             return json.dumps({k: v for k, v in outbound.items()
                               if k in ("uuid", "password", "user_id", "method")}, sort_keys=True)
         except Exception:
@@ -2517,8 +2813,12 @@ def main():
         print("[!] 无可测节点 (订阅源全部失效?) — 保留上次 output, 不覆盖订阅文件")
         return
 
-    # 3. 端口预检
-    candidates = prefilter_candidates(candidates)
+    # 3. 端口预检 (SOCKS5 开启严格模式: 方法协商失败直接淘汰)
+    drop_protos = ("socks",) if (ENABLE_SOCKS5 and SOCKS5_PREFILTER_STRICT) else ()
+    candidates = prefilter_candidates(candidates, drop_failed_protos=drop_protos)
+
+    # 3.5 ★ SOCKS5 候选上限 (兜底: 防止 CI 超过 50 分钟硬超时)
+    candidates = cap_socks5_candidates(candidates)
 
     # 4. 真实测活 (只测去重后的代表节点)
     test_results = run_liveness_test(candidates)
@@ -2561,8 +2861,8 @@ def main():
     if not unique_nodes:
         print("[!] 分类后无存活节点 — 保留上次 output")
         return
-    total, res = export_all(unique_nodes, residential, non_residential)
-    update_readme(total, res)
+    total, res, socks5 = export_all(unique_nodes, residential, non_residential)
+    update_readme(total, res, socks5)
 
 
     # 统计报告

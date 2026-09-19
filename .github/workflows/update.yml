@@ -5,6 +5,12 @@ on:
     # 每天在 UTC 时间 0:00, 6:00, 12:00, 18:00 自动触发更新
     - cron: '0 */6 * * *'
   workflow_dispatch: # 支持手动点击运行
+  push:
+    # 改动脚本或工作流时立即回归一次
+    # (bot 自己提交的是 output/ 与 README.md, 不在下列路径内 → 不会循环触发)
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update.yml'
 
 jobs:
   build:
@@ -63,10 +69,10 @@ jobs:
           REPO="${GITHUB_REPOSITORY}"
           p() { curl -s -o /dev/null "https://purge.jsdelivr.net/gh/${REPO}@main/$1" || true; }
           p README.md
-          for f in v2ray.txt clash.yaml singbox.json residential.txt residential-clash.yaml residential-singbox.json; do
+          for f in v2ray.txt clash.yaml singbox.json socks5.txt residential.txt residential-clash.yaml residential-socks5.txt residential-singbox.json; do
             p "output/$f"
           done
-          find output/residential-by-country output/by-country -type f 2>/dev/null | while read -r f; do
+          find output/residential-by-country output/by-country output/socks5-by-country -type f 2>/dev/null | while read -r f; do
             p "$f"; sleep 0.2
           done
           echo "[+] jsDelivr CDN purge done (after push)"
