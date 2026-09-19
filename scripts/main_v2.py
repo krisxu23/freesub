@@ -103,7 +103,7 @@ SOCKS5_PREFILTER_STRICT = True
 #   收紧都不改变检测方式, 只改变「测多少个」; 且收益递减很快 —— 测的节点数线性
 #   增长, 存活数却远远跟不上。
 #   想测更多: 同步调大 update.yml 的 timeout-minutes (经验值每 400 个约 17 分钟)。
-SOCKS5_MAX_CANDIDATES = 9999
+SOCKS5_MAX_CANDIDATES = 999
 
 OUTPUT_DIR = "output"
 COUNTRY_DIR = os.path.join(OUTPUT_DIR, "by-country")
