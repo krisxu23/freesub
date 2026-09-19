@@ -5,20 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇬🇷 希腊 (Greece) 01 - xiaohe
-  server: 104.21.234.13
-  port: 2053
+  server: 83.147.217.103
+  port: 1080
   udp: true
-  type: vless
-  uuid: d7d8af23-36cd-4c66-a42a-4469c177210f
-  tls: true
-  servername: fancy-rain-136e.thisisalee.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiMXZFdnZOdVFvSkNWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTEuMTg2LjIxOS44MiJdfQ==
-    headers:
-      Host: fancy-rain-136e.thisisalee.workers.dev
+  type: socks5
 - name: 🇬🇷 希腊 (Greece) 02 - xiaohe
   server: 94.241.174.157
   port: 40443
@@ -53,7 +43,7 @@ proxies:
     public-key: biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4
     short-id: 94acb54627612d43
   servername: www.cloudflare.com
-  client-fingerprint: ios
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select

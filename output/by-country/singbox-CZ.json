@@ -6,25 +6,6 @@
     {
       "type": "vless",
       "tag": "🇨🇿 捷克 (Czech) 01 - xiaohe",
-      "server": "172.67.160.14",
-      "server_port": 443,
-      "uuid": "0b41f339-5809-46ef-8351-b03fdc441539",
-      "tls": {
-        "enabled": true,
-        "server_name": "fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vl/EO6oVRcY1Uc9ohurasfENusjULL248yt?ed=2560",
-        "headers": {
-          "Host": "fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
       "server": "194.87.59.13",
       "server_port": 2085,
       "uuid": "6687af93-eb39-47a3-9a73-0f79234ef507",
@@ -32,6 +13,13 @@
         "type": "grpc",
         "service_name": "vless"
       }
+    },
+    {
+      "type": "socks",
+      "tag": "🇨🇿 捷克 (Czech) 02 - xiaohe",
+      "server": "194.87.200.213",
+      "server_port": 1080,
+      "version": "5"
     },
     {
       "type": "selector",

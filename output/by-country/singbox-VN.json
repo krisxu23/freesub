@@ -1,0 +1,47 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "socks",
+      "tag": "🇻🇳 越南 (Vietnam) 01 - xiaohe",
+      "server": "45.74.31.41",
+      "server_port": 12771,
+      "version": "5"
+    },
+    {
+      "type": "socks",
+      "tag": "🇻🇳 越南 (Vietnam) 02 - xiaohe",
+      "server": "45.74.31.42",
+      "server_port": 12896,
+      "version": "5"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇻🇳 越南 (Vietnam) 01 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 02 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇻🇳 越南 (Vietnam) 01 - xiaohe",
+        "🇻🇳 越南 (Vietnam) 02 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

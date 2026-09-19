@@ -7,7 +7,7 @@
       "type": "socks",
       "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
       "server": "103.88.234.239",
-      "server_port": 40002,
+      "server_port": 40010,
       "version": "5"
     },
     {
@@ -18,11 +18,20 @@
       "version": "5"
     },
     {
-      "type": "socks",
+      "type": "vless",
       "tag": "🇲🇽 墨西哥 (Mexico) 03 - xiaohe",
-      "server": "49.13.22.249",
-      "server_port": 10812,
-      "version": "5"
+      "server": "45.134.9.133",
+      "server_port": 8443,
+      "uuid": "a6d20e79-d326-42c1-bc20-f4cecc6dc42d",
+      "tls": {
+        "enabled": true,
+        "server_name": "ul-mexico1.09vpn.com",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vless/"
+      }
     },
     {
       "type": "selector",

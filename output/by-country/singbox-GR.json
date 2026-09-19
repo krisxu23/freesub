@@ -4,27 +4,11 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "socks",
       "tag": "🇬🇷 希腊 (Greece) 01 - xiaohe",
-      "server": "104.21.234.13",
-      "server_port": 2053,
-      "uuid": "d7d8af23-36cd-4c66-a42a-4469c177210f",
-      "tls": {
-        "enabled": true,
-        "server_name": "fancy-rain-136e.thisisalee.workers.dev",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiMXZFdnZOdVFvSkNWIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiOTEuMTg2LjIxOS44MiJdfQ==",
-        "headers": {
-          "Host": "fancy-rain-136e.thisisalee.workers.dev"
-        }
-      }
+      "server": "83.147.217.103",
+      "server_port": 1080,
+      "version": "5"
     },
     {
       "type": "vless",
@@ -70,7 +54,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
