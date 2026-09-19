@@ -92,7 +92,7 @@ ENABLE_SOCKS5 = True
 #                 完成方法协商, 高延迟的家宽/移动出口可能超时, 淘汰会造成误杀。
 #   True: 预检失败直接淘汰, 能大幅缩短 CI (公共 SOCKS5 列表存活率 <5%),
 #         但会误杀慢节点 —— 只在明确知道自己在做什么时打开。
-SOCKS5_PREFILTER_STRICT = False
+SOCKS5_PREFILTER_STRICT = True
 
 # ★ SOCKS5 候选上限: 进入 sing-box 全流程测活的 SOCKS5 节点数上限 (0 = 不限)
 #   这一条与「检测方案」无关, 纯粹是 CI 保护。实测数据 (2026-09-19, run #25):
@@ -103,7 +103,7 @@ SOCKS5_PREFILTER_STRICT = False
 #   收紧都不改变检测方式, 只改变「测多少个」; 且收益递减很快 —— 测的节点数线性
 #   增长, 存活数却远远跟不上。
 #   想测更多: 同步调大 update.yml 的 timeout-minutes (经验值每 400 个约 17 分钟)。
-SOCKS5_MAX_CANDIDATES = 400
+SOCKS5_MAX_CANDIDATES = 9999
 
 OUTPUT_DIR = "output"
 COUNTRY_DIR = os.path.join(OUTPUT_DIR, "by-country")
