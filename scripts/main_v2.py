@@ -2,11 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 免费节点自动测活订阅池 v2 — 全协议 · 高精度 · 低误杀
-====================================================
-
-架构（三阶段流水线）:
-  1. 抓取订阅源 → 解析全部协议 URI 为统一节点对象
-     (vless/vmess/trojan/ss/hysteria2/tuic/anytls + reality + 全部传输层)
+===================================================0 reality + 全部传输层)
   2. 真实测活（sing-box v1.14 内核，逐节点 SOCKS 入站 + 节点出站）:
      - 阶段A 端口预检: TCP/QUIC 直连握手, 快速丢弃死端口 (削减 90% 无效工作)
      - 阶段B 真实探测: 多 URL 探测 (gstatic 204 / cloudflare trace) 
@@ -99,7 +95,7 @@ SOCKS5_PREFILTER_STRICT = False
 #   而公共 SOCKS5 列表规模是 vmess/vless 订阅的十倍以上。
 #   注意预检通过者会被排在前面 → 截断时优先保留它们, 所以这里放宽/收紧都不会
 #   改变检测方式, 只改变「测多少个」。
-SOCKS5_MAX_CANDIDATES = 400
+SOCKS5_MAX_CANDIDATES = 9999
 
 OUTPUT_DIR = "output"
 COUNTRY_DIR = os.path.join(OUTPUT_DIR, "by-country")
