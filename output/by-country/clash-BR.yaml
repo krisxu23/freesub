@@ -5,10 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 206.43.119.57
-  port: 1080
+  server: 216.128.168.190
+  port: 8388
   udp: true
-  type: socks5
+  type: ss
+  cipher: aes-256-gcm
+  password: owVdNnQcdPgthSyX
 proxy-groups:
 - name: PROXIES
   type: select
