@@ -4,8 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "socks",
       "tag": "🇬🇷 希腊 (Greece) 01 - xiaohe",
+      "server": "83.147.217.103",
+      "server_port": 1080,
+      "version": "5"
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇷 希腊 (Greece) 02 - xiaohe",
       "server": "185.126.238.87",
       "server_port": 2083,
       "uuid": "7668f678-faee-40cc-9b56-9c39dc773388",
@@ -16,7 +23,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇷 希腊 (Greece) 02 - xiaohe",
+      "tag": "🇬🇷 希腊 (Greece) 03 - xiaohe",
       "server": "85.90.197.220",
       "server_port": 443,
       "uuid": "8f704ed6-9a1a-4d04-94dd-1bff501716de",
@@ -41,7 +48,8 @@
       "outbounds": [
         "auto",
         "🇬🇷 希腊 (Greece) 01 - xiaohe",
-        "🇬🇷 希腊 (Greece) 02 - xiaohe"
+        "🇬🇷 希腊 (Greece) 02 - xiaohe",
+        "🇬🇷 希腊 (Greece) 03 - xiaohe"
       ]
     },
     {
@@ -49,7 +57,8 @@
       "tag": "auto",
       "outbounds": [
         "🇬🇷 希腊 (Greece) 01 - xiaohe",
-        "🇬🇷 希腊 (Greece) 02 - xiaohe"
+        "🇬🇷 希腊 (Greece) 02 - xiaohe",
+        "🇬🇷 希腊 (Greece) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

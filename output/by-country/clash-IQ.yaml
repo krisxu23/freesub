@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇷 克罗地亚 (Croatia) 01 - xiaohe
-  server: 5.75.133.113
-  port: 10814
+- name: 🇮🇶 IQ 01 - xiaohe
+  server: 212.237.125.216
+  port: 6969
   udp: true
   type: socks5
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇭🇷 克罗地亚 (Croatia) 01 - xiaohe
+  - 🇮🇶 IQ 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇷 克罗地亚 (Croatia) 01 - xiaohe
+  - 🇮🇶 IQ 01 - xiaohe
 rules:
 - MATCH,PROXIES

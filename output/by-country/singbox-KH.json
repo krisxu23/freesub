@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "socks",
-      "tag": "🇲🇰 MK 01 - xiaohe",
-      "server": "176.9.107.170",
-      "server_port": 1081,
+      "tag": "🇰🇭 柬埔寨 (Cambodia) 01 - xiaohe",
+      "server": "202.62.55.95",
+      "server_port": 1080,
       "version": "5"
     },
     {
@@ -15,14 +15,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇰 MK 01 - xiaohe"
+        "🇰🇭 柬埔寨 (Cambodia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇰 MK 01 - xiaohe"
+        "🇰🇭 柬埔寨 (Cambodia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

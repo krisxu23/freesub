@@ -5,18 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - xiaohe
-  server: 183.128.122.15
-  port: 1080
-  udp: true
-  type: socks5
-- name: 🇨🇳 CN 02 - xiaohe
   server: 113.249.111.67
   port: 1080
-  udp: true
-  type: socks5
-- name: 🇨🇳 CN 03 - xiaohe
-  server: 47.82.102.188
-  port: 1011
   udp: true
   type: socks5
 proxy-groups:
@@ -25,15 +15,11 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇨🇳 CN 01 - xiaohe
-  - 🇨🇳 CN 02 - xiaohe
-  - 🇨🇳 CN 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇳 CN 01 - xiaohe
-  - 🇨🇳 CN 02 - xiaohe
-  - 🇨🇳 CN 03 - xiaohe
 rules:
 - MATCH,PROXIES
