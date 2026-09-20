@@ -5,24 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 194.58.43.245
-  port: 2089
-  udp: true
-  type: vless
-  uuid: d144d943-46bd-41ce-af2c-06358c845616
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: 153.76.185.144
-  port: 3090
-  udp: true
-  type: vless
-  uuid: a9a813b7-13ea-45f4-b8de-922b9bdd2db2
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
-- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
   server: 95.85.230.35
   port: 443
   udp: true
@@ -33,7 +15,17 @@ proxies:
   reality-opts:
     public-key: mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0
   servername: de.oblaco.bet
-  client-fingerprint: chrome
+  client-fingerprint: firefox
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: 93.127.133.109
+  port: 1081
+  udp: true
+  type: socks5
+- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
+  server: 49.13.22.249
+  port: 10812
+  udp: true
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select

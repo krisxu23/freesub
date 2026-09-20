@@ -5,10 +5,11 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 212.237.125.216
-  port: 6969
+  server: 81.90.25.152
+  port: 34302
   udp: true
-  type: socks5
+  type: vless
+  uuid: e9a7f2c2-51bd-4a81-de35-26b369e2585b
 proxy-groups:
 - name: PROXIES
   type: select
