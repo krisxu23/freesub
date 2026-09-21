@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
-  server: 49.13.22.249
-  port: 10813
+- name: 🇲🇳 MN 01 - xiaohe
+  server: 103.41.113.76
+  port: 1080
   udp: true
   type: socks5
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
+  - 🇲🇳 MN 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe
+  - 🇲🇳 MN 01 - xiaohe
 rules:
 - MATCH,PROXIES
