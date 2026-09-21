@@ -5,8 +5,8 @@
   "outbounds": [
     {
       "type": "socks",
-      "tag": "🇦🇷 阿根廷 (Argentina) 01 - xiaohe",
-      "server": "66.97.37.159",
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe",
+      "server": "182.163.96.66",
       "server_port": 1080,
       "version": "5"
     },
@@ -15,14 +15,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇷 阿根廷 (Argentina) 01 - xiaohe"
+        "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇷 阿根廷 (Argentina) 01 - xiaohe"
+        "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
