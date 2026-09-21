@@ -28,11 +28,6 @@ proxies:
     short-id: b62a4da6cd1c4dd6
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
-  server: 161.35.90.93
-  port: 1082
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,7 +35,6 @@ proxy-groups:
   - AUTO
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
   - 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -48,6 +42,5 @@ proxy-groups:
   proxies:
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
   - 🇧🇷 巴西 (Brazil) 02 - xiaohe
-  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
 rules:
 - MATCH,PROXIES
