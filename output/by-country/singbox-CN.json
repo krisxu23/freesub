@@ -6,14 +6,7 @@
     {
       "type": "socks",
       "tag": "🇨🇳 CN 01 - xiaohe",
-      "server": "47.82.67.48",
-      "server_port": 1011,
-      "version": "5"
-    },
-    {
-      "type": "socks",
-      "tag": "🇨🇳 CN 02 - xiaohe",
-      "server": "180.158.222.93",
+      "server": "113.249.111.67",
       "server_port": 1080,
       "version": "5"
     },
@@ -22,16 +15,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇳 CN 01 - xiaohe",
-        "🇨🇳 CN 02 - xiaohe"
+        "🇨🇳 CN 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇳 CN 01 - xiaohe",
-        "🇨🇳 CN 02 - xiaohe"
+        "🇨🇳 CN 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
