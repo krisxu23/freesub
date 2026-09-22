@@ -4,9 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇳 MN 01 - xiaohe
-  server: 103.41.113.76
-  port: 1080
+- name: 🇭🇷 克罗地亚 (Croatia) 01 - xiaohe
+  server: 49.13.22.249
+  port: 10811
   udp: true
   type: socks5
 proxy-groups:
@@ -14,12 +14,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇲🇳 MN 01 - xiaohe
+  - 🇭🇷 克罗地亚 (Croatia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇳 MN 01 - xiaohe
+  - 🇭🇷 克罗地亚 (Croatia) 01 - xiaohe
 rules:
 - MATCH,PROXIES

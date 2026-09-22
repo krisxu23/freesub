@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "socks",
-      "tag": "🇲🇳 MN 01 - xiaohe",
-      "server": "103.41.113.76",
-      "server_port": 1080,
+      "tag": "🇦🇿 阿塞拜疆 (Azerbaijan) 01 - xiaohe",
+      "server": "5.75.133.113",
+      "server_port": 10809,
       "version": "5"
     },
     {
@@ -15,14 +15,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇳 MN 01 - xiaohe"
+        "🇦🇿 阿塞拜疆 (Azerbaijan) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇳 MN 01 - xiaohe"
+        "🇦🇿 阿塞拜疆 (Azerbaijan) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
