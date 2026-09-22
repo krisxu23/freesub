@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "socks",
-      "tag": "🇭🇷 克罗地亚 (Croatia) 01 - xiaohe",
-      "server": "49.13.22.249",
-      "server_port": 10811,
+      "tag": "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe",
+      "server": "59.152.97.233",
+      "server_port": 1080,
       "version": "5"
     },
     {
@@ -15,14 +15,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇷 克罗地亚 (Croatia) 01 - xiaohe"
+        "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇷 克罗地亚 (Croatia) 01 - xiaohe"
+        "🇧🇩 孟加拉 (Bangladesh) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -4,40 +4,74 @@
   },
   "outbounds": [
     {
-      "type": "socks",
+      "type": "vless",
       "tag": "🇻🇳 越南 (Vietnam) 01 - xiaohe",
-      "server": "160.22.17.4",
-      "server_port": 9988,
-      "version": "5",
-      "username": "Og=="
+      "server": "clhkzzzdbgwxxndnlm.cfooov.xyz",
+      "server_port": 14400,
+      "uuid": "edc17c6e-bb58-4a98-a4a8-ca37aa8b56d2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GnLh9Cc0jj9BMW81u6stEYKe1xu6pf8DDpXHI9AmvFk",
+          "short_id": "545525c503fd5b"
+        }
+      }
     },
     {
-      "type": "socks",
+      "type": "vless",
       "tag": "🇻🇳 越南 (Vietnam) 02 - xiaohe",
-      "server": "14.225.68.207",
-      "server_port": 1337,
-      "version": "5"
+      "server": "jpzzqqnzdbgwhbhzsrgh.cfooov.xyz",
+      "server_port": 48737,
+      "uuid": "edc17c6e-bb58-4a98-a4a8-ca37aa8b56d2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GnLh9Cc0jj9BMW81u6stEYKe1xu6pf8DDpXHI9AmvFk",
+          "short_id": "545525c503fd5b"
+        }
+      }
     },
     {
       "type": "socks",
       "tag": "🇻🇳 越南 (Vietnam) 03 - xiaohe",
-      "server": "171.234.162.101",
-      "server_port": 1083,
+      "server": "160.22.17.4",
+      "server_port": 9988,
       "version": "5"
     },
     {
-      "type": "socks",
+      "type": "vless",
       "tag": "🇻🇳 越南 (Vietnam) 04 - xiaohe",
-      "server": "160.187.0.89",
-      "server_port": 1080,
-      "version": "5"
-    },
-    {
-      "type": "socks",
-      "tag": "🇻🇳 越南 (Vietnam) 05 - xiaohe",
-      "server": "45.74.31.23",
-      "server_port": 7486,
-      "version": "5"
+      "server": "sczznmbbbzgwlwzdhsql.jiedddym.com",
+      "server_port": 19643,
+      "uuid": "edc17c6e-bb58-4a98-a4a8-ca37aa8b56d2",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GnLh9Cc0jj9BMW81u6stEYKe1xu6pf8DDpXHI9AmvFk",
+          "short_id": "545525c503fd5b"
+        }
+      }
     },
     {
       "type": "selector",
@@ -47,8 +81,7 @@
         "🇻🇳 越南 (Vietnam) 01 - xiaohe",
         "🇻🇳 越南 (Vietnam) 02 - xiaohe",
         "🇻🇳 越南 (Vietnam) 03 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 05 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 04 - xiaohe"
       ]
     },
     {
@@ -58,8 +91,7 @@
         "🇻🇳 越南 (Vietnam) 01 - xiaohe",
         "🇻🇳 越南 (Vietnam) 02 - xiaohe",
         "🇻🇳 越南 (Vietnam) 03 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 04 - xiaohe",
-        "🇻🇳 越南 (Vietnam) 05 - xiaohe"
+        "🇻🇳 越南 (Vietnam) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

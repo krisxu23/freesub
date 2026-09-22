@@ -5,32 +5,49 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇻🇳 越南 (Vietnam) 01 - xiaohe
+  server: clhkzzzdbgwxxndnlm.cfooov.xyz
+  port: 14400
+  udp: true
+  type: vless
+  uuid: edc17c6e-bb58-4a98-a4a8-ca37aa8b56d2
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GnLh9Cc0jj9BMW81u6stEYKe1xu6pf8DDpXHI9AmvFk
+    short-id: 545525c503fd5b
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
+  server: jpzzqqnzdbgwhbhzsrgh.cfooov.xyz
+  port: 48737
+  udp: true
+  type: vless
+  uuid: edc17c6e-bb58-4a98-a4a8-ca37aa8b56d2
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GnLh9Cc0jj9BMW81u6stEYKe1xu6pf8DDpXHI9AmvFk
+    short-id: 545525c503fd5b
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
+- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
   server: 160.22.17.4
   port: 9988
   udp: true
   type: socks5
-  username: Og==
-  password: ''
-- name: 🇻🇳 越南 (Vietnam) 02 - xiaohe
-  server: 14.225.68.207
-  port: 1337
-  udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 03 - xiaohe
-  server: 171.234.162.101
-  port: 1083
-  udp: true
-  type: socks5
 - name: 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  server: 160.187.0.89
-  port: 1080
+  server: sczznmbbbzgwlwzdhsql.jiedddym.com
+  port: 19643
   udp: true
-  type: socks5
-- name: 🇻🇳 越南 (Vietnam) 05 - xiaohe
-  server: 45.74.31.23
-  port: 7486
-  udp: true
-  type: socks5
+  type: vless
+  uuid: edc17c6e-bb58-4a98-a4a8-ca37aa8b56d2
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: GnLh9Cc0jj9BMW81u6stEYKe1xu6pf8DDpXHI9AmvFk
+    short-id: 545525c503fd5b
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -40,7 +57,6 @@ proxy-groups:
   - 🇻🇳 越南 (Vietnam) 02 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 - xiaohe
   - 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -50,6 +66,5 @@ proxy-groups:
   - 🇻🇳 越南 (Vietnam) 02 - xiaohe
   - 🇻🇳 越南 (Vietnam) 03 - xiaohe
   - 🇻🇳 越南 (Vietnam) 04 - xiaohe
-  - 🇻🇳 越南 (Vietnam) 05 - xiaohe
 rules:
 - MATCH,PROXIES
