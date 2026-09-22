@@ -5,20 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 188.114.97.6
-  port: 443
-  udp: true
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-48493148ec15
-  tls: true
-  servername: cgzdynepurqs.mercury061.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/48493148ec15
-    headers:
-      Host: cgzdynepurqs.mercury061.workers.dev
-- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
   server: 172.233.14.17
   port: 22324
   udp: true
@@ -26,6 +12,16 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
+- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  server: 161.35.90.93
+  port: 1082
+  udp: true
+  type: socks5
+- name: 🇧🇷 巴西 (Brazil) 03 - xiaohe
+  server: 45.179.145.12
+  port: 6080
+  udp: true
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
@@ -33,6 +29,7 @@ proxy-groups:
   - AUTO
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
   - 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -40,5 +37,6 @@ proxy-groups:
   proxies:
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
   - 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 03 - xiaohe
 rules:
 - MATCH,PROXIES

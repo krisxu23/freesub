@@ -18,6 +18,11 @@ proxies:
   servername: www.apple.com
   client-fingerprint: firefox
 - name: 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
+  server: 45.194.33.12
+  port: 30001
+  udp: true
+  type: socks5
+- name: 🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe
   server: clhkzzzdbgwxxndnlm.cfooov.xyz
   port: 17594
   udp: true
@@ -37,6 +42,7 @@ proxy-groups:
   - AUTO
   - 🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe
   - 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
+  - 🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -44,5 +50,6 @@ proxy-groups:
   proxies:
   - 🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe
   - 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
+  - 🇸🇨 塞舌尔 (Seychelles) 03 - xiaohe
 rules:
 - MATCH,PROXIES
