@@ -25,11 +25,6 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: Xsy8Ox4yOV3xLlpxtjzs3X
-- name: 🇿🇦 南非 (South Africa) 04 - xiaohe
-  server: 45.74.31.41
-  port: 44596
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
@@ -38,7 +33,6 @@ proxy-groups:
   - 🇿🇦 南非 (South Africa) 01 - xiaohe
   - 🇿🇦 南非 (South Africa) 02 - xiaohe
   - 🇿🇦 南非 (South Africa) 03 - xiaohe
-  - 🇿🇦 南非 (South Africa) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -47,6 +41,5 @@ proxy-groups:
   - 🇿🇦 南非 (South Africa) 01 - xiaohe
   - 🇿🇦 南非 (South Africa) 02 - xiaohe
   - 🇿🇦 南非 (South Africa) 03 - xiaohe
-  - 🇿🇦 南非 (South Africa) 04 - xiaohe
 rules:
 - MATCH,PROXIES

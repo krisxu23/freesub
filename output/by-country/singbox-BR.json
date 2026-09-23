@@ -4,19 +4,19 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "socks",
       "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
+      "server": "161.35.90.93",
+      "server_port": 1082,
+      "version": "5"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe",
       "server": "172.233.14.17",
       "server_port": 22324,
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto"
-    },
-    {
-      "type": "socks",
-      "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe",
-      "server": "45.74.31.25",
-      "server_port": 10086,
-      "version": "5"
     },
     {
       "type": "selector",

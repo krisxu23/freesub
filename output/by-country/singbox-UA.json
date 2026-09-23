@@ -11,18 +11,27 @@
       "version": "5"
     },
     {
+      "type": "socks",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe",
+      "server": "185.210.85.26",
+      "server_port": 56981,
+      "version": "5"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
+        "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
+        "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

@@ -18,8 +18,8 @@ proxies:
   servername: www.tesla.com
   client-fingerprint: chrome
 - name: 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
-  server: 57.128.231.218
-  port: 1003
+  server: 5.42.111.165
+  port: 10808
   udp: true
   type: socks5
 proxy-groups:

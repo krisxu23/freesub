@@ -28,21 +28,13 @@
       "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
     },
     {
-      "type": "socks",
-      "tag": "🇿🇦 南非 (South Africa) 04 - xiaohe",
-      "server": "45.74.31.41",
-      "server_port": 44596,
-      "version": "5"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇿🇦 南非 (South Africa) 01 - xiaohe",
         "🇿🇦 南非 (South Africa) 02 - xiaohe",
-        "🇿🇦 南非 (South Africa) 03 - xiaohe",
-        "🇿🇦 南非 (South Africa) 04 - xiaohe"
+        "🇿🇦 南非 (South Africa) 03 - xiaohe"
       ]
     },
     {
@@ -51,8 +43,7 @@
       "outbounds": [
         "🇿🇦 南非 (South Africa) 01 - xiaohe",
         "🇿🇦 南非 (South Africa) 02 - xiaohe",
-        "🇿🇦 南非 (South Africa) 03 - xiaohe",
-        "🇿🇦 南非 (South Africa) 04 - xiaohe"
+        "🇿🇦 南非 (South Africa) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
