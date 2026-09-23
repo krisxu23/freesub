@@ -23,7 +23,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -75,7 +75,7 @@
         "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -101,7 +101,7 @@
       "tag": "🇦🇺 澳大利亚 (Australia) 07 - xiaohe",
       "server": "au1.gsafevpnapi.com",
       "server_port": 20270,
-      "uuid": "3da32b09-10e5-4ef9-b422-2e476dd72d87",
+      "uuid": "8f2774ba-73fe-404d-a01b-7c01812ff75b",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -118,38 +118,33 @@
       }
     },
     {
-      "type": "socks",
+      "type": "vless",
       "tag": "🇦🇺 澳大利亚 (Australia) 08 - xiaohe",
-      "server": "45.74.31.25",
-      "server_port": 5210,
-      "version": "5"
+      "server": "nova.freshnet.ir",
+      "server_port": 2082,
+      "uuid": "ce2bd817-7fb1-4b94-8125-d6161de31962",
+      "tls": {
+        "enabled": true,
+        "server_name": "nova.freshnet.ir",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cats/FslNz",
+        "headers": {
+          "Host": "nova.freshnet.ir"
+        }
+      }
     },
     {
       "type": "socks",
       "tag": "🇦🇺 澳大利亚 (Australia) 09 - xiaohe",
-      "server": "45.74.31.22",
-      "server_port": 6467,
-      "version": "5"
-    },
-    {
-      "type": "socks",
-      "tag": "🇦🇺 澳大利亚 (Australia) 10 - xiaohe",
-      "server": "45.74.31.22",
-      "server_port": 17043,
-      "version": "5"
-    },
-    {
-      "type": "socks",
-      "tag": "🇦🇺 澳大利亚 (Australia) 11 - xiaohe",
-      "server": "45.74.31.22",
-      "server_port": 16735,
-      "version": "5"
-    },
-    {
-      "type": "socks",
-      "tag": "🇦🇺 澳大利亚 (Australia) 12 - xiaohe",
-      "server": "45.74.31.50",
-      "server_port": 4359,
+      "server": "45.74.31.30",
+      "server_port": 9250,
       "version": "5"
     },
     {
@@ -165,10 +160,7 @@
         "🇦🇺 澳大利亚 (Australia) 06 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 07 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 08 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 09 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 10 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 11 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 12 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 09 - xiaohe"
       ]
     },
     {
@@ -183,10 +175,7 @@
         "🇦🇺 澳大利亚 (Australia) 06 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 07 - xiaohe",
         "🇦🇺 澳大利亚 (Australia) 08 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 09 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 10 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 11 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 12 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 09 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
