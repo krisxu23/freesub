@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "socks",
-      "tag": "🇨🇳 CN 01 (移动家宽) - xiaohe",
-      "server": "146.56.158.84",
-      "server_port": 22222,
+      "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
+      "server": "45.74.31.22",
+      "server_port": 8917,
       "version": "5"
     },
     {
@@ -15,14 +15,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇳 CN 01 (移动家宽) - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇳 CN 01 (移动家宽) - xiaohe"
+        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
