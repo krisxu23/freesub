@@ -16,18 +16,25 @@ proxies:
     public-key: uitO4Z8t9TplwwYaqwLqh5rfxDh_X8bOBiNuPbzvaEM
     short-id: bbe46bd8f6b96839
   servername: yandex.ru
-  client-fingerprint: firefox
+  client-fingerprint: random
+- name: 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
+  server: 156.225.27.143
+  port: 7890
+  udp: true
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe
+  - 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe
+  - 🇸🇨 塞舌尔 (Seychelles) 02 - xiaohe
 rules:
 - MATCH,PROXIES
