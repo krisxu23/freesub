@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "socks",
-      "tag": "🇲🇱 ML 01 - xiaohe",
-      "server": "45.74.31.30",
-      "server_port": 6252,
+      "tag": "🇷🇺 俄罗斯 (Russia) 01 (家宽) - xiaohe",
+      "server": "212.55.99.157",
+      "server_port": 1080,
       "version": "5"
     },
     {
@@ -15,14 +15,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇱 ML 01 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇱 ML 01 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
