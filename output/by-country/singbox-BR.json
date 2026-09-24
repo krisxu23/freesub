@@ -6,15 +6,15 @@
     {
       "type": "socks",
       "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-      "server": "186.219.210.133",
-      "server_port": 7080,
+      "server": "161.35.90.93",
+      "server_port": 1082,
       "version": "5"
     },
     {
       "type": "socks",
       "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe",
-      "server": "45.74.31.23",
-      "server_port": 5873,
+      "server": "45.74.31.47",
+      "server_port": 4707,
       "version": "5"
     },
     {
