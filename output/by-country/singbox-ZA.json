@@ -6,18 +6,18 @@
     {
       "type": "shadowsocks",
       "tag": "🇿🇦 南非 (South Africa) 01 - xiaohe",
-      "server": "139.84.247.164",
-      "server_port": 8388,
-      "method": "chacha20-ietf-poly1305",
-      "password": "tfAcRikawhNoZAhu"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇿🇦 南非 (South Africa) 02 - xiaohe",
       "server": "102.37.156.224",
       "server_port": 443,
       "method": "chacha20-ietf-poly1305",
       "password": "aduB9HGxQHjA2SBMRjkHX6"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇿🇦 南非 (South Africa) 02 - xiaohe",
+      "server": "139.84.247.164",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "tfAcRikawhNoZAhu"
     },
     {
       "type": "shadowsocks",
@@ -28,37 +28,13 @@
       "password": "Xsy8Ox4yOV3xLlpxtjzs3X"
     },
     {
-      "type": "socks",
-      "tag": "🇿🇦 南非 (South Africa) 04 - xiaohe",
-      "server": "45.74.31.42",
-      "server_port": 14591,
-      "version": "5"
-    },
-    {
-      "type": "socks",
-      "tag": "🇿🇦 南非 (South Africa) 05 - xiaohe",
-      "server": "45.74.31.25",
-      "server_port": 5394,
-      "version": "5"
-    },
-    {
-      "type": "socks",
-      "tag": "🇿🇦 南非 (South Africa) 06 - xiaohe",
-      "server": "45.74.31.42",
-      "server_port": 7932,
-      "version": "5"
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇿🇦 南非 (South Africa) 01 - xiaohe",
         "🇿🇦 南非 (South Africa) 02 - xiaohe",
-        "🇿🇦 南非 (South Africa) 03 - xiaohe",
-        "🇿🇦 南非 (South Africa) 04 - xiaohe",
-        "🇿🇦 南非 (South Africa) 05 - xiaohe",
-        "🇿🇦 南非 (South Africa) 06 - xiaohe"
+        "🇿🇦 南非 (South Africa) 03 - xiaohe"
       ]
     },
     {
@@ -67,10 +43,7 @@
       "outbounds": [
         "🇿🇦 南非 (South Africa) 01 - xiaohe",
         "🇿🇦 南非 (South Africa) 02 - xiaohe",
-        "🇿🇦 南非 (South Africa) 03 - xiaohe",
-        "🇿🇦 南非 (South Africa) 04 - xiaohe",
-        "🇿🇦 南非 (South Africa) 05 - xiaohe",
-        "🇿🇦 南非 (South Africa) 06 - xiaohe"
+        "🇿🇦 南非 (South Africa) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
