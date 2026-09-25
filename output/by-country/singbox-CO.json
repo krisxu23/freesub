@@ -6,8 +6,8 @@
     {
       "type": "socks",
       "tag": "🇨🇴 哥伦比亚 (Colombia) 01 - xiaohe",
-      "server": "45.74.31.50",
-      "server_port": 7615,
+      "server": "45.74.31.23",
+      "server_port": 5469,
       "version": "5"
     },
     {

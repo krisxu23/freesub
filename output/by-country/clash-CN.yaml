@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - xiaohe
-  server: 113.249.111.67
-  port: 1080
+  server: 8.218.201.147
+  port: 1011
   udp: true
   type: socks5
 proxy-groups:
