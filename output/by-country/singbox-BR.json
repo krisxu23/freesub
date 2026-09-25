@@ -1,0 +1,47 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "socks",
+      "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
+      "server": "161.35.90.93",
+      "server_port": 1082,
+      "version": "5"
+    },
+    {
+      "type": "socks",
+      "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe",
+      "server": "45.74.31.25",
+      "server_port": 15218,
+      "version": "5"
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 02 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇷 巴西 (Brazil) 01 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 02 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

@@ -12,18 +12,36 @@
       "password": "BWyPPTusFKhGgzKh"
     },
     {
+      "type": "socks",
+      "tag": "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
+      "server": "103.88.234.239",
+      "server_port": 40002,
+      "version": "5"
+    },
+    {
+      "type": "socks",
+      "tag": "🇲🇽 墨西哥 (Mexico) 03 - xiaohe",
+      "server": "103.88.234.239",
+      "server_port": 40006,
+      "version": "5"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
+        "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
+        "🇲🇽 墨西哥 (Mexico) 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe"
+        "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
+        "🇲🇽 墨西哥 (Mexico) 02 - xiaohe",
+        "🇲🇽 墨西哥 (Mexico) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

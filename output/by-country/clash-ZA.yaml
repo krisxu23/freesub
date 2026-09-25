@@ -25,6 +25,21 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: Xsy8Ox4yOV3xLlpxtjzs3X
+- name: 🇿🇦 南非 (South Africa) 04 - xiaohe
+  server: 45.74.31.42
+  port: 14591
+  udp: true
+  type: socks5
+- name: 🇿🇦 南非 (South Africa) 05 - xiaohe
+  server: 45.74.31.25
+  port: 5394
+  udp: true
+  type: socks5
+- name: 🇿🇦 南非 (South Africa) 06 - xiaohe
+  server: 45.74.31.42
+  port: 7932
+  udp: true
+  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
@@ -33,6 +48,9 @@ proxy-groups:
   - 🇿🇦 南非 (South Africa) 01 - xiaohe
   - 🇿🇦 南非 (South Africa) 02 - xiaohe
   - 🇿🇦 南非 (South Africa) 03 - xiaohe
+  - 🇿🇦 南非 (South Africa) 04 - xiaohe
+  - 🇿🇦 南非 (South Africa) 05 - xiaohe
+  - 🇿🇦 南非 (South Africa) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -41,5 +59,8 @@ proxy-groups:
   - 🇿🇦 南非 (South Africa) 01 - xiaohe
   - 🇿🇦 南非 (South Africa) 02 - xiaohe
   - 🇿🇦 南非 (South Africa) 03 - xiaohe
+  - 🇿🇦 南非 (South Africa) 04 - xiaohe
+  - 🇿🇦 南非 (South Africa) 05 - xiaohe
+  - 🇿🇦 南非 (South Africa) 06 - xiaohe
 rules:
 - MATCH,PROXIES
