@@ -4,11 +4,11 @@
   },
   "outbounds": [
     {
-      "type": "socks",
+      "type": "vless",
       "tag": "🇲🇽 墨西哥 (Mexico) 01 - xiaohe",
-      "server": "103.88.234.239",
-      "server_port": 40006,
-      "version": "5"
+      "server": "45.164.20.114",
+      "server_port": 10226,
+      "uuid": "9aab8f39-ccb3-44ea-acdc-a8aefe211287"
     },
     {
       "type": "selector",

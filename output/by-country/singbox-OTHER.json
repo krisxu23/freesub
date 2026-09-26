@@ -6,12 +6,12 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.18.14.103",
+      "server": "fancy-wind-799d.cloudneryacc.workers.dev",
       "server_port": 443,
-      "uuid": "3c6d1933-b22a-484b-ac8a-63e24f5fba75",
+      "uuid": "9fa6d846-5961-8e0e-ce27-77de00000000",
       "tls": {
         "enabled": true,
-        "server_name": "server9.9966338.xyz",
+        "server_name": "fancy-wind-799d.cloudneryacc.workers.dev",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/imnotarealherox",
+        "path": "/sync",
         "headers": {
-          "Host": "server9.9966338.xyz"
+          "Host": "fancy-wind-799d.cloudneryacc.workers.dev"
         }
       }
     },

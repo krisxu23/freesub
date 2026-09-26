@@ -5,9 +5,9 @@
   "outbounds": [
     {
       "type": "socks",
-      "tag": "🇵🇾 PY 01 - xiaohe",
-      "server": "181.94.197.37",
-      "server_port": 13049,
+      "tag": "🇮🇲 IM 01 - xiaohe",
+      "server": "65.21.252.66",
+      "server_port": 10808,
       "version": "5"
     },
     {
@@ -15,14 +15,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇾 PY 01 - xiaohe"
+        "🇮🇲 IM 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇾 PY 01 - xiaohe"
+        "🇮🇲 IM 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

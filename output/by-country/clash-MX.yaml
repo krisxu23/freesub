@@ -5,10 +5,11 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
-  server: 103.88.234.239
-  port: 40006
+  server: 45.164.20.114
+  port: 10226
   udp: true
-  type: socks5
+  type: vless
+  uuid: 9aab8f39-ccb3-44ea-acdc-a8aefe211287
 proxy-groups:
 - name: PROXIES
   type: select
