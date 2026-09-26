@@ -18,24 +18,17 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-tunnel
-- name: 🇷🇸 塞尔维亚 (Serbia) 02 - xiaohe
-  server: 5.75.133.113
-  port: 10805
-  udp: true
-  type: socks5
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
-  - 🇷🇸 塞尔维亚 (Serbia) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
-  - 🇷🇸 塞尔维亚 (Serbia) 02 - xiaohe
 rules:
 - MATCH,PROXIES
