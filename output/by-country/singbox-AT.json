@@ -23,7 +23,7 @@
         "server_name": "at.quattro-tech.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -47,8 +47,8 @@
     {
       "type": "socks",
       "tag": "🇦🇹 奥地利 (Austria) 04 - xiaohe",
-      "server": "62.83.33.70",
-      "server_port": 1080,
+      "server": "185.175.58.225",
+      "server_port": 18889,
       "version": "5"
     },
     {
