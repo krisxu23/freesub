@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 172.64.154.103
+  server: 172.67.77.76
   port: 2083
   udp: true
   type: vmess
@@ -21,7 +21,7 @@ proxies:
     headers:
       Host: or.521166.xyz
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 172.64.154.103
+  server: 172.67.77.76
   port: 2083
   udp: true
   type: vmess
