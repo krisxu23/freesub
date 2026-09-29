@@ -5,11 +5,11 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 93.190.9.60
+  server: 93.190.8.89
   port: 3090
   udp: true
   type: vless
-  uuid: cbbc93ef-6d35-463a-a856-64265c42e66d
+  uuid: 7809f866-9f42-43ae-ae11-34729db23236
   network: grpc
   grpc-opts:
     grpc-service-name: vless
@@ -25,7 +25,7 @@ proxies:
     public-key: sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   server: 151.241.226.201
   port: 2053
@@ -37,18 +37,26 @@ proxies:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
     short-id: 9e419c0759b54d6f
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  server: trnewpnlszhp.mamadhpbot.ir
-  port: 8080
+  server: upgrade-isl.applemarket13.ir
+  port: 43312
   udp: true
   type: vless
-  uuid: 4e2bba22-e372-4d7f-89c4-7a8e945183c5
-  network: ws
-  ws-opts:
-    path: /real
-    headers:
-      Host: trnewpnlszhp.mamadhpbot.ir
+  uuid: 025b65b5-1283-4885-a0de-c8fe889a31fe
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: 06vBWFA7tgljTVI9N1pY6L6Ls88me171hrKzeH9-7EQ
+    short-id: 194eb312877c9c35
+  servername: play.google.com
+  client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  server: 178.83.46.216
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
 proxy-groups:
 - name: PROXIES
   type: select
@@ -58,6 +66,7 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -67,5 +76,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
 rules:
 - MATCH,PROXIES
