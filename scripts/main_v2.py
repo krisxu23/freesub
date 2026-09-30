@@ -80,7 +80,7 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt",
     "https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/README.md",
     "https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/mix_sub.txt",
-    "https://misub.bursaonline.eu.org/920731/free?singbox",
+    "https://misub.bursaonline.eu.org/920731/free",
 ]
 
 OUTPUT_DIR = "output"
