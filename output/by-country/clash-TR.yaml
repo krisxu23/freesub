@@ -5,6 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
+  server: 85.192.48.142
+  port: 443
+  udp: true
+  type: vless
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: db04ce8bdb8900f1
+  servername: nvidia.com
+  client-fingerprint: ''
+- name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   server: 78.135.73.47
   port: 443
   udp: true
@@ -17,7 +30,7 @@ proxies:
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
   client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
+- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   server: 151.241.226.201
   port: 2053
   udp: true
@@ -28,27 +41,44 @@ proxies:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
     short-id: 9e419c0759b54d6f
   servername: www.apple.com
-  client-fingerprint: random
-- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  server: 85.192.48.142
+  client-fingerprint: chrome
+- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  server: me17.msjia8844.site
+  port: 7443
+  udp: true
+  type: hysteria2
+  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
+  sni: me17.msjia8844.site
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
+- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  server: turk1.zulacdn.ir
   port: 443
   udp: true
   type: vless
-  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  uuid: cd6d5df9-4217-4dab-98a7-ff212a792d2e
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
-    short-id: db04ce8bdb8900f1
-  servername: nvidia.com
-  client-fingerprint: random
-- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  server: www.asamping.ir
-  port: 1468
+    public-key: EW4wbYV1o5FPKkOVHx4Z572oP__5usAVE7K8bXtxzQ8
+    short-id: 04ac4765d572b7b7
+  servername: secureconnect-pa.mtls.clients6.google.com
+  client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - xiaohe
+  server: tcdnu.azad0namah.ir
+  port: 8443
   udp: true
-  type: ss
-  cipher: aes-128-gcm
-  password: fSf3x7CtssaHpL1HC72dPQ
+  type: vless
+  uuid: 0da0a073-a5b0-4229-bf11-24592f6290b9
+  tls: true
+  servername: tcdnu.azad0namah.ir
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tuws/
+    headers:
+      Host: tcdnu.azad0namah.ir
 proxy-groups:
 - name: PROXIES
   type: select
@@ -58,6 +88,8 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -67,5 +99,7 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 06 (移动家宽) - xiaohe
 rules:
 - MATCH,PROXIES
