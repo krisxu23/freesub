@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
-  server: 176.108.246.58
-  port: 9889
+- name: 🇨🇳 CN 01 - xiaohe
+  server: 2.26.80.235
+  port: 443
   udp: true
   type: vless
-  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+  uuid: cb0ccf90-0e8f-4621-b042-4e35c797de2b
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU
+    public-key: _gjcl5q-hkJIFmKYSY9DbBcSiBHK3YUAKOfZzZqnkT8
+    short-id: c17f1d8951b3bf90
   servername: dl.google.com
   client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
+  - 🇨🇳 CN 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇷🇸 塞尔维亚 (Serbia) 01 - xiaohe
+  - 🇨🇳 CN 01 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -4,30 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe",
-      "server": "zfd-boardv2.kunlun01dns.com",
-      "server_port": 16317,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe",
-      "server": "216.38.170.8",
-      "server_port": 26507,
-      "uuid": "593c2ff4-f051-4859-8449-b0130e2991df",
-      "transport": {
-        "type": "ws",
-        "path": "/04235e8c-cea8-4f16-8934-b704a89b40cb.live238.m3u8",
-        "headers": {
-          "Host": "www.baidu.com"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇲🇾 马来西亚 (Malaysia) 03 - xiaohe",
       "server": "149.33.30.176",
       "server_port": 443,
       "uuid": "5fffad1b-10f0-41ff-abe7-e5a92696d5ef",
@@ -37,7 +15,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -47,13 +25,20 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe",
+      "server": "47.250.135.244",
+      "server_port": 10000,
+      "uuid": "aedc66b8-99d7-4a21-8310-61870e7f870d",
+      "security": "auto"
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe",
-        "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe",
-        "🇲🇾 马来西亚 (Malaysia) 03 - xiaohe"
+        "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe"
       ]
     },
     {
@@ -61,8 +46,7 @@
       "tag": "auto",
       "outbounds": [
         "🇲🇾 马来西亚 (Malaysia) 01 - xiaohe",
-        "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe",
-        "🇲🇾 马来西亚 (Malaysia) 03 - xiaohe"
+        "🇲🇾 马来西亚 (Malaysia) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
