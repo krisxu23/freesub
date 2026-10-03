@@ -6,95 +6,6 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 01 - xiaohe",
-      "server": "104.21.87.238",
-      "server_port": 8080,
-      "uuid": "8f53fce2-6c17-4e37-9ae9-d969fd85117c",
-      "transport": {
-        "type": "ws",
-        "path": "/vl/Wp4FqWLcoYNYXCovu4?ed=2560",
-        "headers": {
-          "Host": "api-hub-c9a393.alimirzai539-484.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
-      "server": "188.114.97.8",
-      "server_port": 8443,
-      "uuid": "9c63fd59-f9ee-446e-97ec-0bf2de21ed7b",
-      "tls": {
-        "enabled": true,
-        "server_name": "dry-glitter-ef10.gfryubcdryujvrth.workers.dev",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiVVhGU1pOZ1oxaTFUUldyVCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
-        "headers": {
-          "Host": "dry-glitter-ef10.gfryubcdryujvrth.workers.dev"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
-      "server": "172.67.130.187",
-      "server_port": 2083,
-      "uuid": "2b8738de-1af5-4267-b101-c05707769ed4",
-      "tls": {
-        "enabled": true,
-        "server_name": "fans.liverpool.qzz.io",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/eyJqdW5rIjoiY0Y0cENQUmxsNyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=",
-        "headers": {
-          "Host": "fans.liverpool.qzz.io"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "server": "194.113.235.66",
-      "server_port": 443,
-      "uuid": "1c5ed2e1-56da-41ab-9a78-159d9892ec17",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "github.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q",
-          "short_id": "9e4eced6e98ed4d4"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
-      "server": "91.240.86.70",
-      "server_port": 22443,
-      "password": "3f63c86c-ac4a-4900-85cf-4fedf93c2ca5",
-      "tls": {
-        "enabled": true,
-        "server_name": "91.240.86.70",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
       "server": "31.76.34.216",
       "server_port": 443,
       "uuid": "94def50e-5f3c-4e4c-9719-3325f42d2131",
@@ -104,7 +15,7 @@
         "server_name": "ru-c-1.minzt.su",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -114,16 +25,20 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
-      "server": "136.234.6.43",
-      "server_port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "OahAs_MieM2B3nc2JG9pZOi7KRsn6W0e"
+      "type": "hysteria2",
+      "tag": "🇷🇺 俄罗斯 (Russia) 02 - xiaohe",
+      "server": "srv-17e124.21freedom.net",
+      "server_port": 11592,
+      "password": "41edb44c8e",
+      "tls": {
+        "enabled": true,
+        "server_name": "srv-17e124.21freedom.net",
+        "insecure": true
+      }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 08 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 03 - xiaohe",
       "server": "81.177.215.175",
       "server_port": 443,
       "uuid": "1c5ed2e1-56da-41ab-9a78-159d9892ec17",
@@ -143,8 +58,37 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "chacha20-ietf-poly1305",
+      "password": "mhXYDvaSfHzHZXBswC/zo/o8VqdU3XSBpwWx050Y6MU="
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+      "server": "du-rov.secureservice.top",
+      "server_port": 8443,
+      "uuid": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "du-rov.secureservice.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI",
+          "short_id": "3cbc3d737fb9c4af"
+        }
+      }
+    },
+    {
       "type": "hysteria2",
-      "tag": "🇷🇺 俄罗斯 (Russia) 09 - xiaohe",
+      "tag": "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
       "server": "els.mangshe.xyz",
       "server_port": 2060,
       "password": "5d0a6445-a30d-4522-bb1f-94f1d3ad63be",
@@ -156,72 +100,26 @@
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 10 - xiaohe",
-      "server": "217.19.122.200",
-      "server_port": 443,
-      "uuid": "bc5ec86c-3e65-4272-994c-59a924c72a68",
+      "tag": "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
+      "server": "176.109.109.105",
+      "server_port": 9830,
+      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
       "tls": {
         "enabled": true,
-        "server_name": "fbsv6.guardora.pro",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws",
-        "headers": {
-          "Host": "fbsv6.guardora.pro"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 11 - xiaohe",
-      "server": "du-rov.secureservice.top",
-      "server_port": 8443,
-      "uuid": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "du-rov.secureservice.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI",
-          "short_id": "3cbc3d737fb9c4af"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 12 - xiaohe",
-      "server": "94.228.171.219",
-      "server_port": 8444,
-      "uuid": "9cb2520c-148b-4bbc-a149-9d5a43ff0db3",
-      "tls": {
-        "enabled": true,
-        "server_name": "germany.tofreedom.ru",
-        "insecure": false,
+        "server_name": "dl.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU",
+          "short_id": "aa"
         }
       },
       "transport": {
-        "type": "ws",
-        "path": "/c7f5317cd04691bc",
-        "headers": {
-          "Host": "germany.tofreedom.ru"
-        }
+        "type": "grpc",
+        "service_name": "grpc-tunnel"
       }
     },
     {
@@ -235,12 +133,7 @@
         "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 08 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 09 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 10 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 11 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 12 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
       ]
     },
     {
@@ -253,12 +146,7 @@
         "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
         "🇷🇺 俄罗斯 (Russia) 06 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 08 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 09 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 10 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 11 - xiaohe",
-        "🇷🇺 俄罗斯 (Russia) 12 - xiaohe"
+        "🇷🇺 俄罗斯 (Russia) 07 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
