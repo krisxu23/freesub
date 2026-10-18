@@ -147,6 +147,31 @@ def run_test():
             FAIL.append(f"[CLASSIFY] {ip} {org}: 期望 {expect} 实得 {got}")
         print(f"  {mark} {ip} ({org}) → {got} conf={conf}")
 
+    # ── 阶段4: 导出转换回归 (hy2 端口跳跃: 只有 server_ports, 没有 server_port) ──
+    print("阶段4: 导出转换回归 (hy2 端口跳跃 mport → clash / v2ray)")
+    ob_mport = mv.parse_hysteria2(
+        "hy2://pw@1.2.3.4:443?mport=2000-3000,8443&sni=a.example.com&obfs=salamander&obfs-password=xyz")
+    if not ob_mport or "server_port" in ob_mport:
+        FAIL.append("[EXPORT] 端口跳跃样本解析异常 (server_port 应被移除)")
+    else:
+        try:
+            cp = mv.outbound_to_clash(ob_mport, "t")
+        except Exception as e:
+            cp = None
+            FAIL.append(f"[EXPORT] outbound_to_clash 抛异常: {type(e).__name__}: {e}")
+        if cp:
+            if cp.get("port") != 2000:
+                FAIL.append(f"[EXPORT] clash port 期望 2000, 实得 {cp.get('port')}")
+            elif cp.get("ports") != "2000-3000,8443-8443":
+                FAIL.append(f"[EXPORT] clash ports 期望 2000-3000,8443-8443, 实得 {cp.get('ports')}")
+            else:
+                print(f"  ✅ 端口跳跃 → clash: port={cp.get('port')} ports={cp.get('ports')}")
+        link = mv.outbound_to_v2ray_link(ob_mport, "t") or ""
+        if "mport=" not in link:
+            FAIL.append("[EXPORT] v2ray 链接丢失 mport")
+        else:
+            print("  ✅ 端口跳跃 → v2ray 链接保留 mport")
+
     print()
     print("=" * 70)
     if FAIL:

@@ -1641,7 +1641,19 @@ def classify_network_type(ip: str, country: str, asn, org: str, ip_api_rec: dict
 def outbound_to_clash(node: dict, name: str) -> dict:
     """sing-box outbound → Clash (Meta/mihomo) proxy dict"""
     t = node.get("type")
-    server, port = node["server"], node["server_port"]
+    server = node["server"]
+    # 端口跳跃节点 (hy2 mport) 的 outbound 只有 server_ports, 没有 server_port —
+    # clash-meta 仍要求 port 字段 (跳跃区间由下方 ports 承载), 取首区间起始端口兜底。
+    # 两者都没有 → 该节点无法用 clash 表达, 直接跳过, 不能拖垮整轮导出。
+    if node.get("server_port"):
+        port = node["server_port"]
+    elif node.get("server_ports"):
+        try:
+            port = int(str(node["server_ports"][0]).split(":")[0])
+        except (IndexError, ValueError):
+            return None
+    else:
+        return None
     proxy = {"name": name, "server": server, "port": port, "udp": True}
 
     if t == "vless":
@@ -2195,6 +2207,8 @@ def make_node_name(item, idx, force_residential=False):
 def export_all(unique_nodes, residential, non_residential):
     ensure_directories()
 
+    skipped = []
+
     def build_group(nodes_list, force_res=False):
         links, proxies, sb_nodes = [], [], []
         for idx, item in enumerate(nodes_list, start=1):
@@ -2202,11 +2216,18 @@ def export_all(unique_nodes, residential, non_residential):
             ob = item["outbound"]
             if not ob:
                 continue
-            links.append(outbound_to_v2ray_link(ob, name))
-            cp = outbound_to_clash(ob, name)
-            if cp:
-                proxies.append(cp)
-            sb_nodes.append(outbound_to_singbox(ob, name))
+            # 单节点转换失败必须隔离: 历史上一个 hy2 端口跳跃节点 KeyError
+            # 就让整个 workflow 失败跳过 commit, 订阅 15 天没更新。
+            try:
+                lk = outbound_to_v2ray_link(ob, name)
+                if lk:
+                    links.append(lk)
+                cp = outbound_to_clash(ob, name)
+                if cp:
+                    proxies.append(cp)
+                sb_nodes.append(outbound_to_singbox(ob, name))
+            except Exception as e:
+                skipped.append(f"{item.get('proto')}/{ob.get('type')}: {type(e).__name__}: {e}")
         return links, proxies, sb_nodes
 
     # 1) 全量
@@ -2254,6 +2275,12 @@ def export_all(unique_nodes, residential, non_residential):
             f.write(base64.b64encode("\n".join(l).encode()).decode())
         export_clash_yaml(p, os.path.join(RESIDENTIAL_COUNTRY_DIR, f"clash-{cc}.yaml"))
         export_singbox_json(s, os.path.join(RESIDENTIAL_COUNTRY_DIR, f"singbox-{cc}.json"))
+
+    if skipped:
+        uniq_skip = sorted(set(skipped))
+        print(f"[!] 导出跳过 {len(skipped)} 个节点 (转换失败已隔离): {len(uniq_skip)} 类原因")
+        for s in uniq_skip[:5]:
+            print(f"    - {s}")
 
     print(f"[*] 导出完毕: 全量 {len(all_links)} | 家宽 {len(res_links)}")
     return len(all_links), len(res_links)
