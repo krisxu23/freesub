@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe",
-      "server": "118.167.235.241",
+      "server": "hinet1.2yly.com",
       "server_port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
       "tls": {
@@ -14,7 +14,7 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -24,44 +24,49 @@
       }
     },
     {
-      "type": "vless",
+      "type": "anytls",
       "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
-      "server": "argo6.5671234.xyz",
+      "server": "er8u54dh.df6h451rh.xin",
       "server_port": 443,
-      "uuid": "08aaab35-a42d-4755-a03e-20c18cb1b3e8",
+      "password": "0324fbc29561",
       "tls": {
         "enabled": true,
-        "server_name": "argo6.5671234.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/e8e2cecb6188f7fb",
-        "headers": {
-          "Host": "argo6.5671234.xyz"
+        "server_name": "px.ads.linkedin.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+      "server": "ali-hk.qrfly.top",
+      "server_port": 10102,
+      "uuid": "bcfbb19f-5b0e-4862-a77b-904fffd0b513",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tesla.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "kVpVhfT5_4__Sxj4i0S2DOQKKfK549rgy2HWP9QU4iw",
+          "short_id": "db6c60f1"
         }
       }
     },
     {
       "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
-      "server": "ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
+      "server": "684616s4.df6h451rh.xin",
       "server_port": 443,
-      "password": "9sK2mP8xQ7vL3nZ6",
+      "password": "ec74bb6a86c2",
       "tls": {
         "enabled": true,
-        "server_name": "ac7548f3ebe045b39a90288ff1e97526.pnuqcnp.cn",
+        "server_name": "px.ads.linkedin.com",
         "insecure": true
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
-      "server": "sbgfgov.vip23.wogacnmnagfwgov.com",
-      "server_port": 11223,
-      "uuid": "605956ee-544d-308e-8b90-51e67c6ea8da",
-      "security": "auto",
-      "alter_id": 2
     },
     {
       "type": "selector",

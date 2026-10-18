@@ -5,26 +5,25 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇦🇶 AQ 01 - xiaohe",
-      "server": "2.27.26.132",
-      "server_port": 444,
-      "uuid": "141bbdef-a341-4846-aec7-9d6531ff8790",
+      "tag": "🇵🇪 秘鲁 (Peru) 01 - xiaohe",
+      "server": "172.65.90.41",
+      "server_port": 2053,
+      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "wzs.echo.net.eu.org",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "dEhIR-YkvqguXB5_P3LMuyNYM82lMHQsSGhhtkmvE0k",
-          "short_id": "d7abeb515312dc2f"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
-        "type": "grpc",
-        "service_name": "apple.com"
+        "type": "ws",
+        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlNSSwUEURwBVwcWUQYJGxsPQldGTQ8OBgJWFUU=",
+        "headers": {
+          "Host": "wzs.echo.net.eu.org"
+        }
       }
     },
     {
@@ -32,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇶 AQ 01 - xiaohe"
+        "🇵🇪 秘鲁 (Peru) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇶 AQ 01 - xiaohe"
+        "🇵🇪 秘鲁 (Peru) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

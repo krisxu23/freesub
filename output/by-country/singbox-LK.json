@@ -6,9 +6,9 @@
     {
       "type": "vless",
       "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
-      "server": "free.sahanwickramasinghe.me",
+      "server": "support.zoom.us",
       "server_port": 80,
-      "uuid": "684f9a2e-4f96-497f-bfd9-ff1e34637952",
+      "uuid": "fcdb24e3-5e66-4c45-b89e-ac9441f4dcda",
       "transport": {
         "type": "ws",
         "path": "/",
@@ -20,14 +20,23 @@
     {
       "type": "vless",
       "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 02 - xiaohe",
-      "server": "cdn.zoom.us",
-      "server_port": 80,
-      "uuid": "1eaed465-d720-400b-9f9f-439600a2d093",
+      "server": "51.75.67.209",
+      "server_port": 8443,
+      "uuid": "c136a12c-4260-48a7-a1e6-fbda83a11045",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.sahanwickramasinghe.me",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "/",
         "headers": {
-          "Host": "cloud.ghostdev.lk"
+          "Host": "free.sahanwickramasinghe.me"
         }
       }
     },

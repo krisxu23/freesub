@@ -4,24 +4,14 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇨🇳 CN 01 - xiaohe",
-      "server": "2.26.80.235",
-      "server_port": 443,
-      "uuid": "cb0ccf90-0e8f-4621-b042-4e35c797de2b",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_gjcl5q-hkJIFmKYSY9DbBcSiBHK3YUAKOfZzZqnkT8",
-          "short_id": "c17f1d8951b3bf90"
-        }
+      "server": "39.108.113.127",
+      "server_port": 10086,
+      "uuid": "4fc543d5-23ce-4556-ae2b-01685edd4397",
+      "security": "auto",
+      "transport": {
+        "type": "ws"
       }
     },
     {

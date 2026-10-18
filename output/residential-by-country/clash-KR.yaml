@@ -1,0 +1,82 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+  server: www.carousell.sg
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg9SUlldAlAKBBtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  server: uspto.gov
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg5aUlRWB1QLChtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
+- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
+  server: 183.109.131.75
+  port: 20086
+  udp: true
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
+  server: op.chinwa.eu.cc
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWghbXlNUB1UCAxtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
+rules:
+- MATCH,PROXIES

@@ -5,27 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe
-  server: free.sahanwickramasinghe.me
+  server: support.zoom.us
   port: 80
   udp: true
   type: vless
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
   network: ws
   ws-opts:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 斯里兰卡 (Sri Lanka) 02 - xiaohe
-  server: cdn.zoom.us
-  port: 80
+  server: 51.75.67.209
+  port: 8443
   udp: true
   type: vless
-  uuid: 1eaed465-d720-400b-9f9f-439600a2d093
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  tls: true
+  servername: free.sahanwickramasinghe.me
+  skip-cert-verify: false
+  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: cloud.ghostdev.lk
+      Host: free.sahanwickramasinghe.me
 proxy-groups:
 - name: PROXIES
   type: select

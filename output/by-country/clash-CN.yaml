@@ -5,18 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - xiaohe
-  server: 2.26.80.235
-  port: 443
+  server: 39.108.113.127
+  port: 10086
   udp: true
-  type: vless
-  uuid: cb0ccf90-0e8f-4621-b042-4e35c797de2b
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: _gjcl5q-hkJIFmKYSY9DbBcSiBHK3YUAKOfZzZqnkT8
-    short-id: c17f1d8951b3bf90
-  servername: dl.google.com
-  client-fingerprint: chrome
+  type: vmess
+  uuid: 4fc543d5-23ce-4556-ae2b-01685edd4397
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
