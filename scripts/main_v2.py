@@ -79,6 +79,8 @@ SOURCE_URLS = [
     "https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/README.md",
     "https://raw.githubusercontent.com/MahanKenway/Freedom-V2Ray/main/configs/mix_sub.txt",
     "https://misub.bursaonline.eu.org/920731/free",
+    # ===== krisxu23/ProxyNodeHub 自建发现 (每 6h 自动更新) =====
+    "https://raw.githubusercontent.com/krisxu23/ProxyNodeHub/main/output/subscriptions.txt",
 ]
 
 OUTPUT_DIR = "output"
