@@ -16,7 +16,7 @@ proxies:
     public-key: sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   server: 151.241.226.201
   port: 2053
@@ -30,46 +30,33 @@ proxies:
   servername: www.apple.com
   client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
-  server: 84.200.62.231
-  port: 23690
-  udp: true
-  type: vless
-  uuid: c19ecc7f-8312-4d9d-90c9-1a997d82d3c5
-  tls: true
-  reality-opts:
-    public-key: kbITklNKTdfvB6e3xy97pTV7gjl3Z3irv246oRZ5Gnk
-    short-id: f679b4f2
-  servername: apple.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: awarecricketer
-- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  server: 104.21.48.18
+  server: 82.26.86.145
   port: 2053
   udp: true
-  type: trojan
-  password: e309e031-991e-4656-9934-44d10deb8fd8
-  sni: nimm.mpd.cc.cd
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /0962
-- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
-  server: 155.103.70.53
-  port: 30303
+  type: vless
+  uuid: 2f7361b1-3c6b-4ddf-9e28-5297a22513ca
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: zr9whFIDeaz-lu6vji80yM4Vd7TBYCA4mthRk3c2U0s
+    short-id: 1bb0633431089fe4
+  servername: www.rutube.ru
+  client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  server: dl1-tr.penguin-easyconnet.ir
+  port: 443
   udp: true
   type: vless
-  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  uuid: a44325f8-138f-4bac-99ae-1e2981083b2c
   tls: true
-  servername: wzs.echo.net.eu.org
+  servername: dl1-tr.penguin-easyconnet.ir
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HAAQNCV1EClxZAgMWAlBZXRlKXU4aTV8WGRQRQkoXFgweUABdHg==
+    path: /games/fortnite-tr
     headers:
-      Host: wzs.echo.net.eu.org
+      Host: dl1-tr.penguin-easyconnet.ir
 proxy-groups:
 - name: PROXIES
   type: select
@@ -79,7 +66,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -89,6 +75,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
 rules:
 - MATCH,PROXIES

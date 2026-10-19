@@ -4,26 +4,39 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
-  server: 155.117.19.17
+- name: 🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe
+  server: 78.135.77.110
+  port: 11700
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: BI2omXgXduu95xATu5uaU3jn2Lpb9-qK
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  server: 654968169.df6h451rh.xin
   port: 443
   udp: true
-  type: hysteria2
-  password: 5fa748137b6d822308eea4611f474ad5
-  sni: www.bing.com
+  type: anytls
+  password: 0324fbc29561
+  sni: images.ctfassets.net
   skip-cert-verify: true
-  obfs: salamander
-  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe
-  server: dog-hk.kunlun01dns.com
-  port: 21041
+- name: 🇺🇸 美国 (United States) 03 (家宽) R46 - xiaohe
+  server: 4c2d5151.266nets.com
+  port: 12031
   udp: true
-  type: vmess
-  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
-  alterId: 0
-  cipher: auto
-- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  server: hinet1.2yly.com
+  type: trojan
+  password: bad06c3525a6eaee1757b34776b83892
+  sni: ixigua.com
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  server: 684616s4.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: ec74bb6a86c2
+  sni: px.ads.linkedin.com
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
+  server: 61.230.160.34
   port: 24215
   udp: true
   type: vless
@@ -32,204 +45,26 @@ proxies:
   reality-opts:
     public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
   servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 04 (移动家宽) - xiaohe
-  server: 206.1.100.148
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 53373a04-2dd2-472e-af5d-d55fbffa7dbd
-  tls: true
-  servername: game.jafarghasemivip.ir
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - xiaohe
-  server: me17.msjia8844.site
-  port: 7443
-  udp: true
-  type: hysteria2
-  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
-  sni: me17.msjia8844.site
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
-- name: 🇸🇬 新加坡 (Singapore) 06 (家宽) - xiaohe
-  server: 185.115.207.141
-  port: 443
-  udp: true
-  type: vless
-  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
-  tls: true
-  servername: wzs.echo.net.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HV1ZNVwcHTQsJSgAJVBQUG0dCQEwWAx4AAg4c
-    headers:
-      Host: wzs.echo.net.eu.org
-- name: 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe
-  server: ali-hk.qrfly.top
-  port: 10102
-  udp: true
-  type: vless
-  uuid: bcfbb19f-5b0e-4862-a77b-904fffd0b513
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: kVpVhfT5_4__Sxj4i0S2DOQKKfK549rgy2HWP9QU4iw
-    short-id: db6c60f1
-  servername: tesla.com
-  client-fingerprint: random
-- name: 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - xiaohe
-  server: 684616s4.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: ec74bb6a86c2
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
-  server: www.dbs.com.sg
-  port: 443
-  udp: true
-  type: vless
-  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
-  tls: true
-  servername: edgetunnel.bursaonline.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgFUXllQD1UAChtdQwZbVkcDVwMSEgEWQVoQWRsPCQsfCE4=
-    headers:
-      Host: edgetunnel.bursaonline.eu.org
-- name: 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
-  server: www.carousell.sg
-  port: 443
-  udp: true
-  type: vless
-  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
-  tls: true
-  servername: edgetunnel.bursaonline.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg9SUlldAlAKBBtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
-    headers:
-      Host: edgetunnel.bursaonline.eu.org
-- name: 🇰🇷 韩国 (South Korea) 12 (家宽) - xiaohe
-  server: uspto.gov
-  port: 443
-  udp: true
-  type: vless
-  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
-  tls: true
-  servername: edgetunnel.bursaonline.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg5aUlRWB1QLChtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
-    headers:
-      Host: edgetunnel.bursaonline.eu.org
-- name: 🇰🇷 韩国 (South Korea) 13 (家宽) - xiaohe
-  server: 183.109.131.75
-  port: 20086
-  udp: true
-  type: vmess
-  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇯🇵 日本 (Japan) 14 (家宽) - xiaohe
-  server: cf.nyanya.moe
-  port: 443
-  udp: true
-  type: vless
-  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
-  tls: true
-  servername: edgetunnel.bursaonline.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgpXVFRdBVEAABtdQwZbVkcDVwMSEgEWQVoQWRsPCQQfAU4=
-    headers:
-      Host: edgetunnel.bursaonline.eu.org
-- name: 🇰🇷 韩国 (South Korea) 15 (家宽) - xiaohe
-  server: op.chinwa.eu.cc
-  port: 443
-  udp: true
-  type: vless
-  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
-  tls: true
-  servername: edgetunnel.bursaonline.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWghbXlNUB1UCAxtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
-    headers:
-      Host: edgetunnel.bursaonline.eu.org
-- name: 🇹🇷 土耳其 (Turkey) 16 (移动家宽) - xiaohe
-  server: test.keoplentuio.xyz
-  port: 2053
-  udp: true
-  type: vless
-  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 04 (移动家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 06 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 12 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 13 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 14 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 15 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 16 (移动家宽) - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 03 (家宽) R46 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 美国 (United States) 01 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 04 (移动家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 05 (移动家宽) - xiaohe
-  - 🇸🇬 新加坡 (Singapore) 06 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 09 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 11 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 12 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 13 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 14 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 15 (家宽) - xiaohe
-  - 🇹🇷 土耳其 (Turkey) 16 (移动家宽) - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 01 (移动家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 03 (家宽) R46 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
