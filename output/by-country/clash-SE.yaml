@@ -24,9 +24,8 @@ proxies:
   tls: true
   reality-opts:
     public-key: ygmJxS-Mc7g0buNSUTVGhazT-FoBjyYtLLfUYIQxFTw
-    short-id: d0ea1847066af5a6
   servername: www.samsung.com
-  client-fingerprint: chrome
+  client-fingerprint: random
   network: grpc
   grpc-opts:
     grpc-service-name: grpce5bb9e71

@@ -4,26 +4,91 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-      "server": "218.237.185.234",
-      "server_port": 4652,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
+      "server": "uspto.gov",
+      "server_port": 443,
+      "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel.bursaonline.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgpSXlRSAFIHBBtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==",
+        "headers": {
+          "Host": "edgetunnel.bursaonline.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
+      "server": "www.vmware.com",
+      "server_port": 443,
+      "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel.bursaonline.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtbX1JVBFwFARtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==",
+        "headers": {
+          "Host": "edgetunnel.bursaonline.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe",
+      "server": "saas.sin.fan",
+      "server_port": 443,
+      "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel.bursaonline.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWghWV1hSAl0CARtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==",
+        "headers": {
+          "Host": "edgetunnel.bursaonline.eu.org"
+        }
+      }
     },
     {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

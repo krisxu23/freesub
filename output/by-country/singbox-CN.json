@@ -4,25 +4,29 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
-      "server": "free.sahanwickramasinghe.me",
-      "server_port": 80,
-      "uuid": "fcdb24e3-5e66-4c45-b89e-ac9441f4dcda",
+      "type": "vmess",
+      "tag": "🇨🇳 CN 01 - xiaohe",
+      "server": "39.108.113.127",
+      "server_port": 10086,
+      "uuid": "7547daaa-1577-49b0-9519-bd1823add1a7",
+      "security": "auto",
       "transport": {
         "type": "ws"
       }
     },
     {
       "type": "vless",
-      "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 02 - xiaohe",
-      "server": "104.17.74.206",
-      "server_port": 8443,
-      "uuid": "c136a12c-4260-48a7-a1e6-fbda83a11045",
+      "tag": "🇨🇳 CN 02 - xiaohe",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "uuid": "fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349",
       "tls": {
         "enabled": true,
-        "server_name": "free.sahanwickramasinghe.me",
+        "server_name": "vpn.cintaku.qzz.io",
         "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -30,9 +34,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/vlessws",
         "headers": {
-          "Host": "free.sahanwickramasinghe.me"
+          "Host": "vpn.cintaku.qzz.io"
         }
       }
     },
@@ -41,16 +45,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
-        "🇱🇰 斯里兰卡 (Sri Lanka) 02 - xiaohe"
+        "🇨🇳 CN 01 - xiaohe",
+        "🇨🇳 CN 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
-        "🇱🇰 斯里兰卡 (Sri Lanka) 02 - xiaohe"
+        "🇨🇳 CN 01 - xiaohe",
+        "🇨🇳 CN 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

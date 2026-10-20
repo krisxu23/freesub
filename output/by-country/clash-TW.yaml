@@ -17,17 +17,72 @@ proxies:
     short-id: cff998a4
   servername: www.amazon.com
   client-fingerprint: firefox
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
+  server: twct01.fualta.org
+  port: 1200
+  udp: true
+  type: vless
+  uuid: 285c4b67-5c15-3317-b2b1-d2ffac34d1e0
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs
+    short-id: 1bc2c1ef1c
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
+  server: 120.232.202.14
+  port: 8072
+  udp: true
+  type: vmess
+  uuid: f66c5205-ba70-48cf-84f8-25ec49b96acc
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /3ff53f15-4c9a-45b0-99ad-c8dfa3825d8f
+    headers:
+      Host: tms.dingtalk.com
+- name: 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
+  server: 207.56.137.51
+  port: 443
+  udp: true
+  type: vless
+  uuid: 01ada9fb-fa2f-45da-a0d0-bce80cdf433b
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0
+    short-id: f713561d
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇹🇼 中国台湾 (Taiwan) 05 - xiaohe
+  server: vpn-tw-002.fastervpn.world
+  port: 443
+  udp: true
+  type: hysteria2
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: whatsapp.com
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇼 中国台湾 (Taiwan) 01 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇹🇼 中国台湾 (Taiwan) 01 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 02 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 03 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 04 - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 05 - xiaohe
 rules:
 - MATCH,PROXIES
