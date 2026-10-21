@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 瑞典 (Sweden) 01 - xiaohe
-  server: 13.60.198.133
+  server: 51.21.247.148
   port: 443
   udp: true
   type: vless
@@ -15,7 +15,7 @@ proxies:
     host: []
     path: /
 - name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  server: 51.21.247.148
+  server: 13.60.198.133
   port: 443
   udp: true
   type: vless
@@ -35,14 +35,17 @@ proxies:
   obfs: salamander
   obfs-password: Telegram@vpnjey
 - name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
-  server: 5.178.109.174
-  port: 14430
+  server: 94.143.231.146
+  port: 443
   udp: true
   type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  tls: true
+  servername: sub.merky.top
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vless
+    path: /merky-connect/de6/
 proxy-groups:
 - name: PROXIES
   type: select

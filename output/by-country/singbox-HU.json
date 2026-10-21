@@ -15,7 +15,7 @@
         "server_name": "hu3.aiage.work",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,

@@ -16,7 +16,7 @@ proxies:
     public-key: M67-jEVPxSEjAhdBgL-lFgzQt_FloM7tL092KC7LTFE
     short-id: a09ef132e6a308ae
   servername: hu3.aiage.work
-  client-fingerprint: ios
+  client-fingerprint: edge
 proxy-groups:
 - name: PROXIES
   type: select

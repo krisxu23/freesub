@@ -6,7 +6,7 @@
     {
       "type": "vless",
       "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "www.shopify.com",
+      "server": "spring.io",
       "server_port": 443,
       "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
       "tls": {
@@ -20,7 +20,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtTXlJQB1QDABtdQwZbVkcDVwMSEgEWQVoQWRsPCQcaDk4=",
+        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgFQU1BdAVcGBBtdQwZbVkcDVwMSEgEWQVoQWRsPCQEYC04=",
         "headers": {
           "Host": "edgetunnel.bursaonline.eu.org"
         }

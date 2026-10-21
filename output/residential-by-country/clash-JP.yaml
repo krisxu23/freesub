@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
-  server: www.shopify.com
+  server: spring.io
   port: 443
   udp: true
   type: vless
@@ -16,7 +16,7 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtTXlJQB1QDABtdQwZbVkcDVwMSEgEWQVoQWRsPCQcaDk4=
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgFQU1BdAVcGBBtdQwZbVkcDVwMSEgEWQVoQWRsPCQEYC04=
     headers:
       Host: edgetunnel.bursaonline.eu.org
 proxy-groups:

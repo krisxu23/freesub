@@ -4,40 +4,52 @@
   },
   "outbounds": [
     {
+      "type": "hysteria2",
+      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
+      "server": "155.117.19.17",
+      "server_port": 443,
+      "password": "5fa748137b6d822308eea4611f474ad5",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "a39ca173b57ac7021b08bf3e3de9f1f6"
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe",
       "server": "zfd-hkv1.kunlun01dns.com",
       "server_port": 16114,
       "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
       "security": "auto"
     },
     {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe",
-      "server": "zfd-hkv2.kunlun01dns.com",
-      "server_port": 16113,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+      "server": "61.230.160.34",
+      "server_port": 24215,
+      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
+          "short_id": ""
+        }
+      }
     },
     {
       "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - xiaohe",
-      "server": "zfd-hkv2.kunlun01dns.com",
-      "server_port": 16115,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe",
-      "server": "p141.panda001.net",
-      "server_port": 4652,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
       "server": "9641684.sdf65h4.top",
       "server_port": 443,
       "uuid": "250c015d-bab0-4ed3-b638-b4eda48f5840",
@@ -48,41 +60,25 @@
         "insecure": false
       },
       "transport": {
+        "type": "ws"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe",
+      "server": "183.109.131.75",
+      "server_port": 20086,
+      "uuid": "b26c4803-0bca-467c-a245-c9a80bdd72ec",
+      "security": "auto",
+      "transport": {
         "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "9641684.sdf65h4.top"
-        }
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe",
-      "server": "56481.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "56481.df6h451rh.xin",
-        "insecure": true
-      }
-    },
-    {
-      "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe",
-      "server": "er8u54dh.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
-      "tls": {
-        "enabled": true,
-        "server_name": "er8u54dh.df6h451rh.xin",
-        "insecure": true
+        "path": "/"
       }
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 08 (家宽) - xiaohe",
-      "server": "www.shopify.com",
+      "tag": "🇯🇵 日本 (Japan) 06 (家宽) - xiaohe",
+      "server": "spring.io",
       "server_port": 443,
       "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
       "tls": {
@@ -96,22 +92,10 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtTXlJQB1QDABtdQwZbVkcDVwMSEgEWQVoQWRsPCQcaDk4=",
+        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgFQU1BdAVcGBBtdQwZbVkcDVwMSEgEWQVoQWRsPCQEYC04=",
         "headers": {
           "Host": "edgetunnel.bursaonline.eu.org"
         }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇷 韩国 (South Korea) 09 (家宽) - xiaohe",
-      "server": "183.109.131.75",
-      "server_port": 20086,
-      "uuid": "b26c4803-0bca-467c-a245-c9a80bdd72ec",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/"
       }
     },
     {
@@ -119,30 +103,24 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe",
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 08 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 09 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe",
+        "🇯🇵 日本 (Japan) 06 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe",
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 08 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 09 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe",
+        "🇯🇵 日本 (Japan) 06 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
