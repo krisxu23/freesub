@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇺 匈牙利 (Hungary) 01 - xiaohe
-  server: hu3.aiage.work
+- name: 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
+  server: my2.frnhk.xyz
   port: 443
   udp: true
   type: vless
-  uuid: d0d08709-093d-45dc-ac6f-fd18890fa2c5
+  uuid: 1c22bf94-702b-49ac-8f5e-24259beed2d8
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: M67-jEVPxSEjAhdBgL-lFgzQt_FloM7tL092KC7LTFE
-    short-id: a09ef132e6a308ae
-  servername: hu3.aiage.work
-  client-fingerprint: edge
+    public-key: SPtkbd9O6y-rdGoR2CLzW1IFr6WMlqt2lM9wU-VURig
+    short-id: 6b7a8c9d
+  servername: www.waseda.jp
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇭🇺 匈牙利 (Hungary) 01 - xiaohe
+  - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇺 匈牙利 (Hungary) 01 - xiaohe
+  - 🇲🇾 马来西亚 (Malaysia) 01 - xiaohe
 rules:
 - MATCH,PROXIES

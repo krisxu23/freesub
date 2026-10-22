@@ -5,18 +5,33 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - xiaohe
-  server: 151.241.226.201
-  port: 2053
+  server: 193.223.107.107
+  port: 1932
   udp: true
   type: vless
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  uuid: b8f083b6-ae01-431f-9b41-9e2eb96f352b
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-    short-id: 9e419c0759b54d6f
-  servername: www.apple.com
-  client-fingerprint: firefox
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: www.vk.com
+  client-fingerprint: qq
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
+  server: 62.133.63.45
+  port: 8444
+  udp: true
+  type: vless
+  uuid: a346c521-7a7f-452b-9356-a4893feb5982
+  tls: true
+  reality-opts:
+    public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0
+    short-id: 457fab2ac885dbe0
+  servername: github.com
+  client-fingerprint: ios
+  network: grpc
+  grpc-opts:
+    grpc-service-name: GunService
+- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
   server: 78.135.73.47
   port: 443
   udp: true
@@ -29,7 +44,73 @@ proxies:
     short-id: f46cd3ea3d1eb72d
   servername: www.datadoghq.com
   client-fingerprint: chrome
-- name: 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+- name: 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  server: 153.56.210.134
+  port: 34121
+  udp: true
+  type: hysteria2
+  password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec
+- name: 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  server: me17.msjia8844.site
+  port: 7443
+  udp: true
+  type: hysteria2
+  password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r
+  sni: me17.msjia8844.site
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq
+- name: 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+  server: 151.241.226.201
+  port: 2053
+  udp: true
+  type: vless
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  tls: true
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+    short-id: 9e419c0759b54d6f
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 07 - xiaohe
+  server: tr1.dedushka.top
+  port: 443
+  udp: true
+  type: trojan
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  sni: tr1.dedushka.top
+  skip-cert-verify: false
+- name: 🇹🇷 土耳其 (Turkey) 08 - xiaohe
+  server: stagedelivery.zioio.net
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5e12bc12-6da2-4a86-bbfe-144419d0e0e3
+  tls: true
+  servername: stagedelivery.zioio.net
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /media/ws/
+- name: 🇹🇷 土耳其 (Turkey) 09 - xiaohe
+  server: trcdn3.kinotut.net
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5e12bc12-6da2-4a86-bbfe-144419d0e0e3
+  tls: true
+  servername: trcdn3.kinotut.net
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /media/ws/
+- name: 🇹🇷 土耳其 (Turkey) 10 - xiaohe
   server: 177.3.208.65
   port: 443
   udp: true
@@ -38,6 +119,7 @@ proxies:
   tls: true
   servername: tgmansion.site
   skip-cert-verify: false
+  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /vless-tr
@@ -49,6 +131,13 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 09 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 10 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -57,5 +146,12 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 02 - xiaohe
   - 🇹🇷 土耳其 (Turkey) 03 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 04 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 05 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 06 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 07 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 08 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 09 - xiaohe
+  - 🇹🇷 土耳其 (Turkey) 10 - xiaohe
 rules:
 - MATCH,PROXIES

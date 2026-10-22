@@ -12,18 +12,43 @@
       "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     },
     {
+      "type": "vless",
+      "tag": "🇳🇴 挪威 (Norway) 02 - xiaohe",
+      "server": "linear.app",
+      "server_port": 443,
+      "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel.bursaonline.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtRX1lTAVAGBxtdQwZbVkcDVwMSEgEWQVoQWRsPCQoZCk4=",
+        "headers": {
+          "Host": "edgetunnel.bursaonline.eu.org"
+        }
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 挪威 (Norway) 01 - xiaohe"
+        "🇳🇴 挪威 (Norway) 01 - xiaohe",
+        "🇳🇴 挪威 (Norway) 02 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 挪威 (Norway) 01 - xiaohe"
+        "🇳🇴 挪威 (Norway) 01 - xiaohe",
+        "🇳🇴 挪威 (Norway) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

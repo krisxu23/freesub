@@ -4,47 +4,30 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-      "server": "155.117.19.17",
-      "server_port": 443,
-      "password": "5fa748137b6d822308eea4611f474ad5",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "a39ca173b57ac7021b08bf3e3de9f1f6"
-      }
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+      "server": "218.237.185.234",
+      "server_port": 4652,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
+      "server": "49.254.204.133",
+      "server_port": 1774,
+      "method": "aes-256-cfb",
+      "password": "1234!@#$"
     },
     {
       "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe",
-      "server": "zfd-hkv1.kunlun01dns.com",
-      "server_port": 16114,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
-      "server": "61.230.160.34",
-      "server_port": 24215,
-      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
-      "tls": {
-        "enabled": true,
-        "server_name": "addons.mozilla.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
-          "short_id": ""
-        }
+      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe",
+      "server": "183.109.131.75",
+      "server_port": 20086,
+      "uuid": "b26c4803-0bca-467c-a245-c9a80bdd72ec",
+      "security": "auto",
+      "transport": {
+        "type": "ws"
       }
     },
     {
@@ -60,25 +43,17 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe",
-      "server": "183.109.131.75",
-      "server_port": 20086,
-      "uuid": "b26c4803-0bca-467c-a245-c9a80bdd72ec",
-      "security": "auto",
-      "transport": {
         "type": "ws",
-        "path": "/"
+        "path": "/",
+        "headers": {
+          "Host": "9641684.sdf65h4.top"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 06 (家宽) - xiaohe",
-      "server": "spring.io",
+      "tag": "🇯🇵 日本 (Japan) 05 (移动家宽) - xiaohe",
+      "server": "saas.sin.fan",
       "server_port": 443,
       "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
       "tls": {
@@ -92,9 +67,29 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgFQU1BdAVcGBBtdQwZbVkcDVwMSEgEWQVoQWRsPCQEYC04=",
+        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgxbVldRBV0DBBtdQwZbVkcDVwMSEgEWQVoQWRsPCQscAU4=",
         "headers": {
           "Host": "edgetunnel.bursaonline.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe",
+      "server": "hinet1.2yly.com",
+      "server_port": 24215,
+      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE",
+          "short_id": ""
         }
       }
     },
@@ -103,24 +98,24 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 06 (家宽) - xiaohe"
+        "🇯🇵 日本 (Japan) 05 (移动家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 05 (家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 06 (家宽) - xiaohe"
+        "🇯🇵 日本 (Japan) 05 (移动家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
