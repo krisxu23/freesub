@@ -5,20 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 188.114.98.0
+  server: 188.114.97.6
   port: 443
   udp: true
   type: vless
-  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
   tls: true
-  servername: fi1.merky.one
+  servername: ccs2g.pai50288.uk
   skip-cert-verify: false
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /mky-ws-4f19c8a7
+    path: /pai50288
     headers:
-      Host: fi1.merky.one
+      Host: ccs2g.pai50288.uk
 proxy-groups:
 - name: PROXIES
   type: select
