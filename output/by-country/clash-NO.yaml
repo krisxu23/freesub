@@ -11,34 +11,17 @@ proxies:
   type: ss
   cipher: chacha20-ietf-poly1305
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-- name: 🇳🇴 挪威 (Norway) 02 - xiaohe
-  server: linear.app
-  port: 443
-  udp: true
-  type: vless
-  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
-  tls: true
-  servername: edgetunnel.bursaonline.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtRX1lTAVAGBxtdQwZbVkcDVwMSEgEWQVoQWRsPCQoZCk4=
-    headers:
-      Host: edgetunnel.bursaonline.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇳🇴 挪威 (Norway) 01 - xiaohe
-  - 🇳🇴 挪威 (Norway) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇳🇴 挪威 (Norway) 01 - xiaohe
-  - 🇳🇴 挪威 (Norway) 02 - xiaohe
 rules:
 - MATCH,PROXIES
