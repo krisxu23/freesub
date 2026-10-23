@@ -40,17 +40,24 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 04 - xiaohe
-  server: 165.99.222.161
+  server: 152.67.8.205
+  port: 80
+  udp: true
+  type: vmess
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇮🇳 印度 (India) 05 - xiaohe
+  server: in.tronsg.com
   port: 443
   udp: true
-  type: vless
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: SC6AnZ_BlvDruiGFpDRno9b1V3wMmq9gjB-KEHHUlE4
-  servername: in1.vkusnews.com
-  client-fingerprint: chrome
+  type: trojan
+  password: Trojan@82164024
+  sni: 127.0.0.1
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -60,6 +67,7 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - xiaohe
   - 🇮🇳 印度 (India) 03 - xiaohe
   - 🇮🇳 印度 (India) 04 - xiaohe
+  - 🇮🇳 印度 (India) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -69,5 +77,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - xiaohe
   - 🇮🇳 印度 (India) 03 - xiaohe
   - 🇮🇳 印度 (India) 04 - xiaohe
+  - 🇮🇳 印度 (India) 05 - xiaohe
 rules:
 - MATCH,PROXIES
