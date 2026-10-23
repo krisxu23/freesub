@@ -12,7 +12,7 @@ proxies:
   cipher: aes-256-cfb
   password: qwerREWQ@@
 - name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  server: cdn.204910.best
+  server: www.vmware.com
   port: 443
   udp: true
   type: vless
@@ -23,9 +23,20 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtUUVRWBlcKBxtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgpVVVNcAVcHBxtdQwZbVkcDVwMSEgEWQVoQWRsPCQUbD04=
     headers:
       Host: edgetunnel.bursaonline.eu.org
+- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
+  server: 183.109.131.75
+  port: 20086
+  udp: true
+  type: vmess
+  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
@@ -33,6 +44,7 @@ proxy-groups:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -40,5 +52,6 @@ proxy-groups:
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES

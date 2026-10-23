@@ -4,16 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "shadowsocks",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
-      "server": "staging.lastilhame.monster",
-      "server_port": 49917,
-      "method": "chacha20-ietf-poly1305",
-      "password": "G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP"
-    },
-    {
       "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
       "server": "83.147.18.75",
       "server_port": 443,
       "uuid": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
@@ -34,14 +26,14 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇦 乌克兰 (Ukraine) 03 - xiaohe",
+      "tag": "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe",
       "server": "staging.lastilhame.monster",
       "server_port": 443,
-      "uuid": "455cfdc6-9abf-4e40-863f-5ff6cc63457c",
+      "uuid": "2f6e2b17-4d5e-4a12-8979-f53fdd347580",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "www.mozilla.org",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -49,7 +41,7 @@
         "reality": {
           "enabled": true,
           "public_key": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
-          "short_id": "18e4d2d21241"
+          "short_id": "5c8a8e6c615b"
         }
       }
     },
@@ -59,8 +51,7 @@
       "outbounds": [
         "auto",
         "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 03 - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe"
       ]
     },
     {
@@ -68,8 +59,7 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe",
-        "🇺🇦 乌克兰 (Ukraine) 03 - xiaohe"
+        "🇺🇦 乌克兰 (Ukraine) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
