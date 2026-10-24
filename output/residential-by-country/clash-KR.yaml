@@ -5,20 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
-  server: saas.sin.fan
-  port: 443
+  server: p141.panda001.net
+  port: 4652
   udp: true
-  type: vless
-  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
-  tls: true
-  servername: edgetunnel.bursaonline.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgBQVVdUAFILARtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
-    headers:
-      Host: edgetunnel.bursaonline.eu.org
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 proxy-groups:
 - name: PROXIES
   type: select

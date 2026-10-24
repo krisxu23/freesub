@@ -4,27 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-      "server": "saas.sin.fan",
-      "server_port": 443,
-      "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
-      "tls": {
-        "enabled": true,
-        "server_name": "edgetunnel.bursaonline.eu.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgBQVVdUAFILARtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==",
-        "headers": {
-          "Host": "edgetunnel.bursaonline.eu.org"
-        }
-      }
+      "server": "p141.panda001.net",
+      "server_port": 4652,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@"
     },
     {
       "type": "selector",
