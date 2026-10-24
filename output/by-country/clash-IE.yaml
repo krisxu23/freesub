@@ -6,13 +6,13 @@ log-level: info
 proxies:
 - name: 🇮🇪 爱尔兰 (Ireland) 01 - xiaohe
   server: 16.60.44.179
-  port: 22222
+  port: 22223
   udp: true
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 🇮🇪 爱尔兰 (Ireland) 02 - xiaohe
   server: 16.60.44.179
-  port: 22223
+  port: 22224
   udp: true
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
@@ -23,14 +23,14 @@ proxies:
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 🇮🇪 爱尔兰 (Ireland) 04 - xiaohe
-  server: 51.24.209.55
-  port: 22224
+  server: 16.60.44.179
+  port: 22222
   udp: true
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: 🇮🇪 爱尔兰 (Ireland) 05 - xiaohe
   server: 51.24.209.55
-  port: 22222
+  port: 22224
   udp: true
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e

@@ -5,23 +5,42 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
-  server: 218.237.185.234
+  server: p141.panda001.net
   port: 4652
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
 - name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  server: 183.109.131.75
-  port: 20086
+  server: www.sloomb.com
+  port: 443
   udp: true
-  type: vmess
-  uuid: b26c4803-0bca-467c-a245-c9a80bdd72ec
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg5RUFRXAlMDBRtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
+- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
+  server: openai.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgxTUFdQDlQGBBtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -29,6 +48,7 @@ proxy-groups:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -36,5 +56,6 @@ proxy-groups:
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
