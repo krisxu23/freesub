@@ -5,18 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇨 塞舌尔 (Seychelles) 01 - xiaohe
-  server: 179.255.176.28
-  port: 8443
+  server: hk1.frnhk.xyz
+  port: 443
   udp: true
   type: vless
-  uuid: 69da3674-4941-468b-96f0-c17cf5b0a047
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  flow: xtls-rprx-vision
   tls: true
-  servername: fra.yandex-api.store
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /assets
+  reality-opts:
+    public-key: gXOQOlynAB6Znbp902LRyX7eYSxTWrj7D2nRCB1gNmE
+    short-id: 6b7a8c9d
+  servername: www.uni-frankfurt.de
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
