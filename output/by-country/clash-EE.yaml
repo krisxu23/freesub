@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇪🇪 爱沙尼亚 (Estonia) 01 - xiaohe
-  server: ee-central.v8x2b.lol
+  server: 79.98.37.106
   port: 443
   udp: true
   type: vless
@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: USSepsAbvP9LpByHLV2xD2H8dq8GAJ6G0fINEqD4PAw
   servername: ee-central.v8x2b.lol
-  client-fingerprint: firefox
+  client-fingerprint: edge
 - name: 🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe
   server: 93.89.220.37
   port: 443
@@ -28,7 +28,7 @@ proxies:
     public-key: lwKaUQ81wJUJRsqAPsfTPj5V_f9N50UYEwzRI_nuq2g
     short-id: e88cb983f3c97528
   servername: ibm.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
