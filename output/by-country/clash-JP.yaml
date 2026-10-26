@@ -12,12 +12,12 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
 - name: 🇯🇵 日本 (Japan) 02 - xiaohe
-  server: 149.22.87.240
-  port: 443
+  server: 191.223.221.53
+  port: 8388
   udp: true
   type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
+  cipher: aes-256-gcm
+  password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
 - name: 🇯🇵 日本 (Japan) 03 - xiaohe
   server: 149.22.87.204
   port: 443
@@ -26,13 +26,20 @@ proxies:
   cipher: aes-128-gcm
   password: shadowsocks
 - name: 🇯🇵 日本 (Japan) 04 - xiaohe
-  server: 84.247.155.196
+  server: 149.22.87.240
   port: 443
+  udp: true
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+- name: 🇯🇵 日本 (Japan) 05 - xiaohe
+  server: 84.247.155.196
+  port: 80
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 05 - xiaohe
+- name: 🇯🇵 日本 (Japan) 06 - xiaohe
   server: 45.32.52.173
   port: 8886
   udp: true
@@ -40,69 +47,64 @@ proxies:
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   sni: 45.32.52.173
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 06 - xiaohe
-  server: 103.75.118.228
-  port: 12683
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: random
 - name: 🇯🇵 日本 (Japan) 07 - xiaohe
-  server: 138.3.208.26
-  port: 50160
+  server: 8.211.175.236
+  port: 8443
   udp: true
   type: hysteria2
-  password: 184cdec28da5a09450803c8debcd2cc9
-  sni: '1'
+  password: u63SxILNwtrQZ7Y1ZrFaZfsA
+  sni: 8.211.175.236
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 08 - xiaohe
-  server: 103.75.118.228
-  port: 11452
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 09 - xiaohe
-  server: 31.76.91.70
-  port: 443
-  udp: true
-  type: vless
-  uuid: 7072eeba-94fd-4fb3-92f2-a4506dd84cd8
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg
-    short-id: bd6f67b6b2152b45
-  servername: fuji.etherhub.cc
-  client-fingerprint: firefox
-- name: 🇯🇵 日本 (Japan) 10 - xiaohe
-  server: 84.247.155.196
+  server: 168.138.43.75
   port: 80
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-- name: 🇯🇵 日本 (Japan) 11 - xiaohe
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: 168.138.43.75
+- name: 🇯🇵 日本 (Japan) 09 - xiaohe
   server: vp3.yysyy.online
   port: 443
   udp: true
   type: hysteria2
   password: 96ab5cd282733fd4c312a61f972f330a
   sni: vp3.yysyy.online
-  skip-cert-verify: true
+  skip-cert-verify: false
+- name: 🇯🇵 日本 (Japan) 10 - xiaohe
+  server: 103.27.133.17
+  port: 41438
+  udp: true
+  type: vless
+  uuid: f12d0220-e1de-4232-bcef-7e5a12f05062
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: w_X-vOLSkQ0Cv4sMRU7j9lq-WVX_rZqYkTcgDkIgUF8
+    short-id: 1fbda82b6856a6d3
+  servername: jp15.static-s3.org
+  client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 11 - xiaohe
+  server: 84.247.155.196
+  port: 443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
 - name: 🇯🇵 日本 (Japan) 12 - xiaohe
+  server: v6.hdacd.com
+  port: 30806
+  udp: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+- name: 🇯🇵 日本 (Japan) 13 - xiaohe
   server: 45.76.98.127
   port: 443
   udp: true
@@ -117,41 +119,7 @@ proxies:
   network: ws
   ws-opts:
     path: /ws
-- name: 🇯🇵 日本 (Japan) 13 - xiaohe
-  server: tjrb.m2k699.com
-  port: 24999
-  udp: true
-  type: trojan
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  sni: www.itunes.com
-  skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 14 - xiaohe
-  server: 3.114.220.22
-  port: 18007
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇯🇵 日本 (Japan) 15 - xiaohe
-  server: 3.114.220.22
-  port: 10583
-  udp: true
-  type: vless
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
-    short-id: 48050fab
-  servername: www.apple.com
-  client-fingerprint: random
-- name: 🇯🇵 日本 (Japan) 16 - xiaohe
   server: 3.114.220.22
   port: 19645
   udp: true
@@ -163,7 +131,23 @@ proxies:
     public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
     short-id: 48050fab
   servername: www.apple.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
+- name: 🇯🇵 日本 (Japan) 15 - xiaohe
+  server: 138.3.208.26
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: 184cdec28da5a09450803c8debcd2cc9
+  sni: 138.3.208.26
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 16 - xiaohe
+  server: tjrb.m2k699.com
+  port: 24999
+  udp: true
+  type: trojan
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  sni: www.itunes.com
+  skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 17 - xiaohe
   server: 162.159.135.234
   port: 2083
@@ -181,20 +165,18 @@ proxies:
     headers:
       Host: or3.sfacg.uk
 - name: 🇯🇵 日本 (Japan) 18 - xiaohe
-  server: funagfrdfs.alixxplay.com
-  port: 35544
+  server: 172.111.146.64
+  port: 80
   udp: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
-    short-id: 25c79e5856c7
-  servername: iosapps.itunes.apple.com
-  client-fingerprint: chrome
+  type: vmess
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-opts:
+    path: /vmess/
 - name: 🇯🇵 日本 (Japan) 19 - xiaohe
-  server: 66.90.115.130
+  server: 66.90.115.122
   port: 2090
   udp: true
   type: vless
@@ -207,36 +189,20 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇯🇵 日本 (Japan) 20 - xiaohe
-  server: 142.91.101.39
-  port: 627
+  server: 3.114.220.22
+  port: 18007
   udp: true
   type: vless
-  uuid: 8199228b-e84b-42a2-9268-e400391e483a
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
   tls: true
-  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristifp=chrome
-    headers:
-      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  servername: www.apple.com
+  client-fingerprint: qq
 - name: 🇯🇵 日本 (Japan) 21 - xiaohe
-  server: 142.91.101.39
-  port: 627
-  udp: true
-  type: vless
-  uuid: 50f7f0fe-32be-4d5a-9432-095160ff7775
-  tls: true
-  servername: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 7nnoiou0z.3xn99hzq2sh7iekktpkeq7rofs3qc8iohrqs4pb9p.workers.dev
-- name: 🇯🇵 日本 (Japan) 22 - xiaohe
-  server: 104.17.210.74
+  server: 104.16.10.2
   port: 443
   udp: true
   type: vless
@@ -244,44 +210,52 @@ proxies:
   tls: true
   servername: jp3.yohototo.top
   skip-cert-verify: false
-  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 22 - xiaohe
+  server: 154.31.114.162
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  client-fingerprint: firefox
   network: ws
   ws-opts:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 23 - xiaohe
-  server: jp032012.ssgreen.org
-  port: 443
+  server: funagfrdfs.alixxplay.com
+  port: 35544
   udp: true
-  type: vmess
-  uuid: 0cf58a80-6fc7-40d1-b491-cb1c42cc8777
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  flow: xtls-rprx-vision
   tls: true
-  servername: jp032012.ssgreen.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /wes
-    headers:
-      Host: jp032012.ssgreen.org
+  reality-opts:
+    public-key: HrcXRHtsitc_AVlN-_8fZuRgaP-Mqa_9JJotI9OnkVc
+    short-id: 25c79e5856c7
+  servername: iosapps.itunes.apple.com
+  client-fingerprint: chrome
 - name: 🇯🇵 日本 (Japan) 24 - xiaohe
-  server: JP032002.ssgreen.org
-  port: 443
+  server: 3.114.220.22
+  port: 10583
   udp: true
-  type: vmess
-  uuid: dfc42b51-1262-4c1b-b14d-2b80f32a4f5d
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 814bd064-544d-4255-a070-5705c03f6da9
+  flow: xtls-rprx-vision
   tls: true
-  servername: JP032002.ssgreen.org
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /wes
-    headers:
-      Host: JP032002.ssgreen.org
+  reality-opts:
+    public-key: k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0
+    short-id: 48050fab
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇯🇵 日本 (Japan) 25 - xiaohe
   server: 142.91.101.39
   port: 627
@@ -297,56 +271,65 @@ proxies:
     headers:
       Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
 - name: 🇯🇵 日本 (Japan) 26 - xiaohe
-  server: JP032007.ssgreen.org
+  server: cf.877774.xyz
   port: 443
   udp: true
-  type: vmess
-  uuid: 2458b4f7-1f67-4b26-876c-4080c086cce9
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
   tls: true
-  servername: JP032007.ssgreen.org
+  servername: edgetunnel.bursaonline.eu.org
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /wes
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgpbVVlVBVcABxtdQwZbVkcDVwMSEgEWQVoQWRsPCQsdAU4=
     headers:
-      Host: JP032007.ssgreen.org
+      Host: edgetunnel.bursaonline.eu.org
 - name: 🇯🇵 日本 (Japan) 27 - xiaohe
-  server: jp032004.ssgreen.org
+  server: p.etime.vip
   port: 443
   udp: true
-  type: vmess
-  uuid: 3a331c35-433c-4609-a86a-9f9bc3c9b6c8
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
   tls: true
-  servername: jp032004.ssgreen.org
+  servername: edgetunnel.bursaonline.eu.org
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /wes
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg9TX1JQBVAFBBtdQwZbVkcDVwMSEgEWQVoQWRsPCQYUAU4=
     headers:
-      Host: jp032004.ssgreen.org
+      Host: edgetunnel.bursaonline.eu.org
 - name: 🇯🇵 日本 (Japan) 28 - xiaohe
-  server: 8.211.175.236
-  port: 8443
+  server: cdn.204910.best
+  port: 443
   udp: true
-  type: hysteria2
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: bing.com
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 29 - xiaohe
-  server: 168.138.43.75
-  port: 80
-  udp: true
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /cctv13.m3u8
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgBWU1lcBFUGChtdQwZbVkcDVwMSEgEWQVoQWRsPCQAZC04=
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
+- name: 🇯🇵 日本 (Japan) 29 - xiaohe
+  server: openai.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG19YQV1MCREAWQJEHFtXR0EZE0BCSxJEChkAAkg=
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
