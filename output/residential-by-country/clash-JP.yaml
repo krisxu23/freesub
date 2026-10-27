@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
-  server: securecircle.com
+  server: openai.com
   port: 443
   udp: true
   type: vless
@@ -16,7 +16,22 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtXXlNQA1AAABtdQwZbVkcDVwMSEgEWQVoQWRsPCQcZAU4=
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg1QUlFVDlUEBRtdQwZbVkcDVwMSEgEWQVoQWRsPCQcbAU4=
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
+- name: 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
+  server: linear.app
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg5WUFBTDlwEAxtdQwZbVkcDVwMSEgEWQVoQWRsPCQodD04=
     headers:
       Host: edgetunnel.bursaonline.eu.org
 proxy-groups:
@@ -25,11 +40,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇯🇵 日本 (Japan) 01 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 02 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
