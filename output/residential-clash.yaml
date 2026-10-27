@@ -6,48 +6,76 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe
   server: dog-hk.kunlun01dns.com
-  port: 21019
+  port: 21022
   udp: true
   type: vmess
   uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
   alterId: 0
   cipher: auto
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe
-  server: zfd-hkv1.kunlun01dns.com
-  port: 16113
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  server: 49.254.204.133
+  port: 1774
   udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+- name: 🇺🇸 美国 (United States) 03 (家宽) - xiaohe
+  server: 155.117.19.17
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 5fa748137b6d822308eea4611f474ad5
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: a39ca173b57ac7021b08bf3e3de9f1f6
+- name: 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
   server: 218.237.185.234
   port: 4652
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: qwerREWQ@@
-- name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  server: 118.167.211.77
-  port: 24215
+- name: 🇨🇦 加拿大 (Canada) 05 (家宽) - xiaohe
+  server: 104.21.35.17
+  port: 443
   udp: true
   type: vless
-  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
   tls: true
-  reality-opts:
-    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
-  servername: addons.mozilla.org
-  client-fingerprint: firefox
-- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
-  server: kw119.zxmm.eu.org
-  port: 20031
+  servername: xstack.mahanfixe.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /xiron
+    headers:
+      Host: xstack.mahanfixe.workers.dev
+- name: 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - xiaohe
+  server: dog-hk.kunlun01dns.com
+  port: 21018
   udp: true
-  type: trojan
-  password: 00a72bf349e6479b
-  sni: kw119.zxmm.eu.org
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
-  server: saas.sin.fan
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 🇸🇬 新加坡 (Singapore) 07 (家宽) - xiaohe
+  server: 152.70.253.44
+  port: 443
+  udp: true
+  type: vless
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  tls: true
+  servername: wzs.echo.net.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HV1ZNVwcHTQsJSgAJVBQUG0dCQEwWAx4AAg4c
+    headers:
+      Host: wzs.echo.net.eu.org
+- name: 🇲🇽 墨西哥 (Mexico) 08 (家宽) - xiaohe
+  server: spring.io
   port: 443
   udp: true
   type: vless
@@ -58,10 +86,40 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWghQX1NUA10ECxtdQwZbVkcDVwMSEgEWQVoQWRsPCQUbDk4=
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgpXUlNXAVILBBtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
     headers:
       Host: edgetunnel.bursaonline.eu.org
-- name: 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
+- name: 🇯🇵 日本 (Japan) 09 (家宽) - xiaohe
+  server: securecircle.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtXXlNQA1AAABtdQwZbVkcDVwMSEgEWQVoQWRsPCQcZAU4=
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
+- name: 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
+  server: openai.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg1QUlFVDlUEBRtdQwZbVkcDVwMSEgEWQVoQWRsPCQcbAU4=
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
+- name: 🇯🇵 日本 (Japan) 11 (家宽) - xiaohe
   server: uspto.gov
   port: 443
   udp: true
@@ -73,7 +131,37 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg9XXlRQDlwFBRtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg5UU1RWAVAKCxtdQwZbVkcDVwMSEgEWQVoQWRsPCQUUDk4=
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
+- name: 🇰🇷 韩国 (South Korea) 12 (家宽) - xiaohe
+  server: www.shopify.com
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgBWVFFdDlALAhtdQwZbVkcDVwMSEgEWQVoQWRsPCQsZAU4=
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
+- name: 🇰🇷 韩国 (South Korea) 13 (家宽) - xiaohe
+  server: www.leics.police.uk
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg5WVFVdAVUDARtdQwZbVkcDVwMSEgEWQVoQWRsPCQYfDk4=
     headers:
       Host: edgetunnel.bursaonline.eu.org
 proxy-groups:
@@ -82,23 +170,35 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 03 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
+  - 🇨🇦 加拿大 (Canada) 05 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 07 (家宽) - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 08 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 09 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 11 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 12 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 13 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 02 (移动家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
-  - 🇯🇵 日本 (Japan) 06 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  - 🇺🇸 美国 (United States) 03 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
+  - 🇨🇦 加拿大 (Canada) 05 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 06 (移动家宽) - xiaohe
+  - 🇸🇬 新加坡 (Singapore) 07 (家宽) - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 08 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 09 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 10 (家宽) - xiaohe
+  - 🇯🇵 日本 (Japan) 11 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 12 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 13 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES

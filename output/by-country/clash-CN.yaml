@@ -5,17 +5,31 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇳 CN 01 - xiaohe
-  server: 39.108.113.127
+  server: 122.8.45.7
+  port: 8443
+  udp: true
+  type: vless
+  uuid: 362a0364-2b0f-cd11-9c20-ab9dfbeb8b11
+  tls: true
+  reality-opts:
+    public-key: wcOBPSgoOKptWa9ZHpFpmbrPfLqobBNpCgLH88Ptjhk
+  servername: download.nvidia.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: TunService
+- name: 🇨🇳 CN 02 - xiaohe
+  server: 120.48.133.162
   port: 10086
   udp: true
   type: vmess
-  uuid: 2eb25c1e-c3b5-45cf-9afd-dd3ddc00da10
+  uuid: a8d931b0-6c27-428b-8d86-c20efea3dba7
   alterId: 0
   cipher: auto
   network: ws
   ws-opts:
     path: /
-- name: 🇨🇳 CN 02 - xiaohe
+- name: 🇨🇳 CN 03 - xiaohe
   server: 188.114.98.0
   port: 443
   udp: true
@@ -37,6 +51,7 @@ proxy-groups:
   - AUTO
   - 🇨🇳 CN 01 - xiaohe
   - 🇨🇳 CN 02 - xiaohe
+  - 🇨🇳 CN 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -44,5 +59,6 @@ proxy-groups:
   proxies:
   - 🇨🇳 CN 01 - xiaohe
   - 🇨🇳 CN 02 - xiaohe
+  - 🇨🇳 CN 03 - xiaohe
 rules:
 - MATCH,PROXIES
