@@ -12,78 +12,18 @@
       "password": "1234!@#$"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
-      "server": "218.237.185.234",
-      "server_port": 4652,
-      "method": "aes-256-cfb",
-      "password": "qwerREWQ@@"
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe",
-      "server": "www.shopify.com",
-      "server_port": 443,
-      "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
-      "tls": {
-        "enabled": true,
-        "server_name": "edgetunnel.bursaonline.eu.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgBWVFFdDlALAhtdQwZbVkcDVwMSEgEWQVoQWRsPCQsZAU4=",
-        "headers": {
-          "Host": "edgetunnel.bursaonline.eu.org"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe",
-      "server": "www.leics.police.uk",
-      "server_port": 443,
-      "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
-      "tls": {
-        "enabled": true,
-        "server_name": "edgetunnel.bursaonline.eu.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg5WVFVdAVUDARtdQwZbVkcDVwMSEgEWQVoQWRsPCQYfDk4=",
-        "headers": {
-          "Host": "edgetunnel.bursaonline.eu.org"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe"
+        "🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
