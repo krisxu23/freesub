@@ -7,7 +7,7 @@
       "type": "vmess",
       "tag": "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe",
       "server": "dog-hk.kunlun01dns.com",
-      "server_port": 21018,
+      "server_port": 21022,
       "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
       "security": "auto"
     },
@@ -21,13 +21,13 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 03 (家宽) - xiaohe",
-      "server": "122.176.216.52",
+      "tag": "🇯🇵 日本 (Japan) 03 (家宽) - xiaohe",
+      "server": "saas.sin.fan",
       "server_port": 443,
-      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+      "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
       "tls": {
         "enabled": true,
-        "server_name": "app-6ada5023.deploy.meerasolution.com",
+        "server_name": "edgetunnel.bursaonline.eu.org",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -36,9 +36,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg9WUlBTBlcABhtdQwZbVkcDVwMSEgEWQVoQWRsPCQodDk4=",
         "headers": {
-          "Host": "app-6ada5023.deploy.meerasolution.com"
+          "Host": "edgetunnel.bursaonline.eu.org"
         }
       }
     },
@@ -49,7 +49,7 @@
         "auto",
         "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
-        "🇮🇳 印度 (India) 03 (家宽) - xiaohe"
+        "🇯🇵 日本 (Japan) 03 (家宽) - xiaohe"
       ]
     },
     {
@@ -58,7 +58,7 @@
       "outbounds": [
         "🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe",
         "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
-        "🇮🇳 印度 (India) 03 (家宽) - xiaohe"
+        "🇯🇵 日本 (Japan) 03 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

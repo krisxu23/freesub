@@ -5,24 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇳 印度 (India) 01 (家宽) - xiaohe",
-      "server": "122.176.216.52",
+      "tag": "🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe",
+      "server": "201.24.119.44",
       "server_port": 443,
-      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
+      "uuid": "26f751bc-2edc-4338-9c3f-abeb32aba3b7",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "app-6ada5023.deploy.meerasolution.com",
-        "insecure": false,
+        "server_name": "qj5ykvzhzb.edge-origin.space",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
-        "headers": {
-          "Host": "app-6ada5023.deploy.meerasolution.com"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "xJZgy1PaEukFZ06H3VV64iLhA8nlAj2MYwC68BKA5Sc",
+          "short_id": ""
         }
       }
     },
@@ -31,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇳 印度 (India) 01 (家宽) - xiaohe"
+        "🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇳 印度 (India) 01 (家宽) - xiaohe"
+        "🇬🇪 格鲁吉亚 (Georgia) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

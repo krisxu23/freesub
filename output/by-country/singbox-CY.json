@@ -20,15 +20,24 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe",
-      "server": "hys-eu.letsconnectpoint.com",
+      "server": "45.12.63.20",
       "server_port": 443,
-      "password": "4b1be712-774c-4b65-8491-a3339e124a70",
+      "uuid": "26f751bc-2edc-4338-9c3f-abeb32aba3b7",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hys-eu.letsconnectpoint.com",
-        "insecure": false
+        "server_name": "c0qm24de441.staticpool.store",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fJnm6-PhJGSwHaAdJOzXkYOfCPPCWSlaZrtfm1XsqhA",
+          "short_id": ""
+        }
       }
     },
     {
