@@ -6,17 +6,6 @@ log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
   server: 45.149.147.213
-  port: 4444
-  udp: true
-  type: trojan
-  password: 9b347a9b-d7a6-4b51-9890-eff62b832834
-  sni: 45-149-147-213.sslip.io
-  skip-cert-verify: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: kobedin-server1-trojan
-- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
-  server: 45.149.147.213
   port: 4443
   udp: true
   type: vless
@@ -24,11 +13,11 @@ proxies:
   tls: true
   servername: 45-149-147-213.sslip.io
   skip-cert-verify: false
-  client-fingerprint: chrome
+  client-fingerprint: firefox
   network: grpc
   grpc-opts:
     grpc-service-name: kobedin-server1-vless
-- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
+- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
   server: 2.27.13.152
   port: 8443
   udp: true
@@ -40,8 +29,27 @@ proxies:
     public-key: 14YyFG_j2yPEUu-gO_G9GqCqRiZ0DIUgzReV9CZvOAk
     short-id: 0f47ff9aa15e3e30
   servername: www.nokia.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
+  server: 45.149.147.213
+  port: 4444
+  udp: true
+  type: trojan
+  password: 9b347a9b-d7a6-4b51-9890-eff62b832834
+  sni: 45-149-147-213.sslip.io
+  skip-cert-verify: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: kobedin-server1-trojan
 - name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
+  server: 31.76.8.20
+  port: 4443
+  udp: true
+  type: hysteria2
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  sni: nl1.obxodvpn.us
+  skip-cert-verify: false
+- name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
   server: 45.144.234.157
   port: 14430
   udp: true
@@ -52,7 +60,7 @@ proxies:
     path: /vless
     headers:
       Host: 45.144.234.157
-- name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
+- name: 🇫🇮 芬兰 (Finland) 06 - xiaohe
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -63,9 +71,9 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
     short-id: d368b94e275ab080
   servername: www.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 芬兰 (Finland) 06 - xiaohe
-  server: 196.196.204.174
+  client-fingerprint: firefox
+- name: 🇫🇮 芬兰 (Finland) 07 - xiaohe
+  server: 77.42.12.225
   port: 443
   udp: true
   type: vless
@@ -79,7 +87,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: f345a414c040
-- name: 🇫🇮 芬兰 (Finland) 07 - xiaohe
+- name: 🇫🇮 芬兰 (Finland) 08 - xiaohe
   server: 65.109.212.193
   port: 465
   udp: true
@@ -88,26 +96,12 @@ proxies:
   tls: true
   servername: hw3.divarkhaghazi.com.
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
       Host: hw3.divarkhaghazi.com.
-- name: 🇫🇮 芬兰 (Finland) 08 - xiaohe
-  server: 198.202.24.214
-  port: 2083
-  udp: true
-  type: vless
-  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-  tls: true
-  servername: vipfree.dr-ping.ir
-  skip-cert-verify: false
-  client-fingerprint: safari
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vipfree.dr-ping.ir
 proxy-groups:
 - name: PROXIES
   type: select

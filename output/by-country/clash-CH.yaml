@@ -12,6 +12,14 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
 - name: 🇨🇭 瑞士 (Switzerland) 02 - xiaohe
+  server: 140.238.213.114
+  port: 50160
+  udp: true
+  type: hysteria2
+  password: 84a506ca5aca505696a454d828420b3f
+  sni: 140.238.213.114
+  skip-cert-verify: true
+- name: 🇨🇭 瑞士 (Switzerland) 03 - xiaohe
   server: 45.90.59.15
   port: 443
   udp: true
@@ -24,16 +32,6 @@ proxies:
     short-id: 19253fae84102271
   servername: www.cloudflare.com
   client-fingerprint: firefox
-- name: 🇨🇭 瑞士 (Switzerland) 03 - xiaohe
-  server: 208.69.78.217
-  port: 33171
-  udp: true
-  type: hysteria2
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 04 - xiaohe
   server: 45.90.57.119
   port: 8443
@@ -46,30 +44,35 @@ proxies:
     public-key: L6DeK_a25_ZjPKFOrQLoCPWuXi5KCIH_EcRpARmCwkI
     short-id: 16036bbef04d0509
   servername: twitch.tv
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇨🇭 瑞士 (Switzerland) 05 - xiaohe
-  server: 140.238.213.114
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: 84a506ca5aca505696a454d828420b3f
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇨🇭 瑞士 (Switzerland) 06 - xiaohe
-  server: 208.69.78.217
-  port: 2053
+  server: 57.129.130.57
+  port: 52014
   udp: true
   type: vless
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
+  uuid: 5cf5ed7b-6032-44a6-b008-f33fbc82530a
   tls: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-    short-id: ad86e2d52ff40ebd
-  servername: www.apple.com
-  client-fingerprint: firefox
+  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
+- name: 🇨🇭 瑞士 (Switzerland) 06 - xiaohe
+  server: swz.proxyplankton.ru
+  port: 443
+  udp: true
+  type: vless
+  uuid: 054362fb-e485-4a3f-9568-4c5b0f60e074
+  tls: true
+  servername: swz.proxyplankton.ru
+  skip-cert-verify: false
+  client-fingerprint: chrome
 - name: 🇨🇭 瑞士 (Switzerland) 07 - xiaohe
   server: 208.69.78.217
-  port: 8444
+  port: 33013
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -78,15 +81,19 @@ proxies:
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
 - name: 🇨🇭 瑞士 (Switzerland) 08 - xiaohe
-  server: 149.33.15.213
-  port: 443
+  server: 142.91.101.39
+  port: 627
   udp: true
   type: vless
-  uuid: 054362fb-e485-4a3f-9568-4c5b0f60e074
+  uuid: aff1ffd0-594c-44c9-9f79-4096fde005ea
   tls: true
-  servername: swz.proxyplankton.ru
+  servername: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
   skip-cert-verify: false
-  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristifp=chrome
+    headers:
+      Host: 9qohadlkywguh.hlf9x1796lkopyju2kplt9c9smz1vyuv0u8azzk.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select

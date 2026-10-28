@@ -5,13 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇪 秘鲁 (Peru) 01 - xiaohe
-  server: zfd-boardv2.kunlun01dns.com
-  port: 16322
+  server: 172.65.90.41
+  port: 2053
   udp: true
-  type: vmess
-  uuid: 0802ac03-7973-39ef-a019-ba02de6c01e1
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  tls: true
+  servername: wzs.echo.net.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: '/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlNSSwUEURwBVwcWUQYJGxsPQldGTQ8OBgJWFUU= '
+    headers:
+      Host: wzs.echo.net.eu.org
 proxy-groups:
 - name: PROXIES
   type: select

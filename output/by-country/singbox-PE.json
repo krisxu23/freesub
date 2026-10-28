@@ -4,12 +4,27 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇵🇪 秘鲁 (Peru) 01 - xiaohe",
-      "server": "zfd-boardv2.kunlun01dns.com",
-      "server_port": 16322,
-      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
-      "security": "auto"
+      "server": "172.65.90.41",
+      "server_port": 2053,
+      "uuid": "d18c6897-2849-456a-8c46-d7ecece47c20",
+      "tls": {
+        "enabled": true,
+        "server_name": "wzs.echo.net.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlNSSwUEURwBVwcWUQYJGxsPQldGTQ8OBgJWFUU= ",
+        "headers": {
+          "Host": "wzs.echo.net.eu.org"
+        }
+      }
     },
     {
       "type": "selector",
