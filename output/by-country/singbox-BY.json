@@ -32,10 +32,7 @@
       "uuid": "b6e5dc56-836f-48c1-9163-b0b0b43b647d",
       "transport": {
         "type": "ws",
-        "path": "/vless",
-        "headers": {
-          "Host": "178.172.227.228"
-        }
+        "path": "/vless"
       }
     },
     {
@@ -55,16 +52,16 @@
     {
       "type": "vless",
       "tag": "🇧🇾 白俄罗斯 (Belarus) 05 - xiaohe",
-      "server": "178.172.227.228",
+      "server": "95.128.71.79",
       "server_port": 10444,
-      "uuid": "b6e5dc56-836f-48c1-9163-b0b0b43b647d",
+      "uuid": "8cef7621-c6f0-486e-b51d-59c30c5b0b25",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -85,7 +82,7 @@
         "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -97,16 +94,16 @@
     {
       "type": "vless",
       "tag": "🇧🇾 白俄罗斯 (Belarus) 07 - xiaohe",
-      "server": "95.128.71.79",
+      "server": "178.172.227.228",
       "server_port": 10444,
-      "uuid": "8cef7621-c6f0-486e-b51d-59c30c5b0b25",
+      "uuid": "b6e5dc56-836f-48c1-9163-b0b0b43b647d",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,

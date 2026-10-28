@@ -5,13 +5,13 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe",
-      "server": "saas.sin.fan",
+      "tag": "🇮🇳 印度 (India) 01 (家宽) - xiaohe",
+      "server": "122.176.216.52",
       "server_port": 443,
-      "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
+      "uuid": "16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
       "tls": {
         "enabled": true,
-        "server_name": "edgetunnel.bursaonline.eu.org",
+        "server_name": "app-6ada5023.deploy.meerasolution.com",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg9WUlBTBlcABhtdQwZbVkcDVwMSEgEWQVoQWRsPCQodDk4=",
+        "path": "/ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88",
         "headers": {
-          "Host": "edgetunnel.bursaonline.eu.org"
+          "Host": "app-6ada5023.deploy.meerasolution.com"
         }
       }
     },
@@ -31,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
+        "🇮🇳 印度 (India) 01 (家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇯🇵 日本 (Japan) 01 (家宽) - xiaohe"
+        "🇮🇳 印度 (India) 01 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

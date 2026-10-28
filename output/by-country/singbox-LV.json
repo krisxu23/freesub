@@ -15,7 +15,7 @@
         "server_name": "vikt659.isgood.host",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
