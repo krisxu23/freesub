@@ -18,18 +18,20 @@ proxies:
   servername: www.apple.com
   client-fingerprint: chrome
 - name: 🇮🇱 以色列 (Israel) 02 - xiaohe
-  server: 77.91.69.169
-  port: 19226
+  server: 104.16.240.177
+  port: 443
   udp: true
   type: vless
-  uuid: f0b144bd-4c44-440d-b630-d79ec82cad3a
-  flow: xtls-rprx-vision
+  uuid: 600b90fe-6ff5-4b17-8dac-5be55835d0af
   tls: true
-  reality-opts:
-    public-key: PQjgf7GxBd2tDXf0zl9Z5rTZo7LdsWj0hGZLH-lJ-Uk
-    short-id: 7c
-  servername: yahoo.com
+  servername: ylsl.abcai.online
+  skip-cert-verify: false
   client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ylsl.abcai.online
 proxy-groups:
 - name: PROXIES
   type: select
