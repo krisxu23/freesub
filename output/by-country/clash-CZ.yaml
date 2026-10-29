@@ -5,6 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
+  server: 104.26.0.1
+  port: 443
+  udp: true
+  type: vless
+  uuid: e56059f1-5a1a-4d0a-a2d0-58ecb4eb2f3f
+  tls: true
+  servername: ezaccess-project-f62c30.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZWlPODVjTnhnaSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: ezaccess-project-f62c30.pages.dev
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
   server: 195.123.245.241
   port: 443
   udp: true
@@ -17,7 +32,7 @@ proxies:
     short-id: 23d0950d60bc0d5b
   servername: gateway.icloud.com
   client-fingerprint: chrome
-- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
   server: 31.77.13.22
   port: 2063
   udp: true
@@ -29,7 +44,7 @@ proxies:
     public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
   servername: rusbid.de
   client-fingerprint: chrome
-- name: 🇨🇿 捷克 (Czech) 03 - xiaohe
+- name: 🇨🇿 捷克 (Czech) 04 - xiaohe
   server: 193.124.17.190
   port: 443
   udp: true
@@ -50,6 +65,7 @@ proxy-groups:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
   - 🇨🇿 捷克 (Czech) 03 - xiaohe
+  - 🇨🇿 捷克 (Czech) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -58,5 +74,6 @@ proxy-groups:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
   - 🇨🇿 捷克 (Czech) 02 - xiaohe
   - 🇨🇿 捷克 (Czech) 03 - xiaohe
+  - 🇨🇿 捷克 (Czech) 04 - xiaohe
 rules:
 - MATCH,PROXIES
