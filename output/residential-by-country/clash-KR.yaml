@@ -11,37 +11,21 @@ proxies:
   type: vless
   uuid: bd2fb303-b4c7-49af-a8e3-5c6f11b005dd
 - name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  server: cdn.204910.best
-  port: 443
+  server: 49.254.204.133
+  port: 1774
   udp: true
-  type: vless
-  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
-  tls: true
-  servername: edgetunnel.bursaonline.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg9WUlJRA1wKBBtdQwZbVkcDVwMSEgEWQVoQWRsPCQQfAU4=
-    headers:
-      Host: edgetunnel.bursaonline.eu.org
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
 - name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  server: openai.com
-  port: 443
+  server: p141.panda001.net
+  port: 4652
   udp: true
-  type: vless
-  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
-  tls: true
-  servername: edgetunnel.bursaonline.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgFbVlFQBFcLChtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
-    headers:
-      Host: edgetunnel.bursaonline.eu.org
+  type: ss
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
 - name: 🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe
-  server: op.chinwa.eu.cc
+  server: securecircle.com
   port: 443
   udp: true
   type: vless
@@ -52,7 +36,7 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtbU1RSBFACBRtdQwZbVkcDVwMSEgEWQVoQWRsPCQQbCU4=
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgBbVFZVA1MCBRtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
     headers:
       Host: edgetunnel.bursaonline.eu.org
 proxy-groups:

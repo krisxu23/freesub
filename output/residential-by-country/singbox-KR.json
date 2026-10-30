@@ -11,55 +11,25 @@
       "uuid": "bd2fb303-b4c7-49af-a8e3-5c6f11b005dd"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe",
-      "server": "cdn.204910.best",
-      "server_port": 443,
-      "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
-      "tls": {
-        "enabled": true,
-        "server_name": "edgetunnel.bursaonline.eu.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg9WUlJRA1wKBBtdQwZbVkcDVwMSEgEWQVoQWRsPCQQfAU4=",
-        "headers": {
-          "Host": "edgetunnel.bursaonline.eu.org"
-        }
-      }
+      "server": "49.254.204.133",
+      "server_port": 1774,
+      "method": "aes-256-cfb",
+      "password": "1234!@#$"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe",
-      "server": "openai.com",
-      "server_port": 443,
-      "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
-      "tls": {
-        "enabled": true,
-        "server_name": "edgetunnel.bursaonline.eu.org",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgFbVlFQBFcLChtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==",
-        "headers": {
-          "Host": "edgetunnel.bursaonline.eu.org"
-        }
-      }
+      "server": "p141.panda001.net",
+      "server_port": 4652,
+      "method": "aes-256-cfb",
+      "password": "qwerREWQ@@"
     },
     {
       "type": "vless",
       "tag": "🇰🇷 韩国 (South Korea) 04 (家宽) - xiaohe",
-      "server": "op.chinwa.eu.cc",
+      "server": "securecircle.com",
       "server_port": 443,
       "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
       "tls": {
@@ -73,7 +43,7 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtbU1RSBFACBRtdQwZbVkcDVwMSEgEWQVoQWRsPCQQbCU4=",
+        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgBbVFZVA1MCBRtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==",
         "headers": {
           "Host": "edgetunnel.bursaonline.eu.org"
         }
