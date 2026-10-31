@@ -12,7 +12,11 @@
       "tls": {
         "enabled": true,
         "server_name": "64.176.7.205",
-        "insecure": true
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
