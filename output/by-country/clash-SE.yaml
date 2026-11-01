@@ -24,16 +24,6 @@ proxies:
     headers:
       Host: 5.178.109.174
 - name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  server: se3.shtil.io
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
-  tls: true
-  servername: se3.shtil.io
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
   server: 192.142.23.46
   port: 443
   udp: true
@@ -41,6 +31,16 @@ proxies:
   password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
   sni: diffoscope.com
   skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+  server: 179.253.179.109
+  port: 54443
+  udp: true
+  type: vless
+  uuid: 0ef03752-c8bf-4482-8710-e563ca4808f9
+  tls: true
+  servername: 177.3.215.54
+  skip-cert-verify: false
+  client-fingerprint: firefox
 - name: 🇸🇪 瑞典 (Sweden) 05 - xiaohe
   server: 179.253.179.109
   port: 54083
@@ -52,12 +52,17 @@ proxies:
   skip-cert-verify: false
   client-fingerprint: chrome
 - name: 🇸🇪 瑞典 (Sweden) 06 - xiaohe
-  server: 70.34.212.124
-  port: 8388
+  server: swidenafterlanzerotte.space
+  port: 443
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: AxIYWtskJWIIaefW
+  type: vless
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM
+  servername: swidenafterlanzerotte.space
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
