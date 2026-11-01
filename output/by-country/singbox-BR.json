@@ -20,20 +20,12 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vmess",
       "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe",
-      "server": "216.238.116.204",
-      "server_port": 39533,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "br001.zestapp778.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "zfd-boardv2.kunlun01dns.com",
+      "server_port": 16314,
+      "uuid": "0802ac03-7973-39ef-a019-ba02de6c01e1",
+      "security": "auto"
     },
     {
       "type": "selector",
