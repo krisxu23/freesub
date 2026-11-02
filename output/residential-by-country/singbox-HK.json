@@ -4,20 +4,8 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-      "server": "e6b91583-tm96o0-tnhquc-1j0a4.hk3.hyhuawei.com",
-      "server_port": 443,
-      "password": "4eedcde6-d16a-11ef-973a-f23c913c8d2b",
-      "tls": {
-        "enabled": true,
-        "server_name": "e6b91583-tm96o0-tnhquc-1j0a4.hk3.hyhuawei.com",
-        "insecure": true
-      }
-    },
-    {
       "type": "trojan",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
       "server": "ench-snet-app.w-ctrip.cn",
       "server_port": 53004,
       "password": "b17e9b52db9623bd6c16eea3d7adb5b3",
@@ -28,16 +16,23 @@
       }
     },
     {
-      "type": "anytls",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe",
-      "server": "56481.df6h451rh.xin",
-      "server_port": 443,
-      "password": "0324fbc29561",
+      "type": "hysteria2",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
+      "server": "ufcaxsoooxez3p6h.5273ef7a.e.yuetong.online",
+      "password": "171a4d7a-a1f0-499c-9fc5-3915c8b1f47b",
       "tls": {
         "enabled": true,
-        "server_name": "56481.df6h451rh.xin",
+        "server_name": "srv-l7o.yuetong.online",
         "insecure": true
-      }
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "4mcqiPwfROfrKkIKx1WO32Va"
+      },
+      "server_ports": [
+        "19310:19821",
+        "19310:19310"
+      ]
     },
     {
       "type": "selector",
@@ -45,8 +40,7 @@
       "outbounds": [
         "auto",
         "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe"
       ]
     },
     {
@@ -54,8 +48,7 @@
       "tag": "auto",
       "outbounds": [
         "🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe"
+        "🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

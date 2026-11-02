@@ -6,27 +6,227 @@
     {
       "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "172.67.156.121",
+      "server": "172.67.137.158",
       "server_port": 443,
-      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
+      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "www.gptcloudai.com",
+        "server_name": "nomino.11hi8itbaf.workers.dev",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/truth",
+        "path": "/guanwang.awsno.com/hls/cctv5phd.m3u8",
         "headers": {
-          "Host": "www.gptcloudai.com"
+          "Host": "nomino.11hi8itbaf.workers.dev"
         }
       }
     },
     {
       "type": "vmess",
       "tag": "🌐 其他地区 (Other) 02 - xiaohe",
-      "server": "172.67.156.121",
+      "server": "www.ubuntuupdates.com",
+      "server_port": 443,
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ubuntuupdates.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": "www.ubuntuupdates.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
+      "server": "www.ubuntuupdates.com",
+      "server_port": 443,
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ubuntuupdates.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": "www.ubuntuupdates.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 04 - xiaohe",
+      "server": "www.ubuntuupdates.com",
+      "server_port": 443,
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ubuntuupdates.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": "www.ubuntuupdates.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
+      "server": "www.ubuntuupdates.com",
+      "server_port": 443,
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ubuntuupdates.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": "www.ubuntuupdates.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
+      "server": "www.ubuntuupdates.com",
+      "server_port": 443,
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ubuntuupdates.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": "www.ubuntuupdates.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
+      "server": "www.ubuntuupdates.com",
+      "server_port": 443,
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ubuntuupdates.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": "www.ubuntuupdates.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 08 - xiaohe",
+      "server": "www.ubuntuupdates.com",
+      "server_port": 443,
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ubuntuupdates.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": "www.ubuntuupdates.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 09 - xiaohe",
+      "server": "www.ubuntuupdates.com",
+      "server_port": 443,
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ubuntuupdates.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": "www.ubuntuupdates.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 10 - xiaohe",
+      "server": "www.ubuntuupdates.com",
+      "server_port": 443,
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ubuntuupdates.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": "www.ubuntuupdates.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 11 - xiaohe",
+      "server": "www.ubuntuupdates.com",
+      "server_port": 443,
+      "uuid": "83b09a64-1eaf-4c4d-89ed-866d4b6b8115",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ubuntuupdates.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": "www.ubuntuupdates.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 12 - xiaohe",
+      "server": "www.gptcloudai.com",
       "server_port": 443,
       "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
       "security": "auto",
@@ -45,115 +245,172 @@
     },
     {
       "type": "vmess",
-      "tag": "🌐 其他地区 (Other) 03 - xiaohe",
-      "server": "104.17.77.77",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "tag": "🌐 其他地区 (Other) 13 - xiaohe",
+      "server": "www.gptcloudai.com",
+      "server_port": 443,
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
+        "server_name": "www.gptcloudai.com",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/lMnsZUN4/",
+        "path": "/truth"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 14 - xiaohe",
+      "server": "www.gptcloudai.com",
+      "server_port": 443,
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.gptcloudai.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
         "headers": {
-          "Host": "v2ray1.dozapp.xyz"
+          "Host": "www.gptcloudai.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "🌐 其他地区 (Other) 04 - xiaohe",
-      "server": "104.17.77.77",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "tag": "🌐 其他地区 (Other) 15 - xiaohe",
+      "server": "www.gptcloudai.com",
+      "server_port": 443,
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
+        "server_name": "www.gptcloudai.com",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/lMnsZUN4/"
+        "path": "/truth"
       }
     },
     {
       "type": "vmess",
-      "tag": "🌐 其他地区 (Other) 05 - xiaohe",
-      "server": "104.17.77.77",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "tag": "🌐 其他地区 (Other) 16 - xiaohe",
+      "server": "www.gptcloudai.com",
+      "server_port": 443,
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
+        "server_name": "www.gptcloudai.com",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/lMnsZUN4/",
+        "path": "/truth",
         "headers": {
-          "Host": "v2ray1.dozapp.xyz"
+          "Host": "www.gptcloudai.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "🌐 其他地区 (Other) 06 - xiaohe",
-      "server": "104.17.77.77",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "tag": "🌐 其他地区 (Other) 17 - xiaohe",
+      "server": "www.gptcloudai.com",
+      "server_port": 443,
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
+        "server_name": "www.gptcloudai.com",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/lMnsZUN4/"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🌐 其他地区 (Other) 07 - xiaohe",
-      "server": "104.17.77.77",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
-        "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lMnsZUN4/",
+        "path": "/truth",
         "headers": {
-          "Host": "v2ray1.dozapp.xyz"
+          "Host": "www.gptcloudai.com"
         }
       }
     },
     {
       "type": "vmess",
-      "tag": "🌐 其他地区 (Other) 08 - xiaohe",
-      "server": "104.17.77.77",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
+      "tag": "🌐 其他地区 (Other) 18 - xiaohe",
+      "server": "www.gptcloudai.com",
+      "server_port": 443,
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
+        "server_name": "www.gptcloudai.com",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/lMnsZUN4/",
+        "path": "/truth",
         "headers": {
-          "Host": "v2ray1.dozapp.xyz"
+          "Host": "www.gptcloudai.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 19 - xiaohe",
+      "server": "www.gptcloudai.com",
+      "server_port": 443,
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.gptcloudai.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 20 - xiaohe",
+      "server": "www.gptcloudai.com",
+      "server_port": 443,
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.gptcloudai.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "www.gptcloudai.com"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🌐 其他地区 (Other) 21 - xiaohe",
+      "server": "www.gptcloudai.com",
+      "server_port": 443,
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.gptcloudai.com",
+        "insecure": false
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": "www.gptcloudai.com"
         }
       }
     },
@@ -169,7 +426,20 @@
         "🌐 其他地区 (Other) 05 - xiaohe",
         "🌐 其他地区 (Other) 06 - xiaohe",
         "🌐 其他地区 (Other) 07 - xiaohe",
-        "🌐 其他地区 (Other) 08 - xiaohe"
+        "🌐 其他地区 (Other) 08 - xiaohe",
+        "🌐 其他地区 (Other) 09 - xiaohe",
+        "🌐 其他地区 (Other) 10 - xiaohe",
+        "🌐 其他地区 (Other) 11 - xiaohe",
+        "🌐 其他地区 (Other) 12 - xiaohe",
+        "🌐 其他地区 (Other) 13 - xiaohe",
+        "🌐 其他地区 (Other) 14 - xiaohe",
+        "🌐 其他地区 (Other) 15 - xiaohe",
+        "🌐 其他地区 (Other) 16 - xiaohe",
+        "🌐 其他地区 (Other) 17 - xiaohe",
+        "🌐 其他地区 (Other) 18 - xiaohe",
+        "🌐 其他地区 (Other) 19 - xiaohe",
+        "🌐 其他地区 (Other) 20 - xiaohe",
+        "🌐 其他地区 (Other) 21 - xiaohe"
       ]
     },
     {
@@ -183,7 +453,20 @@
         "🌐 其他地区 (Other) 05 - xiaohe",
         "🌐 其他地区 (Other) 06 - xiaohe",
         "🌐 其他地区 (Other) 07 - xiaohe",
-        "🌐 其他地区 (Other) 08 - xiaohe"
+        "🌐 其他地区 (Other) 08 - xiaohe",
+        "🌐 其他地区 (Other) 09 - xiaohe",
+        "🌐 其他地区 (Other) 10 - xiaohe",
+        "🌐 其他地区 (Other) 11 - xiaohe",
+        "🌐 其他地区 (Other) 12 - xiaohe",
+        "🌐 其他地区 (Other) 13 - xiaohe",
+        "🌐 其他地区 (Other) 14 - xiaohe",
+        "🌐 其他地区 (Other) 15 - xiaohe",
+        "🌐 其他地区 (Other) 16 - xiaohe",
+        "🌐 其他地区 (Other) 17 - xiaohe",
+        "🌐 其他地区 (Other) 18 - xiaohe",
+        "🌐 其他地区 (Other) 19 - xiaohe",
+        "🌐 其他地区 (Other) 20 - xiaohe",
+        "🌐 其他地区 (Other) 21 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

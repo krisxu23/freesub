@@ -5,14 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
-  server: e6b91583-tm96o0-tnhquc-1j0a4.hk3.hyhuawei.com
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
-  sni: e6b91583-tm96o0-tnhquc-1j0a4.hk3.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
   server: ench-snet-app.w-ctrip.cn
   port: 53004
   udp: true
@@ -20,14 +12,17 @@ proxies:
   password: b17e9b52db9623bd6c16eea3d7adb5b3
   sni: ench-snet-app.w-ctrip.cn
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
-  server: 56481.df6h451rh.xin
-  port: 443
+- name: 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
+  server: ufcaxsoooxez3p6h.5273ef7a.e.yuetong.online
+  port: 19310
   udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: 56481.df6h451rh.xin
+  type: hysteria2
+  password: 171a4d7a-a1f0-499c-9fc5-3915c8b1f47b
+  sni: srv-l7o.yuetong.online
   skip-cert-verify: true
+  obfs: salamander
+  obfs-password: 4mcqiPwfROfrKkIKx1WO32Va
+  ports: 19310-19821,19310-19310
 proxy-groups:
 - name: PROXIES
   type: select
@@ -35,7 +30,6 @@ proxy-groups:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -43,6 +37,5 @@ proxy-groups:
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
   - 🇭🇰 中国香港 (Hong Kong) 02 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
