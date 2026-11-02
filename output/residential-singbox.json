@@ -6,22 +6,6 @@
     {
       "type": "trojan",
       "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe",
-      "server": "us001.zestapp778.com",
-      "server_port": 57277,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "us001.zestapp778.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸 美国 (United States) 02 (移动家宽) - xiaohe",
       "server": "130.94.19.95",
       "server_port": 57277,
       "password": "5t6i121em5lkmsmk",
@@ -37,116 +21,64 @@
     },
     {
       "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
-      "server": "125.227.86.45",
+      "tag": "🇺🇸 美国 (United States) 02 (移动家宽) - xiaohe",
+      "server": "us001.zestapp778.com",
+      "server_port": 57277,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "us001.zestapp778.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - xiaohe",
+      "server": "dog-hk.kunlun01dns.com",
+      "server_port": 21020,
+      "uuid": "9464ca40-dd75-3742-a628-d931a9f413b2",
+      "security": "auto"
+    },
+    {
+      "type": "anytls",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
+      "server": "56481.df6h451rh.xin",
       "server_port": 443,
-      "password": "0a9f1f5a397bd427",
+      "password": "0324fbc29561",
       "tls": {
         "enabled": true,
-        "server_name": "TG.freecodes",
-        "insecure": true,
-        "alpn": [
-          "h2"
-        ]
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "db"
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
-      "server": "ench-snet-app.w-ctrip.cn",
-      "server_port": 45502,
-      "password": "b17e9b52db9623bd6c16eea3d7adb5b3",
-      "tls": {
-        "enabled": true,
-        "server_name": "cm.g.doubleclick.net",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
-      "server": "60.248.219.78",
-      "server_port": 443,
-      "uuid": "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f",
-      "tls": {
-        "enabled": true,
-        "server_name": "ty986gfazs.cainiaohub.xyz",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/81574b6b-c9d7-44a0-b83d-dad56e8cb530",
-        "headers": {
-          "Host": "ty986gfazs.cainiaohub.xyz"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe",
-      "server": "ench-snet-app.w-ctrip.cn",
-      "server_port": 53004,
-      "password": "b17e9b52db9623bd6c16eea3d7adb5b3",
-      "tls": {
-        "enabled": true,
-        "server_name": "ench-snet-app.w-ctrip.cn",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe",
-      "server": "ench-snet-app.w-ctrip.cn",
-      "server_port": 45503,
-      "password": "b17e9b52db9623bd6c16eea3d7adb5b3",
-      "tls": {
-        "enabled": true,
-        "server_name": "cm.g.doubleclick.net",
+        "server_name": "56481.df6h451rh.xin",
         "insecure": true
       }
     },
     {
       "type": "anytls",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
       "server": "er8u54dh.df6h451rh.xin",
       "server_port": 443,
       "password": "0324fbc29561",
       "tls": {
         "enabled": true,
-        "server_name": "er8u54dh.df6h451rh.xin",
-        "insecure": true,
-        "alpn": [
-          "http/1.1"
-        ]
+        "server_name": "px.ads.linkedin.com",
+        "insecure": true
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 09 (家宽) - xiaohe",
-      "server": "ufcaxsoooxez3p6h.5273ef7a.e.yuetong.online",
-      "password": "171a4d7a-a1f0-499c-9fc5-3915c8b1f47b",
+      "type": "anytls",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe",
+      "server": "684616s4.df6h451rh.xin",
+      "server_port": 443,
+      "password": "0324fbc29561",
       "tls": {
         "enabled": true,
-        "server_name": "srv-l7o.yuetong.online",
+        "server_name": "px.ads.linkedin.com",
         "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "4mcqiPwfROfrKkIKx1WO32Va"
-      },
-      "server_ports": [
-        "19310:19821",
-        "19310:19310"
-      ]
+      }
     },
     {
       "type": "vless",
-      "tag": "🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe",
-      "server": "cdn.ctn32.us.kg",
+      "tag": "🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe",
+      "server": "saas.sin.fan",
       "server_port": 443,
       "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
       "tls": {
@@ -160,7 +92,30 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtVV1ldDl0HBhtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==",
+        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtVVFVQAlEEABtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==",
+        "headers": {
+          "Host": "edgetunnel.bursaonline.eu.org"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe",
+      "server": "p.etime.vip",
+      "server_port": 443,
+      "uuid": "2523c510-9ff0-415b-9582-93949bfae7e3",
+      "tls": {
+        "enabled": true,
+        "server_name": "edgetunnel.bursaonline.eu.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg9TU1JSAVMCBRtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==",
         "headers": {
           "Host": "edgetunnel.bursaonline.eu.org"
         }
@@ -173,14 +128,12 @@
         "auto",
         "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe",
         "🇺🇸 美国 (United States) 02 (移动家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 09 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe"
       ]
     },
     {
@@ -189,14 +142,12 @@
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe",
         "🇺🇸 美国 (United States) 02 (移动家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 03 (移动家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
         "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 07 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 08 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 09 (家宽) - xiaohe",
-        "🇰🇷 韩国 (South Korea) 10 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 06 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe",
+        "🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

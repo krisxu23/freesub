@@ -23,12 +23,12 @@ proxies:
   obfs: salamander
   obfs-password: 850a3fb1cd33a28f12d837578ae1a2e7
 - name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
-  server: ench-snet-app.w-ctrip.cn
-  port: 39188
+  server: zz.xgb.fogvip-zz.uk
+  port: 40024
   udp: true
   type: trojan
-  password: b17e9b52db9623bd6c16eea3d7adb5b3
-  sni: cm.g.doubleclick.net
+  password: 8dc86561-24f9-4bf7-99de-1373640859eb
+  sni: ld.xghk03.yuiuingkig.icu
   skip-cert-verify: true
 proxy-groups:
 - name: PROXIES

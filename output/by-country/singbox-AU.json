@@ -12,11 +12,7 @@
       "tls": {
         "enabled": true,
         "server_name": "45.63.30.142",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "insecure": true
       }
     },
     {
@@ -38,12 +34,12 @@
     {
       "type": "trojan",
       "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
-      "server": "ench-snet-app.w-ctrip.cn",
-      "server_port": 39188,
-      "password": "b17e9b52db9623bd6c16eea3d7adb5b3",
+      "server": "zz.xgb.fogvip-zz.uk",
+      "server_port": 40024,
+      "password": "8dc86561-24f9-4bf7-99de-1373640859eb",
       "tls": {
         "enabled": true,
-        "server_name": "cm.g.doubleclick.net",
+        "server_name": "ld.xghk03.yuiuingkig.icu",
         "insecure": true
       }
     },

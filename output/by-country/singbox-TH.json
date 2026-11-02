@@ -12,32 +12,8 @@
       "security": "auto"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇹🇭 泰国 (Thailand) 02 - xiaohe",
-      "server": "13.212.72.174",
-      "server_port": 10000,
-      "password": "IaBAchVn145eikukgyse95Mg",
-      "tls": {
-        "enabled": true,
-        "server_name": "sg-transit-2.nebulacloud.win",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇹🇭 泰国 (Thailand) 03 - xiaohe",
-      "server": "th001.zestapp778.com",
-      "server_port": 33079,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "th001.zestapp778.com",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇹🇭 泰国 (Thailand) 04 - xiaohe",
+      "tag": "🇹🇭 泰国 (Thailand) 02 - xiaohe",
       "server": "45.154.26.63",
       "server_port": 443,
       "uuid": "ff85e702-b605-4109-884d-2c1f065d0954",
@@ -57,14 +33,25 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇹🇭 泰国 (Thailand) 03 - xiaohe",
+      "server": "38.60.200.21",
+      "server_port": 33079,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "th001.zestapp778.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇹🇭 泰国 (Thailand) 01 - xiaohe",
         "🇹🇭 泰国 (Thailand) 02 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 03 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 04 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 03 - xiaohe"
       ]
     },
     {
@@ -73,8 +60,7 @@
       "outbounds": [
         "🇹🇭 泰国 (Thailand) 01 - xiaohe",
         "🇹🇭 泰国 (Thailand) 02 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 03 - xiaohe",
-        "🇹🇭 泰国 (Thailand) 04 - xiaohe"
+        "🇹🇭 泰国 (Thailand) 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
