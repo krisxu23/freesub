@@ -1,0 +1,28 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇲🇰 MK 01 - xiaohe
+  server: 195.144.24.69
+  port: 8443
+  udp: true
+  type: hysteria2
+  password: 1793747701:04cbffa7-bd2c-4a51-bf32-2253f4fbc1ab:3qPXWQg2jZOTEAyDzKe6Y6crr6zTX3r1v8wTaoX21uo
+  sni: mk2.lumacache.com
+  skip-cert-verify: false
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇲🇰 MK 01 - xiaohe
+- name: AUTO
+  type: url-test
+  url: https://www.gstatic.com/generate_204
+  interval: 300
+  proxies:
+  - 🇲🇰 MK 01 - xiaohe
+rules:
+- MATCH,PROXIES

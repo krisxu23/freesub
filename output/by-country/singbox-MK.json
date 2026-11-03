@@ -1,0 +1,46 @@
+{
+  "log": {
+    "level": "warn"
+  },
+  "outbounds": [
+    {
+      "type": "hysteria2",
+      "tag": "🇲🇰 MK 01 - xiaohe",
+      "server": "195.144.24.69",
+      "server_port": 8443,
+      "password": "1793747701:04cbffa7-bd2c-4a51-bf32-2253f4fbc1ab:3qPXWQg2jZOTEAyDzKe6Y6crr6zTX3r1v8wTaoX21uo",
+      "tls": {
+        "enabled": true,
+        "server_name": "mk2.lumacache.com",
+        "insecure": false,
+        "alpn": [
+          "h3"
+        ]
+      }
+    },
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇲🇰 MK 01 - xiaohe"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇲🇰 MK 01 - xiaohe"
+      ],
+      "url": "https://www.gstatic.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
