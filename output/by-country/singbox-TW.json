@@ -4,8 +4,32 @@
   },
   "outbounds": [
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
+      "server": "103.115.109.49",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "https://t.me/WangCai2🇨🇳",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
+      "server": "160.187.100.109",
+      "server_port": 443,
+      "password": "H7mP2xY9kJ4nQ8wR5tF6vB3z",
+      "tls": {
+        "enabled": true,
+        "server_name": "off",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
       "server": "152.32.167.33",
       "server_port": 443,
       "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
@@ -25,15 +49,23 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
-      "server": "47.129.112.129",
-      "server_port": 20000,
-      "password": "CQUPACy34t6Tjx8FdQdkCiYW",
+      "type": "vless",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe",
+      "server": "45.207.159.71",
+      "server_port": 8443,
+      "uuid": "eb8c97f7-a154-4442-91b0-54c0d055ad0b",
       "tls": {
         "enabled": true,
-        "server_name": "sg-transit-3.nebulacloud.win",
-        "insecure": true
+        "server_name": "github.githubassets.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA",
+          "short_id": "4ad2e4e660550e43"
+        }
       }
     },
     {
@@ -42,7 +74,9 @@
       "outbounds": [
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe"
       ]
     },
     {
@@ -50,7 +84,9 @@
       "tag": "auto",
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 02 - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 03 - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

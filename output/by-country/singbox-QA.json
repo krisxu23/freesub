@@ -5,17 +5,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇩 印尼 (Indonesia) 01 - xiaohe",
-      "server": "130.94.95.198",
-      "server_port": 57353,
-      "uuid": "e9a8144e-5237-488a-afb1-9ca3d8d54c80",
+      "tag": "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe",
+      "server": "149.104.121.174",
+      "server_port": 8443,
+      "uuid": "1506f2e0-ae12-4718-b5ab-c5609161300e",
       "tls": {
         "enabled": true,
-        "server_name": "in001.zestapp778.com",
-        "insecure": true,
+        "server_name": "as10.cdn77.icu",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8",
+          "short_id": ""
         }
       }
     },
@@ -24,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
+        "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 印尼 (Indonesia) 01 - xiaohe"
+        "🇶🇦 卡塔尔 (Qatar) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

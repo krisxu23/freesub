@@ -12,7 +12,11 @@
       "tls": {
         "enabled": true,
         "server_name": "45.63.30.142",
-        "insecure": true
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -32,25 +36,12 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇦🇺 澳大利亚 (Australia) 03 - xiaohe",
-      "server": "zz.xgb.fogvip-zz.uk",
-      "server_port": 40024,
-      "password": "8dc86561-24f9-4bf7-99de-1373640859eb",
-      "tls": {
-        "enabled": true,
-        "server_name": "ld.xghk03.yuiuingkig.icu",
-        "insecure": true
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
       ]
     },
     {
@@ -58,8 +49,7 @@
       "tag": "auto",
       "outbounds": [
         "🇦🇺 澳大利亚 (Australia) 01 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe",
-        "🇦🇺 澳大利亚 (Australia) 03 - xiaohe"
+        "🇦🇺 澳大利亚 (Australia) 02 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
