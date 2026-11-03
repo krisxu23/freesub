@@ -13,61 +13,17 @@ proxies:
   sni: searchhealthcarejobsandbuildmedicalcareerpathway.com
   skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 02 - xiaohe
-  server: 132.243.231.21
-  port: 443
+  server: 138.199.55.230
+  port: 1270
   udp: true
-  type: vless
-  uuid: 518079db-d88d-4035-bbf4-ddd1f9cf1e5f
-  flow: xtls-rprx-vision
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   tls: true
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  servername: se.frgcdn.xyz
-  client-fingerprint: firefox
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇸🇪 瑞典 (Sweden) 03 - xiaohe
-  server: 89.125.37.1
-  port: 443
-  udp: true
-  type: vless
-  uuid: 518079db-d88d-4035-bbf4-ddd1f9cf1e5f
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q
-    short-id: 2d6d073dc88f22a8
-  servername: se.frgcdn.xyz
-  client-fingerprint: chrome
-- name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
-  server: 5.178.109.174
-  port: 14430
-  udp: true
-  type: vless
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
-- name: 🇸🇪 瑞典 (Sweden) 05 - xiaohe
-  server: 194.104.94.141
-  port: 443
-  udp: true
-  type: vless
-  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
-  tls: true
-  servername: se3.shtil.io
-  skip-cert-verify: false
-  client-fingerprint: firefox
-- name: 🇸🇪 瑞典 (Sweden) 06 - xiaohe
-  server: se.mimowhat.online
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 769f34f0-1500-488f-b414-03bc90666502
-  sni: se.mimowhat.online
-  skip-cert-verify: false
-- name: 🇸🇪 瑞典 (Sweden) 07 - xiaohe
   server: sw.golangwikito.cfd
   port: 443
   udp: true
@@ -79,28 +35,37 @@ proxies:
     public-key: Kb8SsVPprs46BJSUNp5JvWLI-TFEiHmlBOXLQd37Glg
     short-id: a1037b25dcef6aa7
   servername: sw.golangwikito.cfd
-  client-fingerprint: qq
-- name: 🇸🇪 瑞典 (Sweden) 08 - xiaohe
-  server: 201.58.177.35
+  client-fingerprint: edge
+- name: 🇸🇪 瑞典 (Sweden) 04 - xiaohe
+  server: 194.104.94.141
   port: 443
   udp: true
   type: vless
-  uuid: 5adb25b6-b41a-46ac-a481-71651deb60c5
-  flow: xtls-rprx-vision
+  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
   tls: true
-  reality-opts:
-    public-key: DA1kJXSsIsN8H-kZ51jEYHafTx50X-2RGG8KNZuCISg
-    short-id: da4d87fa
-  servername: xb1.huinaduok.fans
-  client-fingerprint: chrome
-- name: 🇸🇪 瑞典 (Sweden) 09 - xiaohe
-  server: 192.142.23.46
+  servername: se3.shtil.io
+  skip-cert-verify: false
+  client-fingerprint: firefox
+- name: 🇸🇪 瑞典 (Sweden) 05 - xiaohe
+  server: se.mimowhat.online
   port: 443
   udp: true
   type: hysteria2
-  password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
-  sni: diffoscope.com
+  password: 769f34f0-1500-488f-b414-03bc90666502
+  sni: se.mimowhat.online
   skip-cert-verify: false
+- name: 🇸🇪 瑞典 (Sweden) 06 - xiaohe
+  server: swidenafterlanzerotte.space
+  port: 443
+  udp: true
+  type: vless
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: MQrvfivvEfLGzDee7h0j5uC-DwaD_38_NXOY9-NhqxM
+  servername: swidenafterlanzerotte.space
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -112,9 +77,6 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 05 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 06 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 07 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 08 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 09 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -126,8 +88,5 @@ proxy-groups:
   - 🇸🇪 瑞典 (Sweden) 04 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 05 - xiaohe
   - 🇸🇪 瑞典 (Sweden) 06 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 07 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 08 - xiaohe
-  - 🇸🇪 瑞典 (Sweden) 09 - xiaohe
 rules:
 - MATCH,PROXIES

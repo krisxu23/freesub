@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 芬兰 (Finland) 01 - xiaohe
-  server: dns22.m3hrzd.ir
-  port: 1346
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: v1c-i5SSFXP8n4g1Wbc0L9gX82x5O2Qa
-- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
   server: 95.216.27.15
   port: 2053
   udp: true
@@ -23,7 +16,7 @@ proxies:
     short-id: 10351b07c712d2a2
   servername: www.cloudflare.com
   client-fingerprint: ''
-- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
+- name: 🇫🇮 芬兰 (Finland) 02 - xiaohe
   server: 45.144.234.157
   port: 14430
   udp: true
@@ -34,6 +27,19 @@ proxies:
     path: /vless
     headers:
       Host: 45.144.234.157
+- name: 🇫🇮 芬兰 (Finland) 03 - xiaohe
+  server: 89.144.53.4
+  port: 8445
+  udp: true
+  type: vless
+  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
+    short-id: 1a2b3c4d
+  servername: videos.porsche.com
+  client-fingerprint: firefox
 - name: 🇫🇮 芬兰 (Finland) 04 - xiaohe
   server: 31.77.199.147
   port: 4443
@@ -48,17 +54,29 @@ proxies:
   servername: images.unsplash.com
   client-fingerprint: chrome
 - name: 🇫🇮 芬兰 (Finland) 05 - xiaohe
-  server: areal1.greewebservices.ir
-  port: 2425
+  server: 201.58.177.35
+  port: 443
   udp: true
   type: vless
-  uuid: dfb070bf-0b53-43eb-be2b-4b34f7e1644d
+  uuid: 5adb25b6-b41a-46ac-a481-71651deb60c5
+  flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: MnPGY1Vo4ZbYdpLRTYHoolv5s_pwO41karyJfnQ0F3o
-    short-id: 9b60d3
-  servername: play.googleapis.com
-  client-fingerprint: ios
+    public-key: DA1kJXSsIsN8H-kZ51jEYHafTx50X-2RGG8KNZuCISg
+    short-id: da4d87fa
+  servername: xb1.huinaduok.fans
+  client-fingerprint: chrome
+- name: 🇫🇮 芬兰 (Finland) 06 - xiaohe
+  server: 172.67.118.45
+  port: 2053
+  udp: true
+  type: trojan
+  password: gHQP0D7D15
+  sni: marvdasht.phonecomparisonblog.org
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,6 +87,7 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 03 - xiaohe
   - 🇫🇮 芬兰 (Finland) 04 - xiaohe
   - 🇫🇮 芬兰 (Finland) 05 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -79,5 +98,6 @@ proxy-groups:
   - 🇫🇮 芬兰 (Finland) 03 - xiaohe
   - 🇫🇮 芬兰 (Finland) 04 - xiaohe
   - 🇫🇮 芬兰 (Finland) 05 - xiaohe
+  - 🇫🇮 芬兰 (Finland) 06 - xiaohe
 rules:
 - MATCH,PROXIES
