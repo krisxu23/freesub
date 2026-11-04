@@ -13,6 +13,28 @@ proxies:
   sni: connectwithtopemployersandfindidealjobs.com
   skip-cert-verify: false
 - name: 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
+  server: 69.67.148.175
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
+  server: 69.67.148.117
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇲🇽 墨西哥 (Mexico) 04 - xiaohe
   server: 147.78.1.253
   port: 443
   udp: true
@@ -31,6 +53,8 @@ proxy-groups:
   - AUTO
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
   - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -38,5 +62,7 @@ proxy-groups:
   proxies:
   - 🇲🇽 墨西哥 (Mexico) 01 - xiaohe
   - 🇲🇽 墨西哥 (Mexico) 02 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 03 - xiaohe
+  - 🇲🇽 墨西哥 (Mexico) 04 - xiaohe
 rules:
 - MATCH,PROXIES
