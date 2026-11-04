@@ -5,13 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇺 匈牙利 (Hungary) 01 - xiaohe
-  server: 84.38.184.87
-  port: 36116
+  server: 172.67.131.125
+  port: 2083
   udp: true
-  type: hysteria2
-  password: 1793747701:04cbffa7-bd2c-4a51-bf32-2253f4fbc1ab:98Va5kVHKW06htuFKRbjrX7rWPTNQI4Jlee5xTFNAW0
-  sni: hu.lumacache.com
+  type: vless
+  uuid: f418674e-f518-4318-8ff9-e10000000046
+  tls: true
+  servername: smart-edge-424.arti98399-1905.workers.dev
   skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: smart-edge-424.arti98399-1905.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
