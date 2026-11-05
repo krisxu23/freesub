@@ -5,6 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
+  server: 147.45.126.220
+  port: 443
+  udp: true
+  type: vless
+  uuid: c9bd639a-a6b9-4448-9421-cef0ae0826cd
+  tls: true
+  servername: pol.qikbro.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: assets
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   server: 130.49.177.193
   port: 443
   udp: true
@@ -17,7 +30,7 @@ proxies:
     short-id: 681fc2dd643bc2f3
   servername: de-2.ffpn.pro
   client-fingerprint: chrome
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   server: 193.233.253.180
   port: 8444
   udp: true
@@ -31,14 +44,27 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: GunService
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 185.22.153.192
-  port: 18443
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  server: 38.60.223.125
+  port: 13108
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
+  cipher: aes-128-gcm
+  password: 8722de56b6c0b3f6a4d01cf91c07e6aa
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+  server: nl4.japancase.site
+  port: 443
+  udp: true
+  type: vless
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: lXCVb-MY5dJqMUw6xvkuPbi0idyfF-OkSY_6GpOovVI
+    short-id: 9f05c35b73b47d53
+  servername: nl4.japancase.site
+  client-fingerprint: ios
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   server: 201.24.121.243
   port: 443
   udp: true
@@ -51,7 +77,7 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vlgrpc
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
+- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
   server: 103.88.243.142
   port: 11592
   udp: true
@@ -59,25 +85,6 @@ proxies:
   password: 41edb44c8e
   sni: srv-17e124.21freedom.net
   skip-cert-verify: false
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
-  server: rus.noooo.win
-  port: 8443
-  udp: true
-  type: vless
-  uuid: 53de05e9-8de3-48ae-9036-dcb203d4925c
-  flow: xtls-rprx-vision
-  tls: true
-  servername: id-6aeb73b7.adhil.uk
-  skip-cert-verify: false
-  client-fingerprint: edge
-- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaohe
-  server: srv-17e124.21freedom.net
-  port: 11592
-  udp: true
-  type: hysteria2
-  password: 41edb44c8e
-  sni: srv-17e124.21freedom.net
-  skip-cert-verify: true
 - name: 🇷🇺 俄罗斯 (Russia) 08 - xiaohe
   server: 5.42.99.64
   port: 8443
@@ -90,7 +97,7 @@ proxies:
     public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
     short-id: 3cbc3d737fb9c4af
   servername: du-rov.secureservice.top
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇷🇺 俄罗斯 (Russia) 09 - xiaohe
   server: 5.42.99.64
   port: 8443
@@ -116,20 +123,8 @@ proxies:
     public-key: fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI
     short-id: 3cbc3d737fb9c4af
   servername: du-rov.secureservice.top
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
-  server: 31.177.111.236
-  port: 443
-  udp: true
-  type: vless
-  uuid: 03929684-0dcf-4add-bb02-2b2ba09d10a2
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: Kamryj_IUYECmozGabqUqauA0k0QpVUEPSBSEKi-ED0
-  servername: tfhx4tjzmy39benjh0hg.sellerape.cc
-  client-fingerprint: firefox
-- name: 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
   server: xsru1.ddnsfree.com
   port: 443
   udp: true
@@ -142,19 +137,39 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-ru
-- name: 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
-  server: 147.45.175.81
+- name: 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
+  server: 193.233.252.43
   port: 443
   udp: true
   type: vless
-  uuid: c90395e6-2140-47ad-a54d-9b166729d3ef
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  flow: xtls-rprx-vision
   tls: true
-  servername: xssite.webredirect.org
-  skip-cert-verify: false
-  client-fingerprint: random
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc-ru
+  reality-opts:
+    public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
+    short-id: 41ae8e266bc3346f
+  servername: se1.japancase.site
+  client-fingerprint: firefox
+- name: 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
+  server: 185.22.153.192
+  port: 18443
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+- name: 🇷🇺 俄罗斯 (Russia) 14 - xiaohe
+  server: 147.45.126.97
+  port: 443
+  udp: true
+  type: vless
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: COvqGpB7lUdZshmbn5zdqiVi81n8Iyha8RbEHtK93xc
+    short-id: 5037f0423dc4e4ff
+  servername: pl3.japancase.site
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -173,6 +188,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 14 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -191,5 +207,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 11 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 12 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 13 - xiaohe
+  - 🇷🇺 俄罗斯 (Russia) 14 - xiaohe
 rules:
 - MATCH,PROXIES

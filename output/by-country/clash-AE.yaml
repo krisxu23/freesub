@@ -5,42 +5,42 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  server: 151.241.19.35
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  server: 151.241.19.38
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  server: 151.241.19.36
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
   server: 151.241.19.29
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+- name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
+  server: 151.241.19.35
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
+  server: 151.241.19.38
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇪 阿联酋 (UAE) 04 - xiaohe
   server: 151.241.19.37
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
+  server: 151.241.19.36
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
-  server: 151.241.19.37
+  server: 151.241.19.38
   port: 52014
   udp: true
   type: vless
@@ -53,7 +53,7 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: random
 - name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
-  server: 151.241.19.37
+  server: 151.241.19.36
   port: 1270
   udp: true
   type: vmess
@@ -64,7 +64,7 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇦🇪 阿联酋 (UAE) 08 - xiaohe
-  server: 151.241.19.38
+  server: 151.241.19.37
   port: 52014
   udp: true
   type: vless
@@ -77,29 +77,30 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: random
 - name: 🇦🇪 阿联酋 (UAE) 09 - xiaohe
-  server: 151.241.19.38
-  port: 1270
+  server: 130.49.161.70
+  port: 443
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
+  type: hysteria2
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
   skip-cert-verify: false
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 10 - xiaohe
-  server: 151.241.19.36
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇦🇪 阿联酋 (UAE) 11 - xiaohe
   server: 151.241.19.35
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇦🇪 阿联酋 (UAE) 11 - xiaohe
+  server: 151.241.19.29
   port: 1270
   udp: true
   type: vmess
@@ -110,7 +111,7 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇦🇪 阿联酋 (UAE) 12 - xiaohe
-  server: 151.241.19.36
+  server: 151.241.19.29
   port: 52014
   udp: true
   type: vless
@@ -124,29 +125,6 @@ proxies:
   client-fingerprint: random
 - name: 🇦🇪 阿联酋 (UAE) 13 - xiaohe
   server: 151.241.19.35
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇦🇪 阿联酋 (UAE) 14 - xiaohe
-  server: 130.49.161.70
-  port: 443
-  udp: true
-  type: hysteria2
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
-  skip-cert-verify: false
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-- name: 🇦🇪 阿联酋 (UAE) 15 - xiaohe
-  server: 151.241.19.29
   port: 1270
   udp: true
   type: vmess
@@ -156,8 +134,19 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇦🇪 阿联酋 (UAE) 16 - xiaohe
-  server: 151.241.19.29
+- name: 🇦🇪 阿联酋 (UAE) 14 - xiaohe
+  server: 151.241.19.38
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇦🇪 阿联酋 (UAE) 15 - xiaohe
+  server: 151.241.19.36
   port: 52014
   udp: true
   type: vless
@@ -169,7 +158,31 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
+- name: 🇦🇪 阿联酋 (UAE) 16 - xiaohe
+  server: 151.241.19.37
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇦🇪 阿联酋 (UAE) 17 - xiaohe
+  server: 89.125.8.88
+  port: 443
+  udp: true
+  type: vless
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: Yw0T7qr5Wk3HCqV8h6V9N5wcInMxQ0XsxUuLV62_bEM
+    short-id: c498d5e4a069592c
+  servername: nl5.japancase.site
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 18 - xiaohe
   server: 95.174.68.188
   port: 14430
   udp: true
@@ -178,25 +191,14 @@ proxies:
   network: ws
   ws-opts:
     path: /vless
-    headers:
-      Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 18 - xiaohe
-  server: sclass-00.catcat321.com
+- name: 🇦🇪 阿联酋 (UAE) 19 - xiaohe
+  server: Sclass-00.catcat321.com
   port: 20123
   udp: true
   type: trojan
   password: d9064589-74af-432a-9390-5d8a9da281bf
   sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: 🇦🇪 阿联酋 (UAE) 19 - xiaohe
-  server: uae.unixzone.us
-  port: 22573
-  udp: true
-  type: vless
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  network: ws
-  ws-opts:
-    path: /
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
