@@ -6,14 +6,22 @@
     {
       "type": "vless",
       "tag": "🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe",
-      "server": "support.zoom.us",
-      "server_port": 8080,
-      "uuid": "990bf436-f1b9-4e7f-857d-14378acc4ae5",
+      "server": "news.zoom.us",
+      "server_port": 2087,
+      "uuid": "0ef68b97-f878-4cea-b756-c56ea3632851",
+      "tls": {
+        "enabled": true,
+        "server_name": "free.vkehi.store",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/",
         "headers": {
-          "Host": "free.nadun.store"
+          "Host": "free.vkehi.store"
         }
       }
     },

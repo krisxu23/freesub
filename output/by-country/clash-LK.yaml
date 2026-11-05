@@ -5,16 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe
-  server: support.zoom.us
-  port: 8080
+  server: news.zoom.us
+  port: 2087
   udp: true
   type: vless
-  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
+  uuid: 0ef68b97-f878-4cea-b756-c56ea3632851
+  tls: true
+  servername: free.vkehi.store
+  skip-cert-verify: false
+  client-fingerprint: edge
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: free.nadun.store
+      Host: free.vkehi.store
 proxy-groups:
 - name: PROXIES
   type: select

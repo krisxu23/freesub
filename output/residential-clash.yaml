@@ -4,7 +4,22 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
+- name: 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe
+  server: dog-hk.kunlun01dns.com
+  port: 21022
+  udp: true
+  type: vmess
+  uuid: 9464ca40-dd75-3742-a628-d931a9f413b2
+  alterId: 0
+  cipher: auto
+- name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  server: 49.254.204.133
+  port: 1774
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+- name: 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
   server: 125.227.86.45
   port: 443
   udp: true
@@ -15,22 +30,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: db
-- name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  server: er8u54dh.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: px.ads.linkedin.com
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
-  server: 56481.df6h451rh.xin
-  port: 443
-  udp: true
-  type: anytls
-  password: 0324fbc29561
-  sni: images.ctfassets.net
-  skip-cert-verify: true
 - name: 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
   server: 60.248.219.78
   port: 443
@@ -45,23 +44,77 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: ty986gfazs.cainiaohub.xyz
+- name: 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
+  server: er8u54dh.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: er8u54dh.df6h451rh.xin
+  skip-cert-verify: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
+  server: 56481.df6h451rh.xin
+  port: 443
+  udp: true
+  type: anytls
+  password: 0324fbc29561
+  sni: 56481.df6h451rh.xin
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
+  server: saas.sin.fan
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtVVFVQAlEEABtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
+- name: 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
+  server: op.chinwa.eu.cc
+  port: 443
+  udp: true
+  type: vless
+  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
+  tls: true
+  servername: edgetunnel.bursaonline.eu.org
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgFbU1RRAFwHAxtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
+    headers:
+      Host: edgetunnel.bursaonline.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaohe
-  - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  - 🇭🇰 中国香港 (Hong Kong) 03 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 01 (移动家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 04 (家宽) - xiaohe
+  - 🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe
+  - 🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 07 (家宽) - xiaohe
+  - 🇰🇷 韩国 (South Korea) 08 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
