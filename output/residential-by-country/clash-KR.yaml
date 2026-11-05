@@ -12,7 +12,7 @@ proxies:
   cipher: aes-256-cfb
   password: 1234!@#$
 - name: 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  server: saas.sin.fan
+  server: p.etime.vip
   port: 443
   udp: true
   type: vless
@@ -23,22 +23,7 @@ proxies:
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgtVVFVQAlEEABtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
-    headers:
-      Host: edgetunnel.bursaonline.eu.org
-- name: 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
-  server: op.chinwa.eu.cc
-  port: 443
-  udp: true
-  type: vless
-  uuid: 2523c510-9ff0-415b-9582-93949bfae7e3
-  tls: true
-  servername: edgetunnel.bursaonline.eu.org
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWgFbU1RRAFwHAxtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
+    path: /video/SRdGShNQEwoPShUSQA8YE0ARSEtbWV9IGwkbQkkMRE1HRwRAQUJdQQcXCxJbSQhEHA9cXkYWQ1hYXRAXG0VJWg9TU1JSAVMCBRtdQwZbVkcDVwMSEgEWQVoQWRsPAQsYRA==
     headers:
       Host: edgetunnel.bursaonline.eu.org
 proxy-groups:
@@ -48,7 +33,6 @@ proxy-groups:
   - AUTO
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -56,6 +40,5 @@ proxy-groups:
   proxies:
   - 🇰🇷 韩国 (South Korea) 01 (家宽) - xiaohe
   - 🇰🇷 韩国 (South Korea) 02 (家宽) - xiaohe
-  - 🇰🇷 韩国 (South Korea) 03 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES

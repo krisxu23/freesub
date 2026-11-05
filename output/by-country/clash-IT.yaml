@@ -5,251 +5,245 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇹 意大利 (Italy) 01 - xiaohe
-  server: 149.50.215.234
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 02 - xiaohe
-  server: 149.50.215.229
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 03 - xiaohe
-  server: 202.50.253.72
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 04 - xiaohe
-  server: 202.50.253.45
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 05 - xiaohe
-  server: 202.50.253.99
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 06 - xiaohe
-  server: 202.50.253.27
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 07 - xiaohe
-  server: 202.50.253.36
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 08 - xiaohe
-  server: 202.50.253.63
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 09 - xiaohe
   server: 195.86.6.2
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 10 - xiaohe
-  server: 195.86.6.1
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 11 - xiaohe
-  server: 195.86.6.3
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 12 - xiaohe
+- name: 🇮🇹 意大利 (Italy) 02 - xiaohe
   server: 185.164.175.81
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 13 - xiaohe
-  server: 202.50.253.90
+- name: 🇮🇹 意大利 (Italy) 03 - xiaohe
+  server: 149.50.215.234
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 14 - xiaohe
-  server: 149.50.215.226
+- name: 🇮🇹 意大利 (Italy) 04 - xiaohe
+  server: 195.86.6.1
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 15 - xiaohe
-  server: 149.50.215.238
+- name: 🇮🇹 意大利 (Italy) 05 - xiaohe
+  server: 195.86.6.3
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 16 - xiaohe
-  server: 202.50.253.18
+- name: 🇮🇹 意大利 (Italy) 06 - xiaohe
+  server: 149.50.215.239
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 17 - xiaohe
-  server: 149.50.215.241
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 18 - xiaohe
-  server: 202.50.253.81
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 19 - xiaohe
+- name: 🇮🇹 意大利 (Italy) 07 - xiaohe
   server: 149.50.215.240
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 20 - xiaohe
-  server: 202.50.253.54
+- name: 🇮🇹 意大利 (Italy) 08 - xiaohe
+  server: 149.50.215.229
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 21 - xiaohe
-  server: 149.22.91.226
+- name: 🇮🇹 意大利 (Italy) 09 - xiaohe
+  server: 149.102.237.113
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 22 - xiaohe
-  server: 91.201.65.122
-  port: 9053
-  udp: true
-  type: ss
-  cipher: aes-256-cfb
-  password: SBM7R883jBmnqe6C
-- name: 🇮🇹 意大利 (Italy) 23 - xiaohe
-  server: 149.22.91.3
+- name: 🇮🇹 意大利 (Italy) 10 - xiaohe
+  server: 149.50.215.241
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 24 - xiaohe
-  server: 149.22.91.23
+- name: 🇮🇹 意大利 (Italy) 11 - xiaohe
+  server: 202.50.253.36
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 25 - xiaohe
-  server: 149.22.91.233
+- name: 🇮🇹 意大利 (Italy) 12 - xiaohe
+  server: 149.50.215.231
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 26 - xiaohe
-  server: 149.22.91.236
+- name: 🇮🇹 意大利 (Italy) 13 - xiaohe
+  server: 149.50.215.226
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 27 - xiaohe
-  server: 149.22.91.228
+- name: 🇮🇹 意大利 (Italy) 14 - xiaohe
+  server: 202.50.253.27
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 28 - xiaohe
+- name: 🇮🇹 意大利 (Italy) 15 - xiaohe
+  server: 202.50.253.99
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 16 - xiaohe
+  server: 149.50.215.238
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 17 - xiaohe
+  server: 202.50.253.18
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 18 - xiaohe
+  server: 202.50.253.90
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 19 - xiaohe
   server: 149.22.91.20
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 29 - xiaohe
+- name: 🇮🇹 意大利 (Italy) 20 - xiaohe
+  server: 149.22.91.227
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 21 - xiaohe
+  server: 149.22.91.3
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 22 - xiaohe
+  server: 202.50.253.63
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 23 - xiaohe
+  server: 149.22.91.236
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 24 - xiaohe
+  server: 149.22.91.232
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 25 - xiaohe
   server: 149.22.91.19
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 30 - xiaohe
-  server: 149.22.91.25
+- name: 🇮🇹 意大利 (Italy) 26 - xiaohe
+  server: 149.22.91.228
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 31 - xiaohe
-  server: 149.22.91.231
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 32 - xiaohe
+- name: 🇮🇹 意大利 (Italy) 27 - xiaohe
   server: 149.22.91.26
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 33 - xiaohe
-  server: 149.50.215.231
-  port: 52014
+- name: 🇮🇹 意大利 (Italy) 28 - xiaohe
+  server: 149.22.91.226
+  port: 19999
   udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 34 - xiaohe
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 29 - xiaohe
+  server: 149.22.91.233
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 30 - xiaohe
   server: 149.22.91.1
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 31 - xiaohe
+  server: 66.245.207.70
+  port: 8388
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: qMvJmCbMduKUoeHq
+- name: 🇮🇹 意大利 (Italy) 32 - xiaohe
+  server: 149.22.91.25
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 33 - xiaohe
+  server: 149.22.91.23
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 34 - xiaohe
+  server: 91.201.65.122
+  port: 9002
+  udp: true
+  type: ss
+  cipher: aes-256-cfb
+  password: b8KkNDjEd5QqFyRm
 - name: 🇮🇹 意大利 (Italy) 35 - xiaohe
-  server: 149.50.215.226
+  server: 195.86.6.1
   port: 52014
   udp: true
   type: vless
@@ -262,18 +256,16 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 36 - xiaohe
-  server: 195.86.6.1
-  port: 52014
+  server: 195.86.6.2
+  port: 1270
   udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇮🇹 意大利 (Italy) 37 - xiaohe
   server: 195.86.6.3
   port: 52014
@@ -288,37 +280,6 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 38 - xiaohe
-  server: 149.22.91.227
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 39 - xiaohe
-  server: 195.86.6.2
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 40 - xiaohe
-  server: 195.86.6.3
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 41 - xiaohe
   server: 149.102.237.113
   port: 52014
   udp: true
@@ -331,8 +292,39 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 39 - xiaohe
+  server: 149.50.215.231
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇮🇹 意大利 (Italy) 40 - xiaohe
+  server: 149.50.215.226
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 41 - xiaohe
+  server: 149.22.91.231
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇮🇹 意大利 (Italy) 42 - xiaohe
-  server: 195.86.6.1
+  server: 149.50.215.229
   port: 1270
   udp: true
   type: vmess
@@ -343,54 +335,6 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇮🇹 意大利 (Italy) 43 - xiaohe
-  server: 149.102.237.113
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 44 - xiaohe
-  server: 149.50.215.234
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 45 - xiaohe
-  server: 149.50.215.240
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 46 - xiaohe
-  server: 149.50.215.241
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 47 - xiaohe
   server: 149.50.215.238
   port: 52014
   udp: true
@@ -403,21 +347,65 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 44 - xiaohe
+  server: 149.50.215.226
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇮🇹 意大利 (Italy) 45 - xiaohe
+  server: 149.50.215.239
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇮🇹 意大利 (Italy) 46 - xiaohe
+  server: 149.50.215.234
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇮🇹 意大利 (Italy) 47 - xiaohe
+  server: 149.102.237.113
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇮🇹 意大利 (Italy) 48 - xiaohe
-  server: 82.118.16.187
-  port: 443
+  server: 149.50.215.241
+  port: 52014
   udp: true
   type: vless
-  uuid: dc2259c4-388e-4285-ba18-df619b6672b6
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU
-    short-id: cd6065902eea7a02
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 49 - xiaohe
-  server: 149.50.215.239
+  server: 149.50.215.234
   port: 52014
   udp: true
   type: vless
@@ -430,18 +418,20 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 50 - xiaohe
-  server: 149.50.215.238
-  port: 1270
+  server: 149.50.215.240
+  port: 52014
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
   tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 51 - xiaohe
-  server: 149.50.215.226
+  server: 195.86.6.1
   port: 1270
   udp: true
   type: vmess
@@ -452,7 +442,7 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇮🇹 意大利 (Italy) 52 - xiaohe
-  server: 149.50.215.241
+  server: 195.86.6.2
   port: 52014
   udp: true
   type: vless
@@ -465,25 +455,27 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 53 - xiaohe
-  server: 195.86.6.2
-  port: 1270
+  server: 149.50.215.231
+  port: 52014
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
   tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 54 - xiaohe
   server: 91.201.65.122
-  port: 9097
+  port: 9039
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: Sn5B7jTqr76aCJT8
+  password: qYEN5HX4JKeVCdEC
 - name: 🇮🇹 意大利 (Italy) 55 - xiaohe
-  server: 149.50.215.240
+  server: 149.50.215.238
   port: 1270
   udp: true
   type: vmess
@@ -494,25 +486,40 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇮🇹 意大利 (Italy) 56 - xiaohe
-  server: 149.50.215.231
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 57 - xiaohe
   server: 91.201.65.122
-  port: 9039
+  port: 9053
   udp: true
   type: ss
   cipher: aes-256-cfb
-  password: qYEN5HX4JKeVCdEC
+  password: SBM7R883jBmnqe6C
+- name: 🇮🇹 意大利 (Italy) 57 - xiaohe
+  server: 149.50.215.229
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 58 - xiaohe
   server: 149.50.215.239
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 59 - xiaohe
+  server: 149.50.215.240
   port: 1270
   udp: true
   type: vmess
@@ -522,28 +529,15 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 59 - xiaohe
-  server: 149.50.215.239
-  port: 19999
+- name: 🇮🇹 意大利 (Italy) 60 - xiaohe
+  server: 91.201.65.122
+  port: 9074
   udp: true
   type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 60 - xiaohe
-  server: 91.201.67.245
-  port: 443
-  udp: true
-  type: vless
-  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
-    short-id: 1a2b3c4d
-  servername: files.porsche.com
-  client-fingerprint: ''
+  cipher: aes-256-cfb
+  password: p5wSkb2uM3pKSS3j
 - name: 🇮🇹 意大利 (Italy) 61 - xiaohe
-  server: 149.22.91.232
+  server: 195.86.6.3
   port: 1270
   udp: true
   type: vmess
@@ -554,7 +548,7 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇮🇹 意大利 (Italy) 62 - xiaohe
-  server: 149.22.91.25
+  server: 149.50.215.241
   port: 1270
   udp: true
   type: vmess
@@ -565,53 +559,41 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇮🇹 意大利 (Italy) 63 - xiaohe
-  server: 149.22.91.233
-  port: 1270
+  server: 91.201.65.122
+  port: 9097
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
+  type: ss
+  cipher: aes-256-cfb
+  password: Sn5B7jTqr76aCJT8
 - name: 🇮🇹 意大利 (Italy) 64 - xiaohe
-  server: 149.22.91.19
-  port: 52014
+  server: 82.118.16.187
+  port: 443
   udp: true
   type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  uuid: dc2259c4-388e-4285-ba18-df619b6672b6
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
+    public-key: R5ycsjJ-v024902dMSqTsSdqxUwCFEXMebdBEWFt9VU
+    short-id: cd6065902eea7a02
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇮🇹 意大利 (Italy) 65 - xiaohe
-  server: 149.22.91.19
-  port: 1270
+  server: 91.201.65.122
+  port: 9070
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
+  type: ss
+  cipher: aes-256-cfb
+  password: bf7v334KKDV3YDhH
 - name: 🇮🇹 意大利 (Italy) 66 - xiaohe
-  server: 149.22.91.20
-  port: 1270
+  server: 91.201.65.122
+  port: 9059
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
+  type: ss
+  cipher: aes-256-cfb
+  password: 9XwYyZsK8SNzQDtY
 - name: 🇮🇹 意大利 (Italy) 67 - xiaohe
-  server: 149.22.91.227
+  server: 149.22.91.232
   port: 1270
   udp: true
   type: vmess
@@ -622,19 +604,6 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇮🇹 意大利 (Italy) 68 - xiaohe
-  server: 149.22.91.232
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 69 - xiaohe
   server: 149.22.91.228
   port: 1270
   udp: true
@@ -645,8 +614,8 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 70 - xiaohe
-  server: 149.22.91.236
+- name: 🇮🇹 意大利 (Italy) 69 - xiaohe
+  server: 149.22.91.226
   port: 1270
   udp: true
   type: vmess
@@ -656,33 +625,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 71 - xiaohe
-  server: 149.22.91.23
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 72 - xiaohe
-  server: 149.22.91.25
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 73 - xiaohe
+- name: 🇮🇹 意大利 (Italy) 70 - xiaohe
   server: 149.22.91.1
   port: 1270
   udp: true
@@ -693,7 +636,80 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
+- name: 🇮🇹 意大利 (Italy) 71 - xiaohe
+  server: 149.22.91.231
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇮🇹 意大利 (Italy) 72 - xiaohe
+  server: 149.22.91.227
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇮🇹 意大利 (Italy) 73 - xiaohe
+  server: 149.22.91.236
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇮🇹 意大利 (Italy) 74 - xiaohe
+  server: 149.22.91.23
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇮🇹 意大利 (Italy) 75 - xiaohe
+  server: 149.22.91.20
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇮🇹 意大利 (Italy) 76 - xiaohe
+  server: 149.22.91.19
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇮🇹 意大利 (Italy) 77 - xiaohe
+  server: 202.50.253.54
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 78 - xiaohe
   server: 149.22.91.227
   port: 52014
   udp: true
@@ -706,58 +722,8 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 75 - xiaohe
-  server: 149.22.91.236
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 76 - xiaohe
-  server: 149.22.91.228
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 77 - xiaohe
-  server: 149.22.91.231
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 78 - xiaohe
-  server: 149.22.91.3
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
 - name: 🇮🇹 意大利 (Italy) 79 - xiaohe
-  server: 149.22.91.226
+  server: 149.22.91.232
   port: 52014
   udp: true
   type: vless
@@ -770,7 +736,7 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 80 - xiaohe
-  server: 149.22.91.26
+  server: 149.22.91.228
   port: 52014
   udp: true
   type: vless
@@ -783,7 +749,33 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 81 - xiaohe
-  server: 149.22.91.226
+  server: 149.22.91.26
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 82 - xiaohe
+  server: 149.22.91.25
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 83 - xiaohe
+  server: 149.22.91.233
   port: 1270
   udp: true
   type: vmess
@@ -793,28 +785,8 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 82 - xiaohe
-  server: Sclass-C1.catcat321.com
-  port: 20065
-  udp: true
-  type: trojan
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  sni: hk.catxstar.com
-  skip-cert-verify: true
-- name: 🇮🇹 意大利 (Italy) 83 - xiaohe
-  server: 57.131.38.163
-  port: 2053
-  udp: true
-  type: vless
-  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
-  tls: true
-  reality-opts:
-    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
-    short-id: 5b8a942318178e7b
-  servername: www.apple.com
-  client-fingerprint: chrome
 - name: 🇮🇹 意大利 (Italy) 84 - xiaohe
-  server: 149.50.215.234
+  server: 149.22.91.3
   port: 1270
   udp: true
   type: vmess
@@ -825,7 +797,7 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇮🇹 意大利 (Italy) 85 - xiaohe
-  server: 149.22.91.233
+  server: 149.22.91.23
   port: 52014
   udp: true
   type: vless
@@ -838,110 +810,43 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 86 - xiaohe
-  server: 149.22.91.3
-  port: 52014
+  server: 149.22.91.25
+  port: 1270
   udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇮🇹 意大利 (Italy) 87 - xiaohe
-  server: 149.50.215.229
-  port: 1270
+  server: 149.22.91.233
+  port: 52014
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
   tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 88 - xiaohe
-  server: 149.50.215.231
-  port: 19999
+  server: 149.22.91.19
+  port: 52014
   udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
 - name: 🇮🇹 意大利 (Italy) 89 - xiaohe
-  server: 149.22.91.232
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 90 - xiaohe
-  server: 149.22.91.20
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 91 - xiaohe
-  server: 149.102.237.113
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇮🇹 意大利 (Italy) 92 - xiaohe
-  server: 149.22.91.23
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 93 - xiaohe
-  server: 149.22.91.26
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 94 - xiaohe
-  server: 149.22.91.231
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇮🇹 意大利 (Italy) 95 - xiaohe
-  server: 149.50.215.229
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇹 意大利 (Italy) 96 - xiaohe
   server: 149.22.91.1
   port: 52014
   udp: true
@@ -954,6 +859,136 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 90 - xiaohe
+  server: 149.22.91.236
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 91 - xiaohe
+  server: 149.22.91.26
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇮🇹 意大利 (Italy) 92 - xiaohe
+  server: 91.201.67.245
+  port: 443
+  udp: true
+  type: vless
+  uuid: 5c32201a-6c0e-451b-8f0a-24b4bd40df59
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
+    short-id: 1a2b3c4d
+  servername: files.porsche.com
+  client-fingerprint: chrome
+- name: 🇮🇹 意大利 (Italy) 93 - xiaohe
+  server: 149.22.91.20
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 94 - xiaohe
+  server: 149.22.91.3
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 95 - xiaohe
+  server: 149.22.91.231
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 96 - xiaohe
+  server: 149.22.91.226
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇮🇹 意大利 (Italy) 97 - xiaohe
+  server: 57.131.38.163
+  port: 2053
+  udp: true
+  type: vless
+  uuid: d4b08cd6-0903-411a-9dac-45dbdf5c9712
+  tls: true
+  reality-opts:
+    public-key: Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc
+    short-id: 5b8a942318178e7b
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇮🇹 意大利 (Italy) 98 - xiaohe
+  server: 202.50.253.72
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 99 - xiaohe
+  server: 202.50.253.45
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇹 意大利 (Italy) 100 - xiaohe
+  server: Sclass-C1.catcat321.com
+  port: 20065
+  udp: true
+  type: trojan
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+- name: 🇮🇹 意大利 (Italy) 101 - xiaohe
+  server: 202.50.253.81
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1055,6 +1090,11 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 94 - xiaohe
   - 🇮🇹 意大利 (Italy) 95 - xiaohe
   - 🇮🇹 意大利 (Italy) 96 - xiaohe
+  - 🇮🇹 意大利 (Italy) 97 - xiaohe
+  - 🇮🇹 意大利 (Italy) 98 - xiaohe
+  - 🇮🇹 意大利 (Italy) 99 - xiaohe
+  - 🇮🇹 意大利 (Italy) 100 - xiaohe
+  - 🇮🇹 意大利 (Italy) 101 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -1156,5 +1196,10 @@ proxy-groups:
   - 🇮🇹 意大利 (Italy) 94 - xiaohe
   - 🇮🇹 意大利 (Italy) 95 - xiaohe
   - 🇮🇹 意大利 (Italy) 96 - xiaohe
+  - 🇮🇹 意大利 (Italy) 97 - xiaohe
+  - 🇮🇹 意大利 (Italy) 98 - xiaohe
+  - 🇮🇹 意大利 (Italy) 99 - xiaohe
+  - 🇮🇹 意大利 (Italy) 100 - xiaohe
+  - 🇮🇹 意大利 (Italy) 101 - xiaohe
 rules:
 - MATCH,PROXIES

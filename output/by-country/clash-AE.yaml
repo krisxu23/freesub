@@ -12,14 +12,14 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
-  server: 151.241.19.36
+  server: 151.241.19.38
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  server: 151.241.19.37
+  server: 151.241.19.36
   port: 19999
   udp: true
   type: ss
@@ -33,60 +33,26 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇪 阿联酋 (UAE) 05 - xiaohe
-  server: 151.241.19.38
+  server: 151.241.19.37
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇦🇪 阿联酋 (UAE) 06 - xiaohe
-  server: 130.49.161.70
-  port: 443
+  server: 151.241.19.37
+  port: 52014
   udp: true
-  type: hysteria2
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
-  sni: hy2.aspidnet.xyz
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
 - name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
-  server: 151.241.19.36
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇦🇪 阿联酋 (UAE) 08 - xiaohe
-  server: 151.241.19.35
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇦🇪 阿联酋 (UAE) 09 - xiaohe
-  server: 151.241.19.35
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇦🇪 阿联酋 (UAE) 10 - xiaohe
   server: 151.241.19.37
   port: 1270
   udp: true
@@ -97,8 +63,43 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇦🇪 阿联酋 (UAE) 11 - xiaohe
+- name: 🇦🇪 阿联酋 (UAE) 08 - xiaohe
   server: 151.241.19.38
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇦🇪 阿联酋 (UAE) 09 - xiaohe
+  server: 151.241.19.38
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇦🇪 阿联酋 (UAE) 10 - xiaohe
+  server: 151.241.19.36
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇦🇪 阿联酋 (UAE) 11 - xiaohe
+  server: 151.241.19.35
   port: 1270
   udp: true
   type: vmess
@@ -110,17 +111,19 @@ proxies:
   skip-cert-verify: false
 - name: 🇦🇪 阿联酋 (UAE) 12 - xiaohe
   server: 151.241.19.36
-  port: 1270
+  port: 52014
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
   tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
 - name: 🇦🇪 阿联酋 (UAE) 13 - xiaohe
-  server: 151.241.19.38
+  server: 151.241.19.35
   port: 52014
   udp: true
   type: vless
@@ -133,32 +136,16 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: random
 - name: 🇦🇪 阿联酋 (UAE) 14 - xiaohe
-  server: 151.241.19.37
-  port: 52014
+  server: 130.49.161.70
+  port: 443
   udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
+  type: hysteria2
+  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+  sni: hy2.aspidnet.xyz
+  skip-cert-verify: false
+  obfs: salamander
+  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 15 - xiaohe
-  server: 151.241.19.29
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇦🇪 阿联酋 (UAE) 16 - xiaohe
   server: 151.241.19.29
   port: 1270
   udp: true
@@ -169,6 +156,19 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
+- name: 🇦🇪 阿联酋 (UAE) 16 - xiaohe
+  server: 151.241.19.29
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
 - name: 🇦🇪 阿联酋 (UAE) 17 - xiaohe
   server: 95.174.68.188
   port: 14430
@@ -181,6 +181,14 @@ proxies:
     headers:
       Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 18 - xiaohe
+  server: sclass-00.catcat321.com
+  port: 20123
+  udp: true
+  type: trojan
+  password: d9064589-74af-432a-9390-5d8a9da281bf
+  sni: hk.catxstar.com
+  skip-cert-verify: true
+- name: 🇦🇪 阿联酋 (UAE) 19 - xiaohe
   server: uae.unixzone.us
   port: 22573
   udp: true
@@ -189,24 +197,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 19 - xiaohe
-  server: Sclass-C1.catcat321.com
-  port: 20086
-  udp: true
-  type: trojan
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  sni: hk.catxstar.com
-  skip-cert-verify: false
-- name: 🇦🇪 阿联酋 (UAE) 20 - xiaohe
-  server: Sclass-00.catcat321.com
-  port: 20123
-  udp: true
-  type: trojan
-  password: d9064589-74af-432a-9390-5d8a9da281bf
-  sni: hk.catxstar.com
-  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
@@ -231,7 +221,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 17 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 18 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 19 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 20 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -256,6 +245,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 17 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 18 - xiaohe
   - 🇦🇪 阿联酋 (UAE) 19 - xiaohe
-  - 🇦🇪 阿联酋 (UAE) 20 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -6,334 +6,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇨🇭 瑞士 (Switzerland) 01 - xiaohe",
-      "server": "23.166.88.121",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
-      "server": "23.166.88.230",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
-      "server": "79.127.184.75",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
-      "server": "134.195.199.100",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
-      "server": "186.190.215.210",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
-      "server": "23.166.88.24",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 07 - xiaohe",
-      "server": "186.190.215.83",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 08 - xiaohe",
-      "server": "186.190.215.251",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 09 - xiaohe",
-      "server": "79.127.184.72",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 10 - xiaohe",
-      "server": "134.195.199.16",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 11 - xiaohe",
-      "server": "23.166.88.106",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 12 - xiaohe",
-      "server": "134.195.199.34",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 13 - xiaohe",
-      "server": "23.166.88.212",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 14 - xiaohe",
-      "server": "23.166.88.26",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 15 - xiaohe",
-      "server": "23.166.88.227",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 16 - xiaohe",
-      "server": "186.190.215.84",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 17 - xiaohe",
-      "server": "134.195.199.107",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 18 - xiaohe",
-      "server": "134.195.199.110",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 19 - xiaohe",
-      "server": "79.127.184.109",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 20 - xiaohe",
-      "server": "23.166.88.232",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 21 - xiaohe",
-      "server": "186.190.215.4",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 22 - xiaohe",
-      "server": "208.69.78.44",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 23 - xiaohe",
-      "server": "134.195.199.44",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 24 - xiaohe",
-      "server": "134.195.199.17",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 25 - xiaohe",
-      "server": "134.195.199.57",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 26 - xiaohe",
-      "server": "23.166.88.81",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 27 - xiaohe",
-      "server": "186.190.215.115",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 28 - xiaohe",
-      "server": "23.166.88.5",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 29 - xiaohe",
-      "server": "134.195.199.26",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 30 - xiaohe",
-      "server": "134.195.199.101",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 31 - xiaohe",
-      "server": "134.195.199.31",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 32 - xiaohe",
-      "server": "79.127.184.103",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 33 - xiaohe",
-      "server": "23.166.88.153",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 34 - xiaohe",
-      "server": "134.195.199.53",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 35 - xiaohe",
-      "server": "186.190.215.66",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 36 - xiaohe",
-      "server": "186.190.215.74",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 37 - xiaohe",
-      "server": "79.127.184.74",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 38 - xiaohe",
-      "server": "79.127.184.104",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 39 - xiaohe",
-      "server": "186.190.215.120",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 40 - xiaohe",
-      "server": "186.190.215.12",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 41 - xiaohe",
-      "server": "134.195.199.48",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 42 - xiaohe",
       "server": "79.127.184.71",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -341,7 +13,55 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 43 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 02 - xiaohe",
+      "server": "79.127.184.74",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 03 - xiaohe",
+      "server": "79.127.184.109",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 04 - xiaohe",
+      "server": "79.127.184.103",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 05 - xiaohe",
+      "server": "79.127.184.72",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 06 - xiaohe",
+      "server": "79.127.184.75",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 07 - xiaohe",
+      "server": "134.195.199.31",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 08 - xiaohe",
       "server": "79.127.184.73",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -349,183 +69,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 44 - xiaohe",
-      "server": "186.190.215.166",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 45 - xiaohe",
-      "server": "186.190.215.214",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 46 - xiaohe",
-      "server": "186.190.215.250",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 47 - xiaohe",
-      "server": "186.190.215.223",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 48 - xiaohe",
-      "server": "186.190.215.49",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 49 - xiaohe",
-      "server": "186.190.215.47",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 50 - xiaohe",
-      "server": "186.190.215.158",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 51 - xiaohe",
-      "server": "186.190.215.32",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 52 - xiaohe",
-      "server": "23.166.88.79",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 53 - xiaohe",
-      "server": "23.166.88.41",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 54 - xiaohe",
-      "server": "23.166.88.189",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 55 - xiaohe",
-      "server": "23.166.88.175",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 56 - xiaohe",
-      "server": "186.190.215.131",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 57 - xiaohe",
-      "server": "23.166.88.77",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 58 - xiaohe",
-      "server": "23.166.88.88",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 59 - xiaohe",
-      "server": "23.166.88.229",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 60 - xiaohe",
-      "server": "186.190.215.168",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 61 - xiaohe",
-      "server": "23.166.88.91",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 62 - xiaohe",
-      "server": "23.166.88.117",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 63 - xiaohe",
-      "server": "23.166.88.231",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 64 - xiaohe",
-      "server": "186.190.215.144",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 65 - xiaohe",
-      "server": "23.166.88.172",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 66 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 09 - xiaohe",
       "server": "23.166.88.151",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -533,7 +77,431 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 67 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 10 - xiaohe",
+      "server": "23.166.88.212",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 11 - xiaohe",
+      "server": "186.190.215.158",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 12 - xiaohe",
+      "server": "23.166.88.24",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 13 - xiaohe",
+      "server": "186.190.215.83",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 14 - xiaohe",
+      "server": "134.195.199.48",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 15 - xiaohe",
+      "server": "186.190.215.47",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 16 - xiaohe",
+      "server": "23.166.88.79",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 17 - xiaohe",
+      "server": "23.166.88.229",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 18 - xiaohe",
+      "server": "134.195.199.16",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 19 - xiaohe",
+      "server": "23.166.88.231",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 20 - xiaohe",
+      "server": "23.166.88.227",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 21 - xiaohe",
+      "server": "23.166.88.232",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 22 - xiaohe",
+      "server": "186.190.215.131",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 23 - xiaohe",
+      "server": "79.127.184.104",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 24 - xiaohe",
+      "server": "186.190.215.210",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 25 - xiaohe",
+      "server": "23.166.88.121",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 26 - xiaohe",
+      "server": "23.166.88.5",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 27 - xiaohe",
+      "server": "23.166.88.166",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 28 - xiaohe",
+      "server": "186.190.215.4",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 29 - xiaohe",
+      "server": "134.195.199.107",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 30 - xiaohe",
+      "server": "23.166.88.26",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 31 - xiaohe",
+      "server": "186.190.215.32",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 32 - xiaohe",
+      "server": "134.195.199.44",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 33 - xiaohe",
+      "server": "186.190.215.84",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 34 - xiaohe",
+      "server": "23.166.88.77",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 35 - xiaohe",
+      "server": "23.166.88.106",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 36 - xiaohe",
+      "server": "186.190.215.251",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 37 - xiaohe",
+      "server": "23.166.88.91",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 38 - xiaohe",
+      "server": "186.190.215.115",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 39 - xiaohe",
+      "server": "186.190.215.223",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 40 - xiaohe",
+      "server": "186.190.215.74",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 41 - xiaohe",
+      "server": "186.190.215.49",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 42 - xiaohe",
+      "server": "23.166.88.41",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 43 - xiaohe",
+      "server": "134.195.199.57",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 44 - xiaohe",
+      "server": "134.195.199.17",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 45 - xiaohe",
+      "server": "186.190.215.120",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 46 - xiaohe",
+      "server": "134.195.199.26",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 47 - xiaohe",
+      "server": "134.195.199.53",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 48 - xiaohe",
+      "server": "186.190.215.66",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 49 - xiaohe",
+      "server": "134.195.199.34",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 50 - xiaohe",
+      "server": "23.166.88.81",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 51 - xiaohe",
+      "server": "186.190.215.168",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 52 - xiaohe",
+      "server": "186.190.215.166",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 53 - xiaohe",
+      "server": "23.166.88.172",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 54 - xiaohe",
+      "server": "186.190.215.214",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 55 - xiaohe",
+      "server": "134.195.199.101",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 56 - xiaohe",
+      "server": "23.166.88.189",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 57 - xiaohe",
+      "server": "23.166.88.117",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 58 - xiaohe",
+      "server": "186.190.215.12",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 59 - xiaohe",
+      "server": "23.166.88.230",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 60 - xiaohe",
+      "server": "23.166.88.153",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 61 - xiaohe",
+      "server": "134.195.199.110",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 62 - xiaohe",
+      "server": "134.195.199.100",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 63 - xiaohe",
       "server": "23.166.88.114",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -541,40 +509,95 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 68 - xiaohe",
-      "server": "23.166.88.127",
+      "tag": "🇨🇭 瑞士 (Switzerland) 64 - xiaohe",
+      "server": "186.190.215.250",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 69 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 65 - xiaohe",
+      "server": "23.166.88.88",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 66 - xiaohe",
+      "server": "23.166.88.175",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 67 - xiaohe",
       "server": "23.166.88.31",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 70 - xiaohe",
-      "server": "152.67.75.161",
-      "server_port": 443,
-      "password": "3a702d4d1de4949005d8431220e040fb",
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 68 - xiaohe",
+      "server": "79.127.184.72",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "c13f29db6a638ad2b211b9ce2669ef27"
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 69 - xiaohe",
+      "server": "79.127.184.71",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 70 - xiaohe",
+      "server": "79.127.184.75",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 71 - xiaohe",
-      "server": "134.195.199.44",
+      "server": "79.127.184.109",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -595,7 +618,7 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 72 - xiaohe",
-      "server": "134.195.199.53",
+      "server": "79.127.184.103",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -616,7 +639,7 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 73 - xiaohe",
-      "server": "186.190.215.66",
+      "server": "79.127.184.75",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -637,82 +660,7 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 74 - xiaohe",
-      "server": "23.166.88.227",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 75 - xiaohe",
-      "server": "23.166.88.91",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 76 - xiaohe",
-      "server": "79.127.184.103",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 77 - xiaohe",
-      "server": "140.238.213.114",
-      "server_port": 50160,
-      "password": "84a506ca5aca505696a454d828420b3f",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.bing.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 78 - xiaohe",
-      "server": "23.166.88.230",
+      "server": "79.127.184.74",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -732,8 +680,21 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 79 - xiaohe",
-      "server": "23.166.88.230",
+      "tag": "🇨🇭 瑞士 (Switzerland) 75 - xiaohe",
+      "server": "79.127.184.74",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 76 - xiaohe",
+      "server": "79.127.184.73",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -745,8 +706,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 80 - xiaohe",
-      "server": "186.190.215.12",
+      "tag": "🇨🇭 瑞士 (Switzerland) 77 - xiaohe",
+      "server": "134.195.199.48",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -766,7 +727,49 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 81 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 78 - xiaohe",
+      "server": "186.190.215.83",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 79 - xiaohe",
+      "server": "186.190.215.214",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 80 - xiaohe",
       "server": "134.195.199.110",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
@@ -787,8 +790,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 82 - xiaohe",
-      "server": "134.195.199.17",
+      "tag": "🇨🇭 瑞士 (Switzerland) 81 - xiaohe",
+      "server": "23.166.88.31",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -807,9 +810,22 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 82 - xiaohe",
+      "server": "79.127.184.71",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 83 - xiaohe",
-      "server": "134.195.199.101",
+      "server": "186.190.215.131",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -830,20 +846,7 @@
     {
       "type": "vmess",
       "tag": "🇨🇭 瑞士 (Switzerland) 84 - xiaohe",
-      "server": "23.166.88.166",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 85 - xiaohe",
-      "server": "23.166.88.212",
+      "server": "186.190.215.84",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -855,8 +858,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 86 - xiaohe",
-      "server": "134.195.199.34",
+      "tag": "🇨🇭 瑞士 (Switzerland) 85 - xiaohe",
+      "server": "186.190.215.66",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -875,22 +878,51 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 87 - xiaohe",
-      "server": "23.166.88.172",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 86 - xiaohe",
+      "server": "186.190.215.4",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 87 - xiaohe",
+      "server": "23.166.88.41",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 88 - xiaohe",
-      "server": "23.166.88.232",
+      "server": "186.190.215.251",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -911,7 +943,7 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 89 - xiaohe",
-      "server": "23.166.88.151",
+      "server": "23.166.88.231",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -930,25 +962,9 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 90 - xiaohe",
-      "server": "208.69.78.222",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "yourultimateprofessionalcareerhub.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 91 - xiaohe",
-      "server": "134.195.199.100",
+      "server": "23.166.88.172",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -967,8 +983,68 @@
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 91 - xiaohe",
+      "server": "79.127.184.72",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
       "tag": "🇨🇭 瑞士 (Switzerland) 92 - xiaohe",
+      "server": "186.190.215.74",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 93 - xiaohe",
+      "server": "79.127.184.73",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 94 - xiaohe",
+      "server": "23.166.88.79",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 95 - xiaohe",
       "server": "134.195.199.16",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
@@ -988,22 +1064,9 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 93 - xiaohe",
-      "server": "23.166.88.189",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 94 - xiaohe",
-      "server": "23.166.88.106",
+      "tag": "🇨🇭 瑞士 (Switzerland) 96 - xiaohe",
+      "server": "134.195.199.26",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -1022,38 +1085,9 @@
       }
     },
     {
-      "type": "trojan",
-      "tag": "🇨🇭 瑞士 (Switzerland) 95 - xiaohe",
-      "server": "208.69.78.19",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.yourultimateprofessionalcareerhub.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 96 - xiaohe",
-      "server": "23.166.88.41",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
       "type": "vmess",
       "tag": "🇨🇭 瑞士 (Switzerland) 97 - xiaohe",
-      "server": "134.195.199.57",
+      "server": "79.127.184.104",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -1066,7 +1100,7 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 98 - xiaohe",
-      "server": "79.127.184.71",
+      "server": "23.166.88.88",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -1087,7 +1121,28 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 99 - xiaohe",
-      "server": "23.166.88.231",
+      "server": "186.190.215.47",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 100 - xiaohe",
+      "server": "186.190.215.32",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -1107,8 +1162,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 100 - xiaohe",
-      "server": "23.166.88.88",
+      "tag": "🇨🇭 瑞士 (Switzerland) 101 - xiaohe",
+      "server": "23.166.88.106",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -1116,27 +1171,6 @@
         "enabled": true,
         "server_name": "xmfhlpy.com",
         "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 101 - xiaohe",
-      "server": "134.195.199.107",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
       }
     },
     {
@@ -1163,7 +1197,7 @@
     {
       "type": "vmess",
       "tag": "🇨🇭 瑞士 (Switzerland) 103 - xiaohe",
-      "server": "186.190.215.83",
+      "server": "134.195.199.107",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -1176,7 +1210,7 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 104 - xiaohe",
-      "server": "134.195.199.31",
+      "server": "186.190.215.120",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -1195,25 +1229,30 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 105 - xiaohe",
-      "server": "208.69.78.60",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "server": "23.166.88.153",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
-        "insecure": false,
+        "server_name": "cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 106 - xiaohe",
-      "server": "186.190.215.131",
+      "server": "23.166.88.77",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -1234,7 +1273,7 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 107 - xiaohe",
-      "server": "186.190.215.83",
+      "server": "134.195.199.34",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -1253,22 +1292,30 @@
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 108 - xiaohe",
-      "server": "134.195.199.48",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
+      "server": "23.166.88.229",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 109 - xiaohe",
-      "server": "186.190.215.84",
+      "server": "23.166.88.175",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -1287,38 +1334,51 @@
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 110 - xiaohe",
-      "server": "208.69.78.29",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "server": "23.166.88.151",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "learn.yourultimateprofessionalcareerhub.com",
-        "insecure": false,
+        "server_name": "cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
         }
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 111 - xiaohe",
-      "server": "79.127.184.73",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
+      "server": "23.166.88.227",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
       }
     },
     {
       "type": "vmess",
       "tag": "🇨🇭 瑞士 (Switzerland) 112 - xiaohe",
-      "server": "186.190.215.84",
+      "server": "134.195.199.100",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -1329,22 +1389,30 @@
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 113 - xiaohe",
-      "server": "23.166.88.227",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
+      "server": "186.190.215.223",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
       }
     },
     {
       "type": "vmess",
       "tag": "🇨🇭 瑞士 (Switzerland) 114 - xiaohe",
-      "server": "134.195.199.17",
+      "server": "186.190.215.144",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -1355,22 +1423,30 @@
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 115 - xiaohe",
-      "server": "134.195.199.26",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
+      "server": "23.166.88.81",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
       }
     },
     {
       "type": "vmess",
       "tag": "🇨🇭 瑞士 (Switzerland) 116 - xiaohe",
-      "server": "186.190.215.166",
+      "server": "23.166.88.91",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -1381,51 +1457,35 @@
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇨🇭 瑞士 (Switzerland) 117 - xiaohe",
-      "server": "79.127.184.75",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
+      "server": "23.166.88.88",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
+        "server_name": "xmfhlpy.com",
+        "insecure": false
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇨🇭 瑞士 (Switzerland) 118 - xiaohe",
-      "server": "23.166.88.41",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
+      "server": "23.166.88.166",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
+        "server_name": "xmfhlpy.com",
+        "insecure": false
       }
     },
     {
       "type": "vmess",
       "tag": "🇨🇭 瑞士 (Switzerland) 119 - xiaohe",
-      "server": "134.195.199.107",
+      "server": "186.190.215.115",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -1438,7 +1498,7 @@
     {
       "type": "vmess",
       "tag": "🇨🇭 瑞士 (Switzerland) 120 - xiaohe",
-      "server": "79.127.184.75",
+      "server": "23.166.88.232",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -1451,7 +1511,7 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 121 - xiaohe",
-      "server": "23.166.88.229",
+      "server": "186.190.215.158",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -1472,7 +1532,28 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 122 - xiaohe",
-      "server": "23.166.88.77",
+      "server": "134.195.199.100",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 123 - xiaohe",
+      "server": "134.195.199.31",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -1492,21 +1573,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 123 - xiaohe",
-      "server": "23.166.88.114",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "🇨🇭 瑞士 (Switzerland) 124 - xiaohe",
-      "server": "186.190.215.47",
+      "server": "134.195.199.101",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -1519,942 +1587,6 @@
     {
       "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 125 - xiaohe",
-      "server": "186.190.215.251",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 126 - xiaohe",
-      "server": "23.166.88.106",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 127 - xiaohe",
-      "server": "186.190.215.120",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 128 - xiaohe",
-      "server": "134.195.199.101",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 129 - xiaohe",
-      "server": "23.166.88.231",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 130 - xiaohe",
-      "server": "23.166.88.153",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 131 - xiaohe",
-      "server": "134.195.199.26",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 132 - xiaohe",
-      "server": "134.195.199.57",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 133 - xiaohe",
-      "server": "134.195.199.48",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 134 - xiaohe",
-      "server": "186.190.215.214",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇨🇭 瑞士 (Switzerland) 135 - xiaohe",
-      "server": "208.69.78.33",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "courses.yourultimateprofessionalcareerhub.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 136 - xiaohe",
-      "server": "186.190.215.12",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 137 - xiaohe",
-      "server": "208.69.78.44",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 138 - xiaohe",
-      "server": "186.190.215.74",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 139 - xiaohe",
-      "server": "23.166.88.79",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 140 - xiaohe",
-      "server": "23.166.88.232",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 141 - xiaohe",
-      "server": "186.190.215.66",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 142 - xiaohe",
-      "server": "134.195.199.100",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 143 - xiaohe",
-      "server": "186.190.215.158",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 144 - xiaohe",
-      "server": "79.127.184.72",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 145 - xiaohe",
-      "server": "186.190.215.251",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 146 - xiaohe",
-      "server": "186.190.215.250",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 147 - xiaohe",
-      "server": "23.166.88.31",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 148 - xiaohe",
-      "server": "208.69.78.44",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 149 - xiaohe",
-      "server": "79.127.184.73",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 150 - xiaohe",
-      "server": "79.127.184.104",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 151 - xiaohe",
-      "server": "134.195.199.53",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 152 - xiaohe",
-      "server": "134.195.199.44",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 153 - xiaohe",
-      "server": "79.127.184.74",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 154 - xiaohe",
-      "server": "23.166.88.91",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 155 - xiaohe",
-      "server": "79.127.184.74",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 156 - xiaohe",
-      "server": "23.166.88.26",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 157 - xiaohe",
-      "server": "79.127.184.104",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 158 - xiaohe",
-      "server": "186.190.215.74",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 159 - xiaohe",
-      "server": "134.195.199.110",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 160 - xiaohe",
-      "server": "134.195.199.34",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 161 - xiaohe",
-      "server": "79.127.184.109",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 162 - xiaohe",
-      "server": "186.190.215.223",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 163 - xiaohe",
-      "server": "23.166.88.212",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 164 - xiaohe",
-      "server": "79.127.184.72",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 165 - xiaohe",
-      "server": "79.127.184.109",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 166 - xiaohe",
-      "server": "134.195.199.31",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 167 - xiaohe",
-      "server": "186.190.215.120",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 168 - xiaohe",
-      "server": "134.195.199.16",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 169 - xiaohe",
-      "server": "79.127.184.71",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 170 - xiaohe",
-      "server": "79.127.184.103",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 171 - xiaohe",
-      "server": "186.190.215.210",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 172 - xiaohe",
-      "server": "186.190.215.115",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 173 - xiaohe",
-      "server": "186.190.215.4",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 174 - xiaohe",
-      "server": "186.190.215.214",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 175 - xiaohe",
-      "server": "186.190.215.47",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 176 - xiaohe",
-      "server": "186.190.215.250",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 177 - xiaohe",
-      "server": "186.190.215.49",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 178 - xiaohe",
-      "server": "186.190.215.131",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 179 - xiaohe",
-      "server": "23.166.88.172",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 180 - xiaohe",
-      "server": "186.190.215.144",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 181 - xiaohe",
-      "server": "23.166.88.114",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 182 - xiaohe",
       "server": "23.166.88.189",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
@@ -2475,8 +1607,50 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 183 - xiaohe",
-      "server": "23.166.88.153",
+      "tag": "🇨🇭 瑞士 (Switzerland) 126 - xiaohe",
+      "server": "79.127.184.104",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 127 - xiaohe",
+      "server": "134.195.199.53",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 128 - xiaohe",
+      "server": "134.195.199.17",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -2496,8 +1670,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 184 - xiaohe",
-      "server": "186.190.215.210",
+      "tag": "🇨🇭 瑞士 (Switzerland) 129 - xiaohe",
+      "server": "208.69.78.44",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -2509,8 +1683,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 185 - xiaohe",
-      "server": "23.166.88.88",
+      "tag": "🇨🇭 瑞士 (Switzerland) 130 - xiaohe",
+      "server": "23.166.88.166",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -2530,8 +1704,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 186 - xiaohe",
-      "server": "23.166.88.24",
+      "tag": "🇨🇭 瑞士 (Switzerland) 131 - xiaohe",
+      "server": "23.166.88.151",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -2543,8 +1717,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 187 - xiaohe",
-      "server": "23.166.88.81",
+      "tag": "🇨🇭 瑞士 (Switzerland) 132 - xiaohe",
+      "server": "186.190.215.47",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -2552,115 +1726,12 @@
         "enabled": true,
         "server_name": "xmfhlpy.com",
         "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 188 - xiaohe",
-      "server": "186.190.215.158",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 189 - xiaohe",
-      "server": "208.69.78.217",
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      },
-      "server_ports": [
-        "21000:21199",
-        "33000:33199"
-      ]
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 190 - xiaohe",
-      "server": "23.166.88.5",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 191 - xiaohe",
-      "server": "23.166.88.24",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 192 - xiaohe",
-      "server": "23.166.88.81",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
       }
     },
     {
       "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 193 - xiaohe",
-      "server": "23.166.88.127",
+      "tag": "🇨🇭 瑞士 (Switzerland) 133 - xiaohe",
+      "server": "186.190.215.32",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -2668,75 +1739,103 @@
         "enabled": true,
         "server_name": "xmfhlpy.com",
         "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 194 - xiaohe",
-      "server": "23.166.88.79",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 195 - xiaohe",
-      "server": "186.190.215.144",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 196 - xiaohe",
-      "server": "186.190.215.168",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
       }
     },
     {
       "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 197 - xiaohe",
-      "server": "23.166.88.121",
+      "tag": "🇨🇭 瑞士 (Switzerland) 134 - xiaohe",
+      "server": "23.166.88.212",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 135 - xiaohe",
+      "server": "23.166.88.26",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 136 - xiaohe",
+      "server": "134.195.199.26",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 137 - xiaohe",
+      "server": "23.166.88.231",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 138 - xiaohe",
+      "server": "79.127.184.109",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 139 - xiaohe",
+      "server": "134.195.199.57",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 140 - xiaohe",
+      "server": "186.190.215.120",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 141 - xiaohe",
+      "server": "186.190.215.83",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -2748,7 +1847,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 198 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 142 - xiaohe",
       "server": "186.190.215.166",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
@@ -2768,9 +1867,35 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 143 - xiaohe",
+      "server": "23.166.88.189",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 144 - xiaohe",
+      "server": "23.166.88.230",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 199 - xiaohe",
-      "server": "23.166.88.166",
+      "tag": "🇨🇭 瑞士 (Switzerland) 145 - xiaohe",
+      "server": "23.166.88.230",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -2790,8 +1915,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 200 - xiaohe",
-      "server": "23.166.88.151",
+      "tag": "🇨🇭 瑞士 (Switzerland) 146 - xiaohe",
+      "server": "23.166.88.153",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -2802,51 +1927,25 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 201 - xiaohe",
-      "server": "23.166.88.121",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
+      "type": "trojan",
+      "tag": "🇨🇭 瑞士 (Switzerland) 147 - xiaohe",
+      "server": "208.69.78.33",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "cloudflare.com",
+        "server_name": "courses.yourultimateprofessionalcareerhub.com",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 202 - xiaohe",
-      "server": "186.190.215.32",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 203 - xiaohe",
-      "server": "186.190.215.223",
+      "tag": "🇨🇭 瑞士 (Switzerland) 148 - xiaohe",
+      "server": "134.195.199.101",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -2866,8 +1965,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 204 - xiaohe",
-      "server": "186.190.215.32",
+      "tag": "🇨🇭 瑞士 (Switzerland) 149 - xiaohe",
+      "server": "23.166.88.24",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -2879,8 +1978,8 @@
     },
     {
       "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 205 - xiaohe",
-      "server": "23.166.88.229",
+      "tag": "🇨🇭 瑞士 (Switzerland) 150 - xiaohe",
+      "server": "23.166.88.41",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -2891,22 +1990,51 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 206 - xiaohe",
-      "server": "23.166.88.5",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 207 - xiaohe",
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 151 - xiaohe",
       "server": "186.190.215.115",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 152 - xiaohe",
+      "server": "186.190.215.84",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 153 - xiaohe",
+      "server": "23.166.88.117",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -2918,7 +2046,200 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 208 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 154 - xiaohe",
+      "server": "23.166.88.212",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 155 - xiaohe",
+      "server": "134.195.199.16",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 156 - xiaohe",
+      "server": "186.190.215.74",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇭 瑞士 (Switzerland) 157 - xiaohe",
+      "server": "208.69.78.208",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "resources.yourultimateprofessionalcareerhub.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 158 - xiaohe",
+      "server": "186.190.215.250",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 159 - xiaohe",
+      "server": "134.195.199.57",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 160 - xiaohe",
+      "server": "134.195.199.107",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 161 - xiaohe",
+      "server": "45.90.59.15",
+      "server_port": 443,
+      "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY",
+          "short_id": "19253fae84102271"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇭 瑞士 (Switzerland) 162 - xiaohe",
+      "server": "208.69.78.158",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.yourultimateprofessionalcareerhub.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 163 - xiaohe",
+      "server": "23.166.88.172",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 164 - xiaohe",
+      "server": "23.166.88.114",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 165 - xiaohe",
       "server": "23.166.88.127",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
@@ -2938,87 +2259,9 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 209 - xiaohe",
-      "server": "23.166.88.175",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 210 - xiaohe",
-      "server": "23.166.88.31",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 211 - xiaohe",
-      "server": "23.166.88.77",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 212 - xiaohe",
-      "server": "23.166.88.117",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 213 - xiaohe",
-      "server": "186.190.215.168",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 214 - xiaohe",
-      "server": "23.166.88.26",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇨🇭 瑞士 (Switzerland) 215 - xiaohe",
-      "server": "23.166.88.175",
+      "tag": "🇨🇭 瑞士 (Switzerland) 166 - xiaohe",
+      "server": "186.190.215.168",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -3037,16 +2280,751 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇨🇭 瑞士 (Switzerland) 216 - xiaohe",
-      "server": "23.166.88.166",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 167 - xiaohe",
+      "server": "134.195.199.53",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 168 - xiaohe",
+      "server": "23.166.88.5",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 169 - xiaohe",
+      "server": "23.166.88.24",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 170 - xiaohe",
+      "server": "186.190.215.12",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 171 - xiaohe",
+      "server": "134.195.199.17",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 172 - xiaohe",
+      "server": "23.166.88.106",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 217 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 173 - xiaohe",
+      "server": "152.67.75.161",
+      "server_port": 443,
+      "password": "3a702d4d1de4949005d8431220e040fb",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bing.com",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "c13f29db6a638ad2b211b9ce2669ef27"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 174 - xiaohe",
+      "server": "23.166.88.227",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 175 - xiaohe",
+      "server": "186.190.215.250",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 176 - xiaohe",
+      "server": "186.190.215.223",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 177 - xiaohe",
+      "server": "23.166.88.127",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 178 - xiaohe",
+      "server": "23.166.88.91",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 179 - xiaohe",
+      "server": "23.166.88.81",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 180 - xiaohe",
+      "server": "23.166.88.232",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 181 - xiaohe",
+      "server": "186.190.215.4",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 182 - xiaohe",
+      "server": "186.190.215.144",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 183 - xiaohe",
+      "server": "134.195.199.44",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 184 - xiaohe",
+      "server": "186.190.215.210",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 185 - xiaohe",
+      "server": "186.190.215.12",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 186 - xiaohe",
+      "server": "23.166.88.77",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 187 - xiaohe",
+      "server": "186.190.215.210",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 188 - xiaohe",
+      "server": "208.69.78.44",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 189 - xiaohe",
+      "server": "134.195.199.34",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 190 - xiaohe",
+      "server": "23.166.88.5",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 191 - xiaohe",
+      "server": "186.190.215.158",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 192 - xiaohe",
+      "server": "186.190.215.214",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 193 - xiaohe",
+      "server": "23.166.88.114",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 194 - xiaohe",
+      "server": "23.166.88.31",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 195 - xiaohe",
+      "server": "23.166.88.79",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 196 - xiaohe",
+      "server": "23.166.88.121",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇭 瑞士 (Switzerland) 197 - xiaohe",
+      "server": "208.69.78.222",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "yourultimateprofessionalcareerhub.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 198 - xiaohe",
+      "server": "186.190.215.49",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 199 - xiaohe",
+      "server": "23.166.88.229",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 200 - xiaohe",
+      "server": "134.195.199.48",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 201 - xiaohe",
+      "server": "186.190.215.251",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 202 - xiaohe",
+      "server": "186.190.215.168",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 203 - xiaohe",
+      "server": "186.190.215.166",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 204 - xiaohe",
+      "server": "23.166.88.121",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 205 - xiaohe",
+      "server": "140.238.213.114",
+      "server_port": 50160,
+      "password": "84a506ca5aca505696a454d828420b3f",
+      "tls": {
+        "enabled": true,
+        "server_name": "off",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 206 - xiaohe",
+      "server": "186.190.215.66",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 207 - xiaohe",
+      "server": "79.127.184.103",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 208 - xiaohe",
+      "server": "134.195.199.31",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇨🇭 瑞士 (Switzerland) 209 - xiaohe",
+      "server": "208.69.78.19",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yourultimateprofessionalcareerhub.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 210 - xiaohe",
+      "server": "134.195.199.110",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 211 - xiaohe",
+      "server": "23.166.88.175",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇨🇭 瑞士 (Switzerland) 212 - xiaohe",
+      "server": "186.190.215.131",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 213 - xiaohe",
+      "server": "23.166.88.26",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 214 - xiaohe",
+      "server": "208.69.78.217",
+      "server_port": 21080,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 215 - xiaohe",
       "server": "104.165.205.42",
       "server_port": 8443,
       "password": "54d2f622-fd71-4f5f-8813-832b68f4ca3b",
@@ -3057,10 +3035,39 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 216 - xiaohe",
+      "server": "23.166.88.127",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 瑞士 (Switzerland) 217 - xiaohe",
+      "server": "134.195.199.44",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 218 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 8444,
+      "server_port": 33025,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3076,7 +3083,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 219 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 33195,
+      "server_port": 33152,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3089,37 +3096,16 @@
       }
     },
     {
-      "type": "vmess",
+      "type": "shadowsocks",
       "tag": "🇨🇭 瑞士 (Switzerland) 220 - xiaohe",
-      "server": "186.190.215.4",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 221 - xiaohe",
-      "server": "208.69.78.217",
-      "server_port": 33025,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
-      }
+      "server": "186.190.215.144",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "vmess",
-      "tag": "🇨🇭 瑞士 (Switzerland) 222 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 221 - xiaohe",
       "server": "186.190.215.49",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -3132,9 +3118,9 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇨🇭 瑞士 (Switzerland) 223 - xiaohe",
+      "tag": "🇨🇭 瑞士 (Switzerland) 222 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 21021,
+      "server_port": 21113,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3147,10 +3133,26 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇨🇭 瑞士 (Switzerland) 223 - xiaohe",
+      "server": "208.69.78.60",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.yourultimateprofessionalcareerhub.com",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 224 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 33044,
+      "server_port": 33187,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3166,7 +3168,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 225 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 21047,
+      "server_port": 8444,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3179,26 +3181,30 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇨🇭 瑞士 (Switzerland) 226 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 33092,
-      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "server_port": 2053,
+      "uuid": "c0dd6d59-1573-43af-8b70-1470b2632a6d",
       "tls": {
         "enabled": true,
-        "server_name": "vpn.local",
-        "insecure": true
-      },
-      "obfs": {
-        "type": "salamander",
-        "password": "mbQXP2ASuHbF6ZPq"
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0",
+          "short_id": "ad86e2d52ff40ebd"
+        }
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 227 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 21113,
+      "server_port": 21086,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3214,7 +3220,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 228 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 21158,
+      "server_port": 21054,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3230,7 +3236,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 229 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 21016,
+      "server_port": 21147,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3246,7 +3252,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 230 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 33130,
+      "server_port": 33174,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3262,7 +3268,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 231 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 21154,
+      "server_port": 21047,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3278,7 +3284,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 232 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 33174,
+      "server_port": 21067,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3291,31 +3297,26 @@
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 233 - xiaohe",
-      "server": "45.90.59.15",
-      "server_port": 443,
-      "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
-      "flow": "xtls-rprx-vision",
+      "server": "208.69.78.217",
+      "server_port": 33133,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY",
-          "short_id": "19253fae84102271"
-        }
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
       }
     },
     {
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 234 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 21046,
+      "server_port": 21154,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3331,7 +3332,7 @@
       "type": "hysteria2",
       "tag": "🇨🇭 瑞士 (Switzerland) 235 - xiaohe",
       "server": "208.69.78.217",
-      "server_port": 21161,
+      "server_port": 21046,
       "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
       "tls": {
         "enabled": true,
@@ -3342,6 +3343,30 @@
         "type": "salamander",
         "password": "mbQXP2ASuHbF6ZPq"
       }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇨🇭 瑞士 (Switzerland) 236 - xiaohe",
+      "server": "208.69.78.217",
+      "server_port": 21021,
+      "password": "capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw",
+      "tls": {
+        "enabled": true,
+        "server_name": "vpn.local",
+        "insecure": true
+      },
+      "obfs": {
+        "type": "salamander",
+        "password": "mbQXP2ASuHbF6ZPq"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇨🇭 瑞士 (Switzerland) 237 - xiaohe",
+      "server": "208.69.78.44",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "selector",
@@ -3582,7 +3607,9 @@
         "🇨🇭 瑞士 (Switzerland) 232 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 233 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 234 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 235 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 235 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 236 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 237 - xiaohe"
       ]
     },
     {
@@ -3823,7 +3850,9 @@
         "🇨🇭 瑞士 (Switzerland) 232 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 233 - xiaohe",
         "🇨🇭 瑞士 (Switzerland) 234 - xiaohe",
-        "🇨🇭 瑞士 (Switzerland) 235 - xiaohe"
+        "🇨🇭 瑞士 (Switzerland) 235 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 236 - xiaohe",
+        "🇨🇭 瑞士 (Switzerland) 237 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
