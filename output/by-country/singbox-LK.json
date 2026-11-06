@@ -15,11 +15,12 @@
         "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         }
       },
       "transport": {
         "type": "ws",
+        "path": "/",
         "headers": {
           "Host": "free.vkehi.store"
         }
