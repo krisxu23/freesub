@@ -6,14 +6,6 @@
     {
       "type": "shadowsocks",
       "tag": "🇧🇷 巴西 (Brazil) 01 - xiaohe",
-      "server": "103.14.27.211",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe",
       "server": "103.88.232.69",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -21,15 +13,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇷 巴西 (Brazil) 03 - xiaohe",
-      "server": "103.88.232.185",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇷 巴西 (Brazil) 04 - xiaohe",
+      "tag": "🇧🇷 巴西 (Brazil) 02 - xiaohe",
       "server": "103.88.232.179",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -37,7 +21,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇷 巴西 (Brazil) 05 - xiaohe",
+      "tag": "🇧🇷 巴西 (Brazil) 03 - xiaohe",
+      "server": "103.88.232.177",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇧🇷 巴西 (Brazil) 04 - xiaohe",
       "server": "103.88.232.123",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -45,15 +37,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇷 巴西 (Brazil) 06 - xiaohe",
-      "server": "103.88.232.177",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇧🇷 巴西 (Brazil) 07 - xiaohe",
+      "tag": "🇧🇷 巴西 (Brazil) 05 - xiaohe",
       "server": "160.202.130.99",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -61,15 +45,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇷 巴西 (Brazil) 08 - xiaohe",
-      "server": "67.213.114.133",
+      "tag": "🇧🇷 巴西 (Brazil) 06 - xiaohe",
+      "server": "103.88.232.185",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇷 巴西 (Brazil) 09 - xiaohe",
+      "tag": "🇧🇷 巴西 (Brazil) 07 - xiaohe",
       "server": "103.88.232.55",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -77,32 +61,40 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇧🇷 巴西 (Brazil) 10 - xiaohe",
+      "tag": "🇧🇷 巴西 (Brazil) 08 - xiaohe",
+      "server": "103.14.27.211",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇧🇷 巴西 (Brazil) 09 - xiaohe",
       "server": "103.14.27.207",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "trojan",
+      "type": "shadowsocks",
+      "tag": "🇧🇷 巴西 (Brazil) 10 - xiaohe",
+      "server": "67.213.114.133",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
       "tag": "🇧🇷 巴西 (Brazil) 11 - xiaohe",
-      "server": "216.238.116.204",
-      "server_port": 39533,
-      "password": "5t6i121em5lkmsmk",
-      "tls": {
-        "enabled": true,
-        "server_name": "br001.zestapp778.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "103.14.27.29",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "vmess",
       "tag": "🇧🇷 巴西 (Brazil) 12 - xiaohe",
-      "server": "103.88.232.177",
+      "server": "103.14.27.211",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -115,7 +107,7 @@
     {
       "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 13 - xiaohe",
-      "server": "103.88.232.185",
+      "server": "103.88.232.69",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -136,7 +128,7 @@
     {
       "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 14 - xiaohe",
-      "server": "103.14.27.211",
+      "server": "103.88.232.177",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -176,55 +168,8 @@
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇧🇷 巴西 (Brazil) 16 - xiaohe",
-      "server": "103.88.232.179",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 17 - xiaohe",
-      "server": "103.88.232.185",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 18 - xiaohe",
-      "server": "103.88.232.179",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 19 - xiaohe",
       "server": "103.88.232.55",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -237,8 +182,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 20 - xiaohe",
-      "server": "103.14.27.207",
+      "tag": "🇧🇷 巴西 (Brazil) 17 - xiaohe",
+      "server": "103.14.27.211",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -258,8 +203,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 21 - xiaohe",
-      "server": "103.14.27.29",
+      "tag": "🇧🇷 巴西 (Brazil) 18 - xiaohe",
+      "server": "103.88.232.179",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -278,9 +223,51 @@
       }
     },
     {
+      "type": "trojan",
+      "tag": "🇧🇷 巴西 (Brazil) 19 - xiaohe",
+      "server": "br001.zestapp778.com",
+      "server_port": 39533,
+      "password": "5t6i121em5lkmsmk",
+      "tls": {
+        "enabled": true,
+        "server_name": "br001.zestapp778.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇧🇷 巴西 (Brazil) 20 - xiaohe",
+      "server": "160.202.130.99",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇧🇷 巴西 (Brazil) 21 - xiaohe",
+      "server": "103.88.232.185",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "vmess",
       "tag": "🇧🇷 巴西 (Brazil) 22 - xiaohe",
-      "server": "160.202.130.99",
+      "server": "103.88.232.69",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -293,7 +280,7 @@
     {
       "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 23 - xiaohe",
-      "server": "160.202.130.99",
+      "server": "103.88.232.55",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -314,7 +301,7 @@
     {
       "type": "vless",
       "tag": "🇧🇷 巴西 (Brazil) 24 - xiaohe",
-      "server": "103.88.232.69",
+      "server": "103.88.232.185",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -333,123 +320,21 @@
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇧🇷 巴西 (Brazil) 25 - xiaohe",
-      "server": "67.213.114.133",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
+      "server": "103.88.232.179",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
+        "server_name": "xmfhlpy.com",
+        "insecure": false
       }
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🇧🇷 巴西 (Brazil) 26 - xiaohe",
-      "server": "103.88.232.177",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 27 - xiaohe",
-      "server": "103.14.27.211",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 28 - xiaohe",
-      "server": "103.14.27.207",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 29 - xiaohe",
-      "server": "67.213.114.133",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 30 - xiaohe",
-      "server": "103.88.232.69",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 巴西 (Brazil) 31 - xiaohe",
-      "server": "103.88.232.55",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇧🇷 巴西 (Brazil) 32 - xiaohe",
       "server": "103.88.232.123",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -461,8 +346,122 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 27 - xiaohe",
+      "server": "160.202.130.99",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 28 - xiaohe",
+      "server": "103.14.27.29",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 29 - xiaohe",
+      "server": "67.213.114.133",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇧🇷 巴西 (Brazil) 30 - xiaohe",
+      "server": "103.88.232.177",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇧🇷 巴西 (Brazil) 31 - xiaohe",
+      "server": "103.14.27.207",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇧🇷 巴西 (Brazil) 32 - xiaohe",
+      "server": "216.238.104.154",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "findtemporaryworkandfreelancerprojectsonlineplatform.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "vmess",
       "tag": "🇧🇷 巴西 (Brazil) 33 - xiaohe",
+      "server": "67.213.114.133",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇧🇷 巴西 (Brazil) 34 - xiaohe",
       "server": "103.14.27.29",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -474,12 +473,25 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇧🇷 巴西 (Brazil) 34 - xiaohe",
-      "server": "103.14.27.29",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "vless",
+      "tag": "🇧🇷 巴西 (Brazil) 35 - xiaohe",
+      "server": "103.14.27.207",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
     },
     {
       "type": "selector",
@@ -519,7 +531,8 @@
         "🇧🇷 巴西 (Brazil) 31 - xiaohe",
         "🇧🇷 巴西 (Brazil) 32 - xiaohe",
         "🇧🇷 巴西 (Brazil) 33 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 34 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 34 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 35 - xiaohe"
       ]
     },
     {
@@ -559,7 +572,8 @@
         "🇧🇷 巴西 (Brazil) 31 - xiaohe",
         "🇧🇷 巴西 (Brazil) 32 - xiaohe",
         "🇧🇷 巴西 (Brazil) 33 - xiaohe",
-        "🇧🇷 巴西 (Brazil) 34 - xiaohe"
+        "🇧🇷 巴西 (Brazil) 34 - xiaohe",
+        "🇧🇷 巴西 (Brazil) 35 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
