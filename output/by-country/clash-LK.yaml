@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇱🇰 斯里兰卡 (Sri Lanka) 01 - xiaohe
-  server: 141.193.213.21
+  server: news.zoom.us
   port: 2087
   udp: true
   type: vless
@@ -13,7 +13,7 @@ proxies:
   tls: true
   servername: free.vkehi.store
   skip-cert-verify: false
-  client-fingerprint: android
+  client-fingerprint: edge
   network: ws
   ws-opts:
     path: /

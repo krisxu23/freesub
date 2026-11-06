@@ -6,7 +6,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
-      "server": "151.241.19.35",
+      "server": "151.241.19.37",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -22,7 +22,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-      "server": "151.241.19.37",
+      "server": "151.241.19.29",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -30,7 +30,7 @@
     {
       "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-      "server": "151.241.19.38",
+      "server": "151.241.19.35",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
@@ -38,28 +38,15 @@
     {
       "type": "shadowsocks",
       "tag": "🇦🇪 阿联酋 (UAE) 05 - xiaohe",
-      "server": "151.241.19.29",
+      "server": "151.241.19.38",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "vmess",
-      "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
-      "server": "151.241.19.35",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-      "server": "151.241.19.37",
+      "tag": "🇦🇪 阿联酋 (UAE) 06 - xiaohe",
+      "server": "151.241.19.29",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -78,9 +65,22 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
+      "server": "151.241.19.35",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 08 - xiaohe",
-      "server": "151.241.19.36",
+      "server": "151.241.19.38",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -101,7 +101,7 @@
     {
       "type": "vmess",
       "tag": "🇦🇪 阿联酋 (UAE) 09 - xiaohe",
-      "server": "151.241.19.37",
+      "server": "151.241.19.29",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
       "security": "auto",
@@ -112,42 +112,8 @@
       }
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 10 - xiaohe",
-      "server": "151.241.19.29",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 11 - xiaohe",
-      "server": "151.241.19.29",
-      "server_port": 52014,
-      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
-          "short_id": "d4b7e8c1a9f2b3e5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 12 - xiaohe",
       "server": "151.241.19.35",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
@@ -167,9 +133,35 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇦🇪 阿联酋 (UAE) 11 - xiaohe",
+      "server": "151.241.19.36",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇦🇪 阿联酋 (UAE) 12 - xiaohe",
+      "server": "151.241.19.37",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
+      }
+    },
+    {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 13 - xiaohe",
-      "server": "151.241.19.38",
+      "server": "151.241.19.36",
       "server_port": 52014,
       "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
       "flow": "xtls-rprx-vision",
@@ -201,8 +193,29 @@
       }
     },
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 15 - xiaohe",
+      "server": "151.241.19.37",
+      "server_port": 52014,
+      "uuid": "652c1a22-1b2a-42f0-8b01-16de5ca99da3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s",
+          "short_id": "d4b7e8c1a9f2b3e5"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 16 - xiaohe",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
@@ -218,43 +231,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 16 - xiaohe",
-      "server": "95.174.68.188",
-      "server_port": 14430,
-      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
-      "transport": {
-        "type": "ws",
-        "path": "/vless"
-      }
-    },
-    {
-      "type": "vmess",
       "tag": "🇦🇪 阿联酋 (UAE) 17 - xiaohe",
-      "server": "151.241.19.36",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": false
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇦🇪 阿联酋 (UAE) 18 - xiaohe",
-      "server": "157.254.38.210",
-      "server_port": 20123,
-      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
-      "tls": {
-        "enabled": true,
-        "server_name": "hk.catxstar.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 19 - xiaohe",
       "server": "84.235.244.108",
       "server_port": 22573,
       "uuid": "39947382-3212-41c9-bc3a-589574ac8b23",
@@ -264,6 +241,66 @@
         "headers": {
           "Host": "uae.unixzone.us"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 18 - xiaohe",
+      "server": "LaVa.R6j.Ir",
+      "server_port": 8111,
+      "uuid": "7ff79f4e-e902-4308-91db-410c6db1310a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tgju.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "NKnJ79aZqPZWW8_xmiZX1o3-4UVZgC-yJsbVnwucaT8",
+          "short_id": "c9c5a6b5c022de8d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 阿联酋 (UAE) 19 - xiaohe",
+      "server": "95.174.68.188",
+      "server_port": 14430,
+      "uuid": "965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0",
+      "transport": {
+        "type": "ws",
+        "path": "/vless",
+        "headers": {
+          "Host": "95.174.68.188"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇦🇪 阿联酋 (UAE) 20 - xiaohe",
+      "server": "sclass-00.catcat321.com",
+      "server_port": 20123,
+      "password": "d9064589-74af-432a-9390-5d8a9da281bf",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.catxstar.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇦🇪 阿联酋 (UAE) 21 - xiaohe",
+      "server": "151.241.19.41",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": false
       }
     },
     {
@@ -289,7 +326,9 @@
         "🇦🇪 阿联酋 (UAE) 16 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 17 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 18 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 19 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 19 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 20 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 21 - xiaohe"
       ]
     },
     {
@@ -314,7 +353,9 @@
         "🇦🇪 阿联酋 (UAE) 16 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 17 - xiaohe",
         "🇦🇪 阿联酋 (UAE) 18 - xiaohe",
-        "🇦🇪 阿联酋 (UAE) 19 - xiaohe"
+        "🇦🇪 阿联酋 (UAE) 19 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 20 - xiaohe",
+        "🇦🇪 阿联酋 (UAE) 21 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

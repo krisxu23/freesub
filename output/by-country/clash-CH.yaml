@@ -5,35 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 瑞士 (Switzerland) 01 - xiaohe
-  server: 186.190.215.74
+  server: 79.127.184.104
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇨🇭 瑞士 (Switzerland) 02 - xiaohe
-  server: 23.166.88.227
+  server: 23.166.88.172
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇨🇭 瑞士 (Switzerland) 03 - xiaohe
-  server: 134.195.199.107
+  server: 23.166.88.189
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇨🇭 瑞士 (Switzerland) 04 - xiaohe
-  server: 23.166.88.117
+  server: 23.166.88.151
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇨🇭 瑞士 (Switzerland) 05 - xiaohe
-  server: 23.166.88.88
+  server: 186.190.215.4
   port: 19999
   udp: true
   type: ss
@@ -47,455 +47,506 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇨🇭 瑞士 (Switzerland) 07 - xiaohe
-  server: 79.127.184.109
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 08 - xiaohe
-  server: 186.190.215.66
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 09 - xiaohe
-  server: 79.127.184.75
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 10 - xiaohe
-  server: 134.195.199.101
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 11 - xiaohe
-  server: 186.190.215.120
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 12 - xiaohe
-  server: 23.166.88.106
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 13 - xiaohe
-  server: 23.166.88.166
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 14 - xiaohe
-  server: 23.166.88.41
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 15 - xiaohe
-  server: 134.195.199.48
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 16 - xiaohe
-  server: 23.166.88.79
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 17 - xiaohe
-  server: 134.195.199.110
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 18 - xiaohe
-  server: 134.195.199.57
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 19 - xiaohe
-  server: 134.195.199.17
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 20 - xiaohe
-  server: 134.195.199.26
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 21 - xiaohe
-  server: 186.190.215.32
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 22 - xiaohe
-  server: 134.195.199.16
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 23 - xiaohe
-  server: 23.166.88.229
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 24 - xiaohe
-  server: 186.190.215.144
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 25 - xiaohe
-  server: 186.190.215.223
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 26 - xiaohe
-  server: 186.190.215.210
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 27 - xiaohe
-  server: 186.190.215.158
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 28 - xiaohe
   server: 186.190.215.47
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 29 - xiaohe
-  server: 186.190.215.168
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 30 - xiaohe
-  server: 186.190.215.4
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 31 - xiaohe
-  server: 23.166.88.232
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 32 - xiaohe
-  server: 186.190.215.166
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 33 - xiaohe
-  server: 23.166.88.5
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 34 - xiaohe
-  server: 186.190.215.115
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 35 - xiaohe
-  server: 23.166.88.24
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 36 - xiaohe
-  server: 186.190.215.84
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 37 - xiaohe
-  server: 23.166.88.91
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 38 - xiaohe
-  server: 79.127.184.71
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 39 - xiaohe
-  server: 23.166.88.121
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 40 - xiaohe
-  server: 186.190.215.251
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 41 - xiaohe
-  server: 186.190.215.214
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 42 - xiaohe
-  server: 23.166.88.189
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 43 - xiaohe
-  server: 134.195.199.44
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 44 - xiaohe
-  server: 23.166.88.26
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 45 - xiaohe
-  server: 23.166.88.31
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 46 - xiaohe
-  server: 23.166.88.212
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 47 - xiaohe
-  server: 186.190.215.12
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 48 - xiaohe
-  server: 134.195.199.100
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 49 - xiaohe
-  server: 186.190.215.250
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 50 - xiaohe
-  server: 186.190.215.49
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 51 - xiaohe
-  server: 79.127.184.104
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 52 - xiaohe
-  server: 23.166.88.114
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 53 - xiaohe
-  server: 23.166.88.77
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 54 - xiaohe
-  server: 23.166.88.151
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 55 - xiaohe
-  server: 23.166.88.127
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 56 - xiaohe
-  server: 23.166.88.231
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 57 - xiaohe
-  server: 79.127.184.72
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 58 - xiaohe
-  server: 134.195.199.53
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 59 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 08 - xiaohe
   server: 79.127.184.103
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 60 - xiaohe
-  server: 186.190.215.131
+- name: 🇨🇭 瑞士 (Switzerland) 09 - xiaohe
+  server: 23.166.88.212
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 61 - xiaohe
-  server: 186.190.215.83
+- name: 🇨🇭 瑞士 (Switzerland) 10 - xiaohe
+  server: 134.195.199.48
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 62 - xiaohe
-  server: 23.166.88.153
+- name: 🇨🇭 瑞士 (Switzerland) 11 - xiaohe
+  server: 186.190.215.166
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 63 - xiaohe
-  server: 23.166.88.81
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 64 - xiaohe
-  server: 23.166.88.230
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 65 - xiaohe
-  server: 23.166.88.175
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 66 - xiaohe
-  server: 23.166.88.172
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 67 - xiaohe
-  server: 79.127.184.73
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 68 - xiaohe
-  server: 208.69.78.44
-  port: 19999
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 69 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 12 - xiaohe
   server: 79.127.184.74
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 70 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 13 - xiaohe
+  server: 134.195.199.16
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 14 - xiaohe
+  server: 186.190.215.158
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 15 - xiaohe
+  server: 23.166.88.106
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 16 - xiaohe
+  server: 23.166.88.26
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 17 - xiaohe
+  server: 23.166.88.91
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 18 - xiaohe
+  server: 186.190.215.168
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 19 - xiaohe
+  server: 23.166.88.77
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 20 - xiaohe
+  server: 23.166.88.5
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 21 - xiaohe
+  server: 79.127.184.71
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 22 - xiaohe
+  server: 134.195.199.53
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 23 - xiaohe
+  server: 186.190.215.115
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 24 - xiaohe
+  server: 23.166.88.117
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 25 - xiaohe
+  server: 23.166.88.114
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 26 - xiaohe
+  server: 186.190.215.74
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 27 - xiaohe
+  server: 23.166.88.81
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 28 - xiaohe
+  server: 23.166.88.232
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 29 - xiaohe
+  server: 134.195.199.110
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 30 - xiaohe
+  server: 79.127.184.109
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 31 - xiaohe
+  server: 134.195.199.17
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 32 - xiaohe
+  server: 186.190.215.210
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 33 - xiaohe
+  server: 186.190.215.214
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 34 - xiaohe
+  server: 23.166.88.230
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 35 - xiaohe
   server: 134.195.199.34
   port: 19999
   udp: true
   type: ss
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇭 瑞士 (Switzerland) 71 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 36 - xiaohe
+  server: 186.190.215.144
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 37 - xiaohe
+  server: 23.166.88.153
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 38 - xiaohe
+  server: 79.127.184.72
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 39 - xiaohe
+  server: 134.195.199.44
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 40 - xiaohe
+  server: 23.166.88.88
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 41 - xiaohe
+  server: 134.195.199.57
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 42 - xiaohe
+  server: 23.166.88.31
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 43 - xiaohe
+  server: 186.190.215.250
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 44 - xiaohe
+  server: 79.127.184.75
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 45 - xiaohe
   server: 23.166.88.229
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 46 - xiaohe
+  server: 134.195.199.101
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 47 - xiaohe
+  server: 208.69.78.44
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 48 - xiaohe
+  server: 186.190.215.66
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 49 - xiaohe
+  server: 23.166.88.175
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 50 - xiaohe
+  server: 186.190.215.84
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 51 - xiaohe
+  server: 186.190.215.131
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 52 - xiaohe
+  server: 23.166.88.41
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 53 - xiaohe
+  server: 23.166.88.231
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 54 - xiaohe
+  server: 23.166.88.121
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 55 - xiaohe
+  server: 134.195.199.107
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 56 - xiaohe
+  server: 186.190.215.83
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 57 - xiaohe
+  server: 186.190.215.49
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 58 - xiaohe
+  server: 186.190.215.223
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 59 - xiaohe
+  server: 23.166.88.166
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 60 - xiaohe
+  server: 134.195.199.100
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 61 - xiaohe
+  server: 79.127.184.73
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 62 - xiaohe
+  server: 79.127.184.103
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 63 - xiaohe
+  server: 208.69.78.217
+  port: 33092
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 64 - xiaohe
+  server: 134.195.199.107
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 65 - xiaohe
+  server: 79.127.184.72
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 66 - xiaohe
+  server: 134.195.199.48
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 67 - xiaohe
+  server: 79.127.184.71
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 68 - xiaohe
+  server: 186.190.215.166
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 69 - xiaohe
+  server: 23.166.88.26
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 70 - xiaohe
+  server: 23.166.88.166
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 71 - xiaohe
+  server: 79.127.184.109
   port: 52014
   udp: true
   type: vless
@@ -508,565 +559,28 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: random
 - name: 🇨🇭 瑞士 (Switzerland) 72 - xiaohe
-  server: 79.127.184.71
-  port: 52014
+  server: 23.166.88.31
+  port: 1270
   udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇨🇭 瑞士 (Switzerland) 73 - xiaohe
-  server: 134.195.199.107
-  port: 52014
+  server: 134.195.199.16
+  port: 1270
   udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇨🇭 瑞士 (Switzerland) 74 - xiaohe
-  server: 186.190.215.32
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 75 - xiaohe
-  server: 134.195.199.44
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 76 - xiaohe
-  server: 134.195.199.53
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 77 - xiaohe
-  server: 23.166.88.79
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 78 - xiaohe
-  server: 23.166.88.151
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 79 - xiaohe
-  server: 79.127.184.104
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 80 - xiaohe
-  server: 186.190.215.166
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 81 - xiaohe
-  server: 23.166.88.230
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 82 - xiaohe
-  server: 23.166.88.121
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 83 - xiaohe
-  server: 186.190.215.251
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 84 - xiaohe
-  server: 186.190.215.74
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 85 - xiaohe
-  server: 186.190.215.120
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 86 - xiaohe
-  server: 140.238.213.114
-  port: 50160
-  udp: true
-  type: hysteria2
-  password: 84a506ca5aca505696a454d828420b3f
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇨🇭 瑞士 (Switzerland) 87 - xiaohe
-  server: 79.127.184.72
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 88 - xiaohe
-  server: 186.190.215.83
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 89 - xiaohe
-  server: 134.195.199.17
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 90 - xiaohe
-  server: 134.195.199.101
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 91 - xiaohe
-  server: 186.190.215.32
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 92 - xiaohe
-  server: 23.166.88.81
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 93 - xiaohe
-  server: 23.166.88.153
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 94 - xiaohe
-  server: 23.166.88.166
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 95 - xiaohe
-  server: 134.195.199.34
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 96 - xiaohe
-  server: 23.166.88.127
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 97 - xiaohe
-  server: 186.190.215.4
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 98 - xiaohe
-  server: 134.195.199.110
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 99 - xiaohe
-  server: 23.166.88.26
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 100 - xiaohe
-  server: 208.69.78.217
-  port: 8444
-  udp: true
-  type: hysteria2
-  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
-  sni: vpn.local
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭 瑞士 (Switzerland) 101 - xiaohe
-  server: 134.195.199.48
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 102 - xiaohe
-  server: 79.127.184.75
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 103 - xiaohe
-  server: 23.166.88.175
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 104 - xiaohe
-  server: 23.166.88.5
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 105 - xiaohe
-  server: 23.166.88.175
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 106 - xiaohe
-  server: 134.195.199.100
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 107 - xiaohe
-  server: 23.166.88.91
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 108 - xiaohe
-  server: 23.166.88.121
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 109 - xiaohe
-  server: 79.127.184.104
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 110 - xiaohe
-  server: 186.190.215.131
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 111 - xiaohe
-  server: 23.166.88.153
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 112 - xiaohe
-  server: 134.195.199.26
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 113 - xiaohe
-  server: 186.190.215.66
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 114 - xiaohe
-  server: 23.166.88.41
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 115 - xiaohe
-  server: 23.166.88.231
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 116 - xiaohe
-  server: 186.190.215.168
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 117 - xiaohe
   server: 186.190.215.223
   port: 52014
   udp: true
@@ -1079,364 +593,7 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 118 - xiaohe
-  server: 23.166.88.77
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 119 - xiaohe
-  server: 23.166.88.172
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 120 - xiaohe
-  server: 134.195.199.44
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 121 - xiaohe
-  server: 134.195.199.100
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 122 - xiaohe
-  server: 134.195.199.31
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 123 - xiaohe
-  server: 23.166.88.231
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 124 - xiaohe
-  server: 208.69.78.44
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 125 - xiaohe
-  server: 23.166.88.31
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 126 - xiaohe
-  server: 186.190.215.4
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 127 - xiaohe
-  server: 134.195.199.48
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 128 - xiaohe
-  server: 79.127.184.71
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 129 - xiaohe
-  server: 186.190.215.144
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 130 - xiaohe
-  server: 186.190.215.12
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 131 - xiaohe
-  server: 134.195.199.16
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 132 - xiaohe
-  server: 186.190.215.47
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 133 - xiaohe
-  server: 23.166.88.88
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 134 - xiaohe
-  server: 186.190.215.144
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 135 - xiaohe
-  server: 186.190.215.210
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 136 - xiaohe
-  server: 134.195.199.107
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 137 - xiaohe
-  server: 23.166.88.232
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 138 - xiaohe
-  server: 79.127.184.74
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 139 - xiaohe
-  server: 23.166.88.31
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 140 - xiaohe
-  server: 79.127.184.72
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 141 - xiaohe
-  server: 186.190.215.214
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 142 - xiaohe
-  server: 152.67.75.161
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 3a702d4d1de4949005d8431220e040fb
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
-- name: 🇨🇭 瑞士 (Switzerland) 143 - xiaohe
-  server: 186.190.215.115
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 144 - xiaohe
-  server: 23.166.88.91
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 145 - xiaohe
-  server: 23.166.88.5
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 146 - xiaohe
-  server: 186.190.215.168
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 147 - xiaohe
-  server: 134.195.199.17
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 148 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 75 - xiaohe
   server: 186.190.215.158
   port: 52014
   udp: true
@@ -1449,254 +606,7 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 149 - xiaohe
-  server: 23.166.88.229
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 150 - xiaohe
-  server: 186.190.215.66
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 151 - xiaohe
-  server: 23.166.88.24
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 152 - xiaohe
-  server: 208.69.78.44
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 153 - xiaohe
-  server: 23.166.88.117
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 154 - xiaohe
-  server: 186.190.215.250
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 155 - xiaohe
-  server: 79.127.184.75
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 156 - xiaohe
-  server: 23.166.88.114
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 157 - xiaohe
-  server: 79.127.184.74
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 158 - xiaohe
-  server: 134.195.199.57
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 159 - xiaohe
-  server: 186.190.215.47
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 160 - xiaohe
-  server: 186.190.215.251
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 161 - xiaohe
-  server: 23.166.88.189
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 162 - xiaohe
-  server: 186.190.215.210
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 163 - xiaohe
-  server: 23.166.88.127
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 164 - xiaohe
-  server: 23.166.88.77
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 165 - xiaohe
-  server: 154.31.112.237
-  port: 26418
-  udp: true
-  type: vless
-  uuid: 4a98013d-7ccb-477b-b613-39a3cff12144
-  tls: true
-  servername: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev
-- name: 🇨🇭 瑞士 (Switzerland) 166 - xiaohe
-  server: 23.166.88.151
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 167 - xiaohe
-  server: 134.195.199.31
-  port: 52014
-  udp: true
-  type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 168 - xiaohe
-  server: 134.195.199.34
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 169 - xiaohe
-  server: 23.166.88.79
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 170 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 76 - xiaohe
   server: 79.127.184.73
   port: 52014
   udp: true
@@ -1709,8 +619,8 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 171 - xiaohe
-  server: 79.127.184.103
+- name: 🇨🇭 瑞士 (Switzerland) 77 - xiaohe
+  server: 186.190.215.250
   port: 52014
   udp: true
   type: vless
@@ -1722,8 +632,8 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 172 - xiaohe
-  server: 23.166.88.106
+- name: 🇨🇭 瑞士 (Switzerland) 78 - xiaohe
+  server: 186.190.215.83
   port: 52014
   udp: true
   type: vless
@@ -1735,8 +645,42 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 173 - xiaohe
-  server: 186.190.215.158
+- name: 🇨🇭 瑞士 (Switzerland) 79 - xiaohe
+  server: 23.166.88.212
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 80 - xiaohe
+  server: 23.166.88.114
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 81 - xiaohe
+  server: 208.69.78.33
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 82 - xiaohe
+  server: 79.127.184.74
   port: 1270
   udp: true
   type: vmess
@@ -1746,8 +690,8 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 174 - xiaohe
-  server: 186.190.215.74
+- name: 🇨🇭 瑞士 (Switzerland) 83 - xiaohe
+  server: 23.166.88.24
   port: 1270
   udp: true
   type: vmess
@@ -1757,41 +701,269 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 175 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 84 - xiaohe
+  server: 186.190.215.144
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 85 - xiaohe
+  server: 134.195.199.31
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 86 - xiaohe
+  server: 23.166.88.232
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 87 - xiaohe
+  server: 23.166.88.229
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 88 - xiaohe
+  server: 134.195.199.53
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 89 - xiaohe
+  server: 186.190.215.168
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 90 - xiaohe
+  server: 186.190.215.12
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 91 - xiaohe
+  server: 23.166.88.91
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 92 - xiaohe
+  server: 134.195.199.110
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 93 - xiaohe
+  server: 23.166.88.121
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 94 - xiaohe
+  server: 186.190.215.251
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 95 - xiaohe
+  server: 134.195.199.16
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 96 - xiaohe
+  server: 23.166.88.175
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 97 - xiaohe
+  server: 23.166.88.151
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 98 - xiaohe
+  server: 23.166.88.153
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 99 - xiaohe
+  server: 186.190.215.4
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 100 - xiaohe
+  server: 23.166.88.77
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 101 - xiaohe
+  server: 186.190.215.120
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 102 - xiaohe
+  server: 134.195.199.100
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 103 - xiaohe
+  server: 23.166.88.41
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 104 - xiaohe
+  server: 79.127.184.75
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 105 - xiaohe
   server: 134.195.199.101
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 176 - xiaohe
-  server: 134.195.199.26
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 177 - xiaohe
-  server: 23.166.88.189
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 178 - xiaohe
-  server: 23.166.88.166
   port: 52014
   udp: true
   type: vless
@@ -1803,8 +975,81 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 179 - xiaohe
-  server: 186.190.215.214
+- name: 🇨🇭 瑞士 (Switzerland) 106 - xiaohe
+  server: 23.166.88.231
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 107 - xiaohe
+  server: 23.166.88.172
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 108 - xiaohe
+  server: 79.127.184.104
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 109 - xiaohe
+  server: 208.69.78.222
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: yourultimateprofessionalcareerhub.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 110 - xiaohe
+  server: 186.190.215.210
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 111 - xiaohe
+  server: 134.195.199.17
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 112 - xiaohe
+  server: 186.190.215.168
   port: 1270
   udp: true
   type: vmess
@@ -1814,18 +1059,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 180 - xiaohe
-  server: 23.166.88.230
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 181 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 113 - xiaohe
   server: 134.195.199.53
   port: 1270
   udp: true
@@ -1836,30 +1070,8 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 182 - xiaohe
-  server: 23.166.88.227
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 183 - xiaohe
-  server: 186.190.215.166
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 184 - xiaohe
-  server: 186.190.215.84
+- name: 🇨🇭 瑞士 (Switzerland) 114 - xiaohe
+  server: 79.127.184.75
   port: 52014
   udp: true
   type: vless
@@ -1871,8 +1083,38 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 185 - xiaohe
-  server: 23.166.88.227
+- name: 🇨🇭 瑞士 (Switzerland) 115 - xiaohe
+  server: 134.195.199.110
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 116 - xiaohe
+  server: 208.69.78.19
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: www.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 117 - xiaohe
+  server: 23.166.88.151
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 118 - xiaohe
+  server: 186.190.215.66
   port: 52014
   udp: true
   type: vless
@@ -1884,7 +1126,53 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 186 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 119 - xiaohe
+  server: 23.166.88.26
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 120 - xiaohe
+  server: 134.195.199.57
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 121 - xiaohe
+  server: 208.69.78.44
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 122 - xiaohe
+  server: 23.166.88.231
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 123 - xiaohe
   server: 134.195.199.57
   port: 1270
   udp: true
@@ -1895,7 +1183,77 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 187 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 124 - xiaohe
+  server: 134.195.199.101
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 125 - xiaohe
+  server: 23.166.88.5
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 126 - xiaohe
+  server: 79.127.184.72
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 127 - xiaohe
+  server: 134.195.199.100
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 128 - xiaohe
+  server: 186.190.215.74
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 129 - xiaohe
+  server: 23.166.88.77
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 130 - xiaohe
   server: 23.166.88.88
   port: 52014
   udp: true
@@ -1908,8 +1266,8 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 188 - xiaohe
-  server: 186.190.215.131
+- name: 🇨🇭 瑞士 (Switzerland) 131 - xiaohe
+  server: 186.190.215.223
   port: 1270
   udp: true
   type: vmess
@@ -1919,8 +1277,36 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 189 - xiaohe
-  server: 23.166.88.24
+- name: 🇨🇭 瑞士 (Switzerland) 132 - xiaohe
+  server: 23.166.88.189
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 133 - xiaohe
+  server: 186.190.215.32
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 134 - xiaohe
+  server: 152.67.75.161
+  port: 443
+  udp: true
+  type: hysteria2
+  password: 3a702d4d1de4949005d8431220e040fb
+  sni: www.bing.com
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
+- name: 🇨🇭 瑞士 (Switzerland) 135 - xiaohe
+  server: 23.166.88.79
   port: 52014
   udp: true
   type: vless
@@ -1932,8 +1318,16 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 190 - xiaohe
-  server: 23.166.88.81
+- name: 🇨🇭 瑞士 (Switzerland) 136 - xiaohe
+  server: 208.69.78.60
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: cdn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 137 - xiaohe
+  server: 23.166.88.229
   port: 1270
   udp: true
   type: vmess
@@ -1943,19 +1337,8 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 191 - xiaohe
-  server: 134.195.199.110
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 192 - xiaohe
-  server: 79.127.184.109
+- name: 🇨🇭 瑞士 (Switzerland) 138 - xiaohe
+  server: 23.166.88.117
   port: 52014
   udp: true
   type: vless
@@ -1967,7 +1350,241 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 193 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 139 - xiaohe
+  server: 134.195.199.34
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 140 - xiaohe
+  server: 23.166.88.227
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 141 - xiaohe
+  server: 23.166.88.121
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 142 - xiaohe
+  server: 79.127.184.103
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 143 - xiaohe
+  server: 23.166.88.227
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 144 - xiaohe
+  server: 23.166.88.31
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 145 - xiaohe
+  server: 186.190.215.251
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 146 - xiaohe
+  server: 186.190.215.74
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 147 - xiaohe
+  server: 186.190.215.47
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 148 - xiaohe
+  server: 186.190.215.214
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 149 - xiaohe
+  server: 79.127.184.71
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 150 - xiaohe
+  server: 23.166.88.5
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 151 - xiaohe
+  server: 186.190.215.250
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 152 - xiaohe
+  server: 134.195.199.44
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 153 - xiaohe
+  server: 186.190.215.66
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 154 - xiaohe
+  server: 134.195.199.26
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 155 - xiaohe
+  server: 186.190.215.83
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 156 - xiaohe
+  server: 208.69.78.29
+  port: 443
+  udp: true
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 157 - xiaohe
+  server: 208.69.78.217
+  port: 21090
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 158 - xiaohe
+  server: 23.166.88.189
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 159 - xiaohe
   server: 186.190.215.49
   port: 52014
   udp: true
@@ -1980,7 +1597,255 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
-- name: 🇨🇭 瑞士 (Switzerland) 194 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 160 - xiaohe
+  server: 23.166.88.91
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 161 - xiaohe
+  server: 208.69.78.217
+  port: 21158
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 162 - xiaohe
+  server: 134.195.199.31
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 163 - xiaohe
+  server: 23.166.88.230
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 164 - xiaohe
+  server: 23.166.88.172
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 165 - xiaohe
+  server: 23.166.88.41
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 166 - xiaohe
+  server: 186.190.215.4
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 167 - xiaohe
+  server: 79.127.184.73
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 168 - xiaohe
+  server: 186.190.215.115
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 169 - xiaohe
+  server: 186.190.215.214
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 170 - xiaohe
+  server: 186.190.215.166
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 171 - xiaohe
+  server: 79.127.184.74
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 172 - xiaohe
+  server: 23.166.88.127
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 173 - xiaohe
+  server: 23.166.88.81
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 174 - xiaohe
+  server: 23.166.88.24
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 175 - xiaohe
+  server: 23.166.88.230
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 176 - xiaohe
+  server: 208.69.78.44
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 177 - xiaohe
+  server: 23.166.88.232
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 178 - xiaohe
+  server: 45.90.59.15
+  port: 443
+  udp: true
+  type: vless
+  uuid: 3950b45e-740d-4dca-ac95-505ec8534592
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
+    short-id: 19253fae84102271
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇭 瑞士 (Switzerland) 179 - xiaohe
+  server: 23.166.88.106
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 180 - xiaohe
+  server: 23.166.88.166
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 181 - xiaohe
   server: 23.166.88.117
   port: 1270
   udp: true
@@ -1991,8 +1856,153 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 182 - xiaohe
+  server: 134.195.199.107
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 183 - xiaohe
+  server: 186.190.215.84
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 184 - xiaohe
+  server: 186.190.215.47
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 185 - xiaohe
+  server: 23.166.88.153
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 186 - xiaohe
+  server: 23.166.88.81
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 187 - xiaohe
+  server: 186.190.215.210
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 188 - xiaohe
+  server: 186.190.215.115
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 189 - xiaohe
+  server: 186.190.215.131
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 190 - xiaohe
+  server: 23.166.88.127
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 191 - xiaohe
+  server: 23.166.88.114
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 192 - xiaohe
+  server: 186.190.215.131
+  port: 52014
+  udp: true
+  type: vless
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 193 - xiaohe
+  server: 186.190.215.120
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 194 - xiaohe
+  server: 134.195.199.17
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇨🇭 瑞士 (Switzerland) 195 - xiaohe
-  server: 186.190.215.250
+  server: 23.166.88.175
   port: 1270
   udp: true
   type: vmess
@@ -2014,7 +2024,7 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇨🇭 瑞士 (Switzerland) 197 - xiaohe
-  server: 23.166.88.212
+  server: 186.190.215.32
   port: 52014
   udp: true
   type: vless
@@ -2027,31 +2037,27 @@ proxies:
   servername: cloudflare.com
   client-fingerprint: random
 - name: 🇨🇭 瑞士 (Switzerland) 198 - xiaohe
-  server: 79.127.184.109
-  port: 1270
+  server: 134.195.199.26
+  port: 19999
   udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇨🇭 瑞士 (Switzerland) 199 - xiaohe
-  server: 23.166.88.172
-  port: 52014
+  server: 176.65.144.221
+  port: 8443
   udp: true
   type: vless
-  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
+  uuid: 89564b16-7ced-465d-a8f3-61389547e96e
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
-    short-id: d4b7e8c1a9f2b3e5
-  servername: cloudflare.com
-  client-fingerprint: random
+    public-key: KcFNW-Yq9YucHEGiEe2ZEnIbxEuCmyO3S6yTglZR7ws
+    short-id: 7ea8737c31629437
+  servername: sw.cloudvienta.com
+  client-fingerprint: chrome
 - name: 🇨🇭 瑞士 (Switzerland) 200 - xiaohe
-  server: 79.127.184.103
+  server: 134.195.199.34
   port: 1270
   udp: true
   type: vmess
@@ -2062,39 +2068,6 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇨🇭 瑞士 (Switzerland) 201 - xiaohe
-  server: 134.195.199.16
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 202 - xiaohe
-  server: 23.166.88.41
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 203 - xiaohe
-  server: 23.166.88.232
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 204 - xiaohe
   server: 23.166.88.212
   port: 1270
   udp: true
@@ -2105,8 +2078,8 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 205 - xiaohe
-  server: 186.190.215.120
+- name: 🇨🇭 瑞士 (Switzerland) 202 - xiaohe
+  server: 134.195.199.44
   port: 1270
   udp: true
   type: vmess
@@ -2116,8 +2089,8 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 206 - xiaohe
-  server: 23.166.88.26
+- name: 🇨🇭 瑞士 (Switzerland) 203 - xiaohe
+  server: 186.190.215.32
   port: 1270
   udp: true
   type: vmess
@@ -2127,29 +2100,7 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 207 - xiaohe
-  server: 79.127.184.73
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 208 - xiaohe
-  server: 23.166.88.106
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 209 - xiaohe
+- name: 🇨🇭 瑞士 (Switzerland) 204 - xiaohe
   server: 176.65.144.221
   port: 8445
   udp: true
@@ -2164,8 +2115,8 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc-reality
-- name: 🇨🇭 瑞士 (Switzerland) 210 - xiaohe
-  server: 186.190.215.84
+- name: 🇨🇭 瑞士 (Switzerland) 205 - xiaohe
+  server: 79.127.184.109
   port: 1270
   udp: true
   type: vmess
@@ -2175,52 +2126,48 @@ proxies:
   tls: true
   servername: xmfhlpy.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 211 - xiaohe
-  server: 186.190.215.223
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 212 - xiaohe
-  server: 208.69.78.217
-  port: 2053
-  udp: true
-  type: vless
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  tls: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-    short-id: ad86e2d52ff40ebd
-  servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇨🇭 瑞士 (Switzerland) 213 - xiaohe
-  server: 176.65.144.221
+- name: 🇨🇭 瑞士 (Switzerland) 206 - xiaohe
+  server: 104.165.205.42
   port: 8443
   udp: true
-  type: vless
-  uuid: 89564b16-7ced-465d-a8f3-61389547e96e
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: KcFNW-Yq9YucHEGiEe2ZEnIbxEuCmyO3S6yTglZR7ws
-    short-id: 7ea8737c31629437
-  servername: sw.cloudvienta.com
-  client-fingerprint: firefox
-- name: 🇨🇭 瑞士 (Switzerland) 214 - xiaohe
-  server: 208.69.78.222
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: yourultimateprofessionalcareerhub.com
+  type: hysteria2
+  password: 54d2f622-fd71-4f5f-8813-832b68f4ca3b
+  sni: speedtestmark.com
   skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 215 - xiaohe
-  server: 186.190.215.115
+- name: 🇨🇭 瑞士 (Switzerland) 207 - xiaohe
+  server: 208.69.78.217
+  port: 33013
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 208 - xiaohe
+  server: 134.195.199.48
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 209 - xiaohe
+  server: 23.166.88.106
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 210 - xiaohe
+  server: 134.195.199.26
   port: 52014
   udp: true
   type: vless
@@ -2232,30 +2179,80 @@ proxies:
     short-id: d4b7e8c1a9f2b3e5
   servername: cloudflare.com
   client-fingerprint: random
+- name: 🇨🇭 瑞士 (Switzerland) 211 - xiaohe
+  server: 23.166.88.79
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 212 - xiaohe
+  server: 208.69.78.217
+  port: 33187
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 213 - xiaohe
+  server: 208.69.78.217
+  port: 21147
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 214 - xiaohe
+  server: 208.69.78.217
+  port: 33117
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 215 - xiaohe
+  server: 79.127.184.104
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
 - name: 🇨🇭 瑞士 (Switzerland) 216 - xiaohe
-  server: 23.166.88.114
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 217 - xiaohe
-  server: 186.190.215.83
-  port: 1270
-  udp: true
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 218 - xiaohe
   server: 186.190.215.12
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 217 - xiaohe
+  server: pl3.japancase.site
+  port: 443
+  udp: true
+  type: vless
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: COvqGpB7lUdZshmbn5zdqiVi81n8Iyha8RbEHtK93xc
+    short-id: 5037f0423dc4e4ff
+  servername: pl3.japancase.site
+  client-fingerprint: chrome
+- name: 🇨🇭 瑞士 (Switzerland) 218 - xiaohe
+  server: 186.190.215.120
   port: 1270
   udp: true
   type: vmess
@@ -2266,8 +2263,37 @@ proxies:
   servername: xmfhlpy.com
   skip-cert-verify: false
 - name: 🇨🇭 瑞士 (Switzerland) 219 - xiaohe
+  server: 23.166.88.24
+  port: 19999
+  udp: true
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 220 - xiaohe
+  server: 186.190.215.12
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 221 - xiaohe
+  server: 23.166.88.88
+  port: 1270
+  udp: true
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+  skip-cert-verify: false
+- name: 🇨🇭 瑞士 (Switzerland) 222 - xiaohe
   server: 208.69.78.217
-  port: 21047
+  port: 33195
   udp: true
   type: hysteria2
   password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
@@ -2275,15 +2301,146 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭 瑞士 (Switzerland) 220 - xiaohe
-  server: 208.69.78.60
-  port: 443
+- name: 🇨🇭 瑞士 (Switzerland) 223 - xiaohe
+  server: 140.238.213.114
+  port: 50160
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: cdn.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 221 - xiaohe
+  type: hysteria2
+  password: 84a506ca5aca505696a454d828420b3f
+  sni: 140.238.213.114
+  skip-cert-verify: true
+- name: 🇨🇭 瑞士 (Switzerland) 224 - xiaohe
+  server: 208.69.78.217
+  port: 21084
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 225 - xiaohe
+  server: 208.69.78.217
+  port: 33044
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 226 - xiaohe
+  server: 208.69.78.217
+  port: 21016
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 227 - xiaohe
+  server: 208.69.78.217
+  port: 33152
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 228 - xiaohe
+  server: 208.69.78.217
+  port: 21067
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 229 - xiaohe
+  server: 208.69.78.217
+  port: 21113
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 230 - xiaohe
+  server: 208.69.78.217
+  port: 21000
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+  ports: 21000-21199,33000-33199
+- name: 🇨🇭 瑞士 (Switzerland) 231 - xiaohe
+  server: 208.69.78.217
+  port: 21161
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 232 - xiaohe
+  server: 208.69.78.217
+  port: 33130
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 233 - xiaohe
+  server: 208.69.78.217
+  port: 21086
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 234 - xiaohe
+  server: 208.69.78.217
+  port: 21054
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 235 - xiaohe
+  server: 208.69.78.217
+  port: 33174
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 236 - xiaohe
+  server: 208.69.78.217
+  port: 33141
+  udp: true
+  type: hysteria2
+  password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw
+  sni: vpn.local
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: mbQXP2ASuHbF6ZPq
+- name: 🇨🇭 瑞士 (Switzerland) 237 - xiaohe
   server: 208.69.78.217
   port: 21154
   udp: true
@@ -2293,43 +2450,26 @@ proxies:
   skip-cert-verify: true
   obfs: salamander
   obfs-password: mbQXP2ASuHbF6ZPq
-- name: 🇨🇭 瑞士 (Switzerland) 222 - xiaohe
-  server: 208.69.78.158
-  port: 443
+- name: 🇨🇭 瑞士 (Switzerland) 238 - xiaohe
+  server: 23.166.88.79
+  port: 19999
   udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
-- name: 🇨🇭 瑞士 (Switzerland) 223 - xiaohe
-  server: 208.69.78.33
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: true
-- name: 🇨🇭 瑞士 (Switzerland) 224 - xiaohe
-  server: 45.90.59.15
-  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭 瑞士 (Switzerland) 239 - xiaohe
+  server: 186.190.215.84
+  port: 52014
   udp: true
   type: vless
-  uuid: 3950b45e-740d-4dca-ac95-505ec8534592
+  uuid: 652c1a22-1b2a-42f0-8b01-16de5ca99da3
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY
-    short-id: 19253fae84102271
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇨🇭 瑞士 (Switzerland) 225 - xiaohe
-  server: 208.69.78.19
-  port: 443
-  udp: true
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.yourultimateprofessionalcareerhub.com
-  skip-cert-verify: false
+    public-key: JUkCK2CiHZ92Em3r49FEwQ8HXflDOnPXYWnrSmDG22s
+    short-id: d4b7e8c1a9f2b3e5
+  servername: cloudflare.com
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -2560,6 +2700,20 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 223 - xiaohe
   - 🇨🇭 瑞士 (Switzerland) 224 - xiaohe
   - 🇨🇭 瑞士 (Switzerland) 225 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 226 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 227 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 228 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 229 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 230 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 231 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 232 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 233 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 234 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 235 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 236 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 237 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 238 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 239 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -2790,5 +2944,19 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 223 - xiaohe
   - 🇨🇭 瑞士 (Switzerland) 224 - xiaohe
   - 🇨🇭 瑞士 (Switzerland) 225 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 226 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 227 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 228 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 229 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 230 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 231 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 232 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 233 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 234 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 235 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 236 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 237 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 238 - xiaohe
+  - 🇨🇭 瑞士 (Switzerland) 239 - xiaohe
 rules:
 - MATCH,PROXIES
