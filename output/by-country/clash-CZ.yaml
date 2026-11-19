@@ -18,18 +18,18 @@ proxies:
   servername: gateway.icloud.com
   client-fingerprint: chrome
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
-  server: server.slavkiti.monster
+  server: 212.102.38.25
   port: 443
   udp: true
   type: vless
-  uuid: ed042cf7-efe0-49bd-848b-8d7e655111ff
+  uuid: b34a52cb-cd52-49a8-9362-b8e97c151d49
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
-    public-key: J-dv-HrWfQ_IOoyutv0Kg-rO8QwoRwc02dS1dS_tblk
-    short-id: 1036b2383b72
-  servername: www.mozilla.org
-  client-fingerprint: chrome
+    public-key: 23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE
+    short-id: e90360ec7cc61b20
+  servername: udemy.com
+  client-fingerprint: ios
 proxy-groups:
 - name: PROXIES
   type: select
