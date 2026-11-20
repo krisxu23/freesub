@@ -20,8 +20,16 @@
       "password": "AdawffFMHymlasRb0VOP3HFf7sTG5sJx"
     },
     {
-      "type": "vmess",
+      "type": "shadowsocks",
       "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
+      "server": "89.58.16.116",
+      "server_port": 2342,
+      "method": "chacha20-ietf-poly1305",
+      "password": "wuW04H6Tq10Zw7ZVOUg6j1"
+    },
+    {
+      "type": "vmess",
+      "tag": "🇦🇹 奥地利 (Austria) 04 - xiaohe",
       "server": "154.47.19.225",
       "server_port": 1270,
       "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
@@ -39,7 +47,8 @@
         "auto",
         "🇦🇹 奥地利 (Austria) 01 - xiaohe",
         "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 03 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 03 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 04 - xiaohe"
       ]
     },
     {
@@ -48,7 +57,8 @@
       "outbounds": [
         "🇦🇹 奥地利 (Austria) 01 - xiaohe",
         "🇦🇹 奥地利 (Austria) 02 - xiaohe",
-        "🇦🇹 奥地利 (Austria) 03 - xiaohe"
+        "🇦🇹 奥地利 (Austria) 03 - xiaohe",
+        "🇦🇹 奥地利 (Austria) 04 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
